@@ -1,0 +1,38 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Mon Jul 23 13:23:44 2018
+| Host         : DESKTOP-AGDM5Q9 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'charLib'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of charLib from xilinx.com:ip:blk_mem_gen:8.2 (Rev. 1) to xilinx.com:ip:blk_mem_gen:8.3 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading IP 'charLib'.
+
+
+-upgrade has added interface 'BRAM_PORTB'
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'charLib'. These changes may impact your design.
+
+
+-upgraded port 'addra' width 11 differs from original width 4
+-upgrade has removed port 'dina'
+-upgraded port 'douta' width 8 differs from original width 16
+-upgrade has removed port 'ena'
+-upgrade has removed port 'wea'
+

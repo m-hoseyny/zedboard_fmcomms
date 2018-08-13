@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Aug 04 10:51:46 2018
+# Process ID: 15164
+# Current directory: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11676 E:\ZedBoard_Projects\lwipRTOS_Yahya_stable\lwipRTOS.xpr
+# Log file: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/vivado.log
+# Journal file: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.xpr
+file copy -force E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.runs/impl_1/design_1_wrapper.sysdef E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk -hwspec E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf

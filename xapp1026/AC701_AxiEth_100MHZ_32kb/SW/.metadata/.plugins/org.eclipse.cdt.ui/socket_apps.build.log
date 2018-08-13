@@ -1,0 +1,87 @@
+12:04:19 **** Auto Build of configuration Debug for project socket_apps ****
+make all 
+'Building target: socket_apps.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../socket_apps_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.4 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "socket_apps.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/udpsend.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel
+./src/dispatch.o: In function `launch_app_threads':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/dispatch.c:80: undefined reference to `sys_thread_new'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/dispatch.c:86: undefined reference to `sys_thread_new'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/dispatch.c:92: undefined reference to `sys_thread_new'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/dispatch.c:98: undefined reference to `sys_thread_new'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/dispatch.c:104: undefined reference to `sys_thread_new'
+./src/echo.o: In function `process_echo_request':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:54: undefined reference to `lwip_read'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:57: undefined reference to `lwip_close'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:73: undefined reference to `lwip_write'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:78: undefined reference to `lwip_close'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:87: undefined reference to `lwip_close'
+./src/echo.o: In function `echo_application_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:99: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:106: undefined reference to `lwip_bind'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:109: undefined reference to `lwip_listen'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:114: undefined reference to `lwip_accept'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/echo.c:115: undefined reference to `sys_thread_new'
+./src/http_response.o: In function `do_404':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:58: undefined reference to `lwip_write'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:64: undefined reference to `lwip_write'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:65: undefined reference to `lwip_write'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:66: undefined reference to `lwip_write'
+./src/http_response.o: In function `do_http_post':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:104: undefined reference to `lwip_write'
+./src/http_response.o:C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/http_response.c:149: more undefined references to `lwip_write' follow
+./src/main.o: In function `network_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:116: undefined reference to `xemac_add'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:120: undefined reference to `netif_set_default'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:123: undefined reference to `netif_set_up'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:126: undefined reference to `xemacif_input_thread'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:126: undefined reference to `sys_thread_new'
+./src/main.o: In function `main_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:161: undefined reference to `lwip_init'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/main.c:164: undefined reference to `sys_thread_new'
+./src/prot_malloc.o: In function `prot_mem_malloc':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/prot_malloc.c:27: undefined reference to `mem_malloc'
+./src/prot_malloc.o: In function `prot_mem_free':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/prot_malloc.c:37: undefined reference to `mem_free'
+./src/rxperf.o: In function `rx_application_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:40: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:47: undefined reference to `lwip_bind'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:54: undefined reference to `lwip_listen'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:57: undefined reference to `lwip_accept'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:68: undefined reference to `lwip_read'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/rxperf.c:75: undefined reference to `lwip_close'
+./src/tftpserver.o: In function `tftp_send_message':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:56: undefined reference to `lwip_sendto'
+./src/tftpserver.o: In function `tftp_process_read':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:145: undefined reference to `lwip_select'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:152: undefined reference to `lwip_recvfrom'
+./src/tftpserver.o: In function `tftp_process_write':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:228: undefined reference to `lwip_select'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:233: undefined reference to `lwip_recvfrom'
+./src/tftpserver.o: In function `process_tftp_request':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:281: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:296: undefined reference to `lwip_bind'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:325: undefined reference to `lwip_close'
+./src/tftpserver.o: In function `tftpserver_application_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:339: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:352: undefined reference to `lwip_bind'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:376: undefined reference to `lwip_recvfrom'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/tftpserver.c:389: undefined reference to `sys_thread_new'
+./src/txperf.o: In function `tx_application_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/txperf.c:59: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/txperf.c:73: undefined reference to `lwip_connect'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/txperf.c:82: undefined reference to `lwip_write'
+./src/webserver.o: In function `process_http_request':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:51: undefined reference to `lwip_read'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:52: undefined reference to `lwip_close'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:65: undefined reference to `lwip_close'
+./src/webserver.o: In function `web_application_thread':
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:84: undefined reference to `lwip_socket'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:95: undefined reference to `lwip_bind'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:103: undefined reference to `lwip_listen'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:107: undefined reference to `lwip_accept'
+C:\PROJECT_FOR_RELEASE\AC701_100MHZ_32kb\SW\socket_apps\Debug/../src/webserver.c:109: undefined reference to `sys_thread_new'
+collect2.exe: error: ld returned 1 exit status
+make: *** [socket_apps.elf] Error 1
+
+12:04:20 Build Finished (took 998ms)
+

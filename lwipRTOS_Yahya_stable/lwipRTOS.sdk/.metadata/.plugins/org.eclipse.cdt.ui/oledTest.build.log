@@ -1,0 +1,6 @@
+10:57:19 **** Incremental Build of configuration Debug for project oledTest ****
+make all 
+make: Nothing to be done for `all'.
+
+10:57:19 Build Finished (took 178ms)
+

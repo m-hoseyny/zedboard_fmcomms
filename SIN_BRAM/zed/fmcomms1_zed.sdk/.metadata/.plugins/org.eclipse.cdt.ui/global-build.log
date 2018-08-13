@@ -1,0 +1,725 @@
+11:56:32 **** Build of project sin_bram_generator_source_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sinGenerator_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sinGenerator_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling bram"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/sinGenerator_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sinGenerator_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sinGenerator"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project sin_bram_generator_source ****
+
+Nothing to build for project sin_bram_generator_source
+11:59:29 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/eeprom.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/eeprom.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/eeprom.d" -MT"src/Common/eeprom.d" -o "src/Common/eeprom.o" "../src/Common/eeprom.c"
+'Finished building: ../src/Common/eeprom.c'
+' '
+'Building file: ../src/Common/i2c_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/i2c_axi.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_axi.d" -MT"src/Common/i2c_axi.d" -o "src/Common/i2c_axi.o" "../src/Common/i2c_axi.c"
+'Finished building: ../src/Common/i2c_axi.c'
+' '
+'Building file: ../src/Common/i2c_ps7.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/i2c_ps7.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_ps7.d" -MT"src/Common/i2c_ps7.d" -o "src/Common/i2c_ps7.o" "../src/Common/i2c_ps7.c"
+'Finished building: ../src/Common/i2c_ps7.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/spi_interface.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/spi_interface.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/spi_interface.d" -MT"src/Common/spi_interface.d" -o "src/Common/spi_interface.o" "../src/Common/spi_interface.c"
+'Finished building: ../src/Common/spi_interface.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building file: ../src/Common/xcomm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Common/xcomm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/xcomm.d" -MT"src/Common/xcomm.d" -o "src/Common/xcomm.o" "../src/Common/xcomm.c"
+../src/Common/xcomm.c:48:20: fatal error: AD9548.h: No such file or directory
+ #include "AD9548.h"
+                    ^
+compilation terminated.
+make: *** [src/Common/xcomm.o] Error 1
+12:00:04 **** Clean-only build of configuration Debug for project sin_bram_generator_source ****
+make clean 
+rm -rf  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o  ./src/Common/adc_core.d ./src/Common/dac_core.d ./src/Common/eeprom.d ./src/Common/i2c_axi.d ./src/Common/i2c_ps7.d ./src/Common/main.d ./src/Common/mmcm.d ./src/Common/spi_interface.d ./src/Common/test.d ./src/Common/xcomm.d  ./src/ADF4351/ADF4351.d  ./src/AD9643/AD9643.d  ./src/AD9548/AD9548.d  ./src/AD9523/AD9523.d  ./src/AD9122/AD9122.d ./src/AD9122/cf_axi_dds.d  ./src/AD8366/AD8366.d  sin_bram_generator_source.elf.size  sin_bram_generator_source.elf
+' '
+12:00:04 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/eeprom.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/eeprom.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/eeprom.d" -MT"src/Common/eeprom.d" -o "src/Common/eeprom.o" "../src/Common/eeprom.c"
+'Finished building: ../src/Common/eeprom.c'
+' '
+'Building file: ../src/Common/i2c_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_axi.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_axi.d" -MT"src/Common/i2c_axi.d" -o "src/Common/i2c_axi.o" "../src/Common/i2c_axi.c"
+'Finished building: ../src/Common/i2c_axi.c'
+' '
+'Building file: ../src/Common/i2c_ps7.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_ps7.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_ps7.d" -MT"src/Common/i2c_ps7.d" -o "src/Common/i2c_ps7.o" "../src/Common/i2c_ps7.c"
+'Finished building: ../src/Common/i2c_ps7.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/spi_interface.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/spi_interface.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/spi_interface.d" -MT"src/Common/spi_interface.d" -o "src/Common/spi_interface.o" "../src/Common/spi_interface.c"
+'Finished building: ../src/Common/spi_interface.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building file: ../src/Common/xcomm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/xcomm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/xcomm.d" -MT"src/Common/xcomm.d" -o "src/Common/xcomm.o" "../src/Common/xcomm.c"
+In file included from ../src/Common/xcomm.c:57:0:
+../src/Common/dac_core.h:154:0: warning: "ADI_REG_CHAN_CNTRL_3" redefined
+ #define ADI_REG_CHAN_CNTRL_3(c) (0x0408 + (c) * 0x40)
+ ^
+In file included from ../src/Common/xcomm.c:56:0:
+../src/Common/adc_core.h:83:0: note: this is the location of the previous definition
+ #define ADI_REG_CHAN_CNTRL_3(c) (0x0418 + (c) * 0x40) /* v8.0 */
+ ^
+'Finished building: ../src/Common/xcomm.c'
+' '
+'Building file: ../src/ADF4351/ADF4351.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/ADF4351/ADF4351.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ADF4351/ADF4351.d" -MT"src/ADF4351/ADF4351.d" -o "src/ADF4351/ADF4351.o" "../src/ADF4351/ADF4351.c"
+'Finished building: ../src/ADF4351/ADF4351.c'
+' '
+'Building file: ../src/AD9643/AD9643.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9643/AD9643.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9643/AD9643.d" -MT"src/AD9643/AD9643.d" -o "src/AD9643/AD9643.o" "../src/AD9643/AD9643.c"
+'Finished building: ../src/AD9643/AD9643.c'
+' '
+'Building file: ../src/AD9548/AD9548.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9548/AD9548.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9548/AD9548.d" -MT"src/AD9548/AD9548.d" -o "src/AD9548/AD9548.o" "../src/AD9548/AD9548.c"
+'Finished building: ../src/AD9548/AD9548.c'
+' '
+'Building file: ../src/AD9523/AD9523.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9523/AD9523.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9523/AD9523.d" -MT"src/AD9523/AD9523.d" -o "src/AD9523/AD9523.o" "../src/AD9523/AD9523.c"
+'Finished building: ../src/AD9523/AD9523.c'
+' '
+'Building file: ../src/AD9122/AD9122.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9122/AD9122.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9122/AD9122.d" -MT"src/AD9122/AD9122.d" -o "src/AD9122/AD9122.o" "../src/AD9122/AD9122.c"
+'Finished building: ../src/AD9122/AD9122.c'
+' '
+'Building file: ../src/AD9122/cf_axi_dds.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9122/cf_axi_dds.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9122/cf_axi_dds.d" -MT"src/AD9122/cf_axi_dds.d" -o "src/AD9122/cf_axi_dds.o" "../src/AD9122/cf_axi_dds.c"
+../src/AD9122/cf_axi_dds.c: In function 'cf_axi_dds_of_probe':
+../src/AD9122/cf_axi_dds.c:381:4: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+    xil_printf("Error: DRP UNLOCKED\n");
+    ^
+'Finished building: ../src/AD9122/cf_axi_dds.c'
+' '
+'Building file: ../src/AD8366/AD8366.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD8366/AD8366.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD8366/AD8366.d" -MT"src/AD8366/AD8366.d" -o "src/AD8366/AD8366.o" "../src/AD8366/AD8366.c"
+'Finished building: ../src/AD8366/AD8366.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:00:14 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:00:16 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:00:17 **** Clean-only build of configuration Debug for project sin_bram_generator_source ****
+make clean 
+rm -rf  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o  ./src/Common/adc_core.d ./src/Common/dac_core.d ./src/Common/eeprom.d ./src/Common/i2c_axi.d ./src/Common/i2c_ps7.d ./src/Common/main.d ./src/Common/mmcm.d ./src/Common/spi_interface.d ./src/Common/test.d ./src/Common/xcomm.d  ./src/ADF4351/ADF4351.d  ./src/AD9643/AD9643.d  ./src/AD9548/AD9548.d  ./src/AD9523/AD9523.d  ./src/AD9122/AD9122.d ./src/AD9122/cf_axi_dds.d  ./src/AD8366/AD8366.d  sin_bram_generator_source.elf.size  sin_bram_generator_source.elf
+' '
+12:00:17 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/eeprom.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/eeprom.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/eeprom.d" -MT"src/Common/eeprom.d" -o "src/Common/eeprom.o" "../src/Common/eeprom.c"
+'Finished building: ../src/Common/eeprom.c'
+' '
+'Building file: ../src/Common/i2c_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_axi.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_axi.d" -MT"src/Common/i2c_axi.d" -o "src/Common/i2c_axi.o" "../src/Common/i2c_axi.c"
+'Finished building: ../src/Common/i2c_axi.c'
+' '
+'Building file: ../src/Common/i2c_ps7.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_ps7.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_ps7.d" -MT"src/Common/i2c_ps7.d" -o "src/Common/i2c_ps7.o" "../src/Common/i2c_ps7.c"
+'Finished building: ../src/Common/i2c_ps7.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/spi_interface.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/spi_interface.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/spi_interface.d" -MT"src/Common/spi_interface.d" -o "src/Common/spi_interface.o" "../src/Common/spi_interface.c"
+'Finished building: ../src/Common/spi_interface.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building file: ../src/Common/xcomm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/xcomm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/xcomm.d" -MT"src/Common/xcomm.d" -o "src/Common/xcomm.o" "../src/Common/xcomm.c"
+In file included from ../src/Common/xcomm.c:57:0:
+../src/Common/dac_core.h:154:0: warning: "ADI_REG_CHAN_CNTRL_3" redefined
+ #define ADI_REG_CHAN_CNTRL_3(c) (0x0408 + (c) * 0x40)
+ ^
+In file included from ../src/Common/xcomm.c:56:0:
+../src/Common/adc_core.h:83:0: note: this is the location of the previous definition
+ #define ADI_REG_CHAN_CNTRL_3(c) (0x0418 + (c) * 0x40) /* v8.0 */
+ ^
+'Finished building: ../src/Common/xcomm.c'
+' '
+'Building file: ../src/ADF4351/ADF4351.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/ADF4351/ADF4351.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ADF4351/ADF4351.d" -MT"src/ADF4351/ADF4351.d" -o "src/ADF4351/ADF4351.o" "../src/ADF4351/ADF4351.c"
+'Finished building: ../src/ADF4351/ADF4351.c'
+' '
+'Building file: ../src/AD9643/AD9643.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9643/AD9643.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9643/AD9643.d" -MT"src/AD9643/AD9643.d" -o "src/AD9643/AD9643.o" "../src/AD9643/AD9643.c"
+'Finished building: ../src/AD9643/AD9643.c'
+' '
+'Building file: ../src/AD9548/AD9548.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9548/AD9548.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9548/AD9548.d" -MT"src/AD9548/AD9548.d" -o "src/AD9548/AD9548.o" "../src/AD9548/AD9548.c"
+'Finished building: ../src/AD9548/AD9548.c'
+' '
+'Building file: ../src/AD9523/AD9523.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9523/AD9523.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9523/AD9523.d" -MT"src/AD9523/AD9523.d" -o "src/AD9523/AD9523.o" "../src/AD9523/AD9523.c"
+'Finished building: ../src/AD9523/AD9523.c'
+' '
+'Building file: ../src/AD9122/AD9122.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9122/AD9122.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9122/AD9122.d" -MT"src/AD9122/AD9122.d" -o "src/AD9122/AD9122.o" "../src/AD9122/AD9122.c"
+'Finished building: ../src/AD9122/AD9122.c'
+' '
+'Building file: ../src/AD9122/cf_axi_dds.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD9122/cf_axi_dds.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD9122/cf_axi_dds.d" -MT"src/AD9122/cf_axi_dds.d" -o "src/AD9122/cf_axi_dds.o" "../src/AD9122/cf_axi_dds.c"
+../src/AD9122/cf_axi_dds.c: In function 'cf_axi_dds_of_probe':
+../src/AD9122/cf_axi_dds.c:381:4: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+    xil_printf("Error: DRP UNLOCKED\n");
+    ^
+'Finished building: ../src/AD9122/cf_axi_dds.c'
+' '
+'Building file: ../src/AD8366/AD8366.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/AD8366/AD8366.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD8366/AD8366.d" -MT"src/AD8366/AD8366.d" -o "src/AD8366/AD8366.o" "../src/AD8366/AD8366.c"
+'Finished building: ../src/AD8366/AD8366.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:00:36 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c:49:22: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+                      ^
+compilation terminated.
+make: *** [src/Common/main.o] Error 1
+12:00:48 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:00:56 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c:49:22: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+                      ^
+compilation terminated.
+make: *** [src/Common/main.o] Error 1
+12:01:19 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:01:39 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:01:42 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98204	   1768	  24328	 124300	  1e58c	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:02:07 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:82:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/Common/main.c:99:5: warning: implicit declaration of function 'floatToU32' [-Wimplicit-function-declaration]
+     XSingenerator_Set_pi(&sinGenerator, floatToU32(3.14f));
+     ^
+../src/Common/main.c:103:9: error: conflicting types for 'i'
+     int i =0;
+         ^
+../src/Common/main.c:68:13: note: previous declaration of 'i' was here
+     int32_t i;
+             ^
+../src/Common/main.c:108:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+make: *** [src/Common/main.o] Error 1
+12:02:19 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:82:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/Common/main.c:99:5: warning: implicit declaration of function 'floatToU32' [-Wimplicit-function-declaration]
+     XSingenerator_Set_pi(&sinGenerator, floatToU32(3.14f));
+     ^
+../src/Common/main.c:103:9: error: conflicting types for 'i'
+     int i =0;
+         ^
+../src/Common/main.c:68:13: note: previous declaration of 'i' was here
+     int32_t i;
+             ^
+../src/Common/main.c:264:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+make: *** [src/Common/main.o] Error 1
+12:02:30 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:95:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/Common/main.c:116:9: error: conflicting types for 'i'
+     int i =0;
+         ^
+../src/Common/main.c:81:13: note: previous declaration of 'i' was here
+     int32_t i;
+             ^
+../src/Common/main.c:277:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+make: *** [src/Common/main.o] Error 1
+12:02:43 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:95:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/Common/main.c:277:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Common/main.o: In function `main':
+E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\Debug/../src/Common/main.c:95: undefined reference to `init_platform'
+E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\Debug/../src/Common/main.c:277: undefined reference to `cleanup_platform'
+collect2.exe: error: ld returned 1 exit status
+make: *** [sin_bram_generator_source.elf] Error 1
+12:03:06 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 136096	   2944	  24408	 163448	  27e78	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:03:27 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 136104	   2944	  24408	 163456	  27e80	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:03:47 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 136104	   2944	  24408	 163456	  27e80	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:04:41 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:05:34 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:07:52 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:19:14 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:20:04 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98340	   1768	  24328	 124436	  1e614	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:20:18 **** Auto Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD8366" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9122" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9523" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9548" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\AD9643" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\ADF4351" -I"E:\ZedBoard_Projects\SIN_BRAM\zed\fmcomms1_zed.sdk\sin_bram_generator_source\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../sin_bram_generator_source_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: sin_bram_generator_source.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sin_bram_generator_source_bsp/ps7_cortexa9_0/lib -o "sin_bram_generator_source.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sin_bram_generator_source.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size sin_bram_generator_source.elf  |tee "sin_bram_generator_source.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98340	   1768	  24328	 124436	  1e614	sin_bram_generator_source.elf
+'Finished building: sin_bram_generator_source.elf.size'
+' '
+12:20:20 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:20:49 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:26:07 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:26:17 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:26:40 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:27:17 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:30:24 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.
+12:31:00 **** Incremental Build of configuration Debug for project sin_bram_generator_source ****
+make all 
+make: Nothing to be done for `all'.

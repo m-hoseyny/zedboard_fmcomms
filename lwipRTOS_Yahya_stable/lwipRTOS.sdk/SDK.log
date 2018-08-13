@@ -1,0 +1,91 @@
+13:47:04 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:47:10 INFO  : XSDB server has started successfully.
+13:47:19 INFO  : Processing command line option -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf.
+15:16:10 INFO  : Saving repository preferences.
+15:16:10 INFO  : Reading in cores from local repositories: 
+		 C:\Users\ArzhangJunior\Desktop\lwipRTOS\FreeRTOS_Zynq_Vivado\sw\repo
+15:16:10 INFO  : Cleaning BSP projects in the workspace.
+15:16:14 INFO  : Saving repository preferences.
+15:26:41 INFO  : Saving repository preferences.
+15:26:41 INFO  : Cleaning BSP projects in the workspace.
+15:27:28 INFO  : Saving repository preferences.
+15:27:28 INFO  : Reading in cores from local repositories: 
+		 C:\Users\ArzhangJunior\Desktop\lwipRTOS\FreeRTOS_Zynq_Vivado
+15:27:28 INFO  : Cleaning BSP projects in the workspace.
+15:27:32 INFO  : Saving repository preferences.
+15:27:35 INFO  : Saving repository preferences.
+15:27:39 INFO  : Saving repository preferences.
+15:28:13 INFO  : Saving repository preferences.
+15:28:14 INFO  : Reading in cores from local repositories: 
+		 C:\Users\ArzhangJunior\Desktop\lwipRTOS\FreeRTOS_Zynq_Vivado\sw\repo
+15:28:14 INFO  : Cleaning BSP projects in the workspace.
+15:28:18 INFO  : Saving repository preferences.
+11:12:01 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:12:05 INFO  : XSDB server has started successfully.
+11:12:21 INFO  : Restoring local repository preferences: 
+		 C:\Users\ArzhangJunior\Desktop\lwipRTOS\FreeRTOS_Zynq_Vivado\sw\repo
+11:12:21 INFO  : Processing command line option -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf.
+11:12:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:36:08 INFO  : Saving repository preferences.
+11:36:08 INFO  : Cleaning BSP projects in the workspace.
+11:36:10 INFO  : Saving repository preferences.
+11:50:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492437" && level==0} -index 1' command is executed.
+11:51:23 INFO  : FPGA configured successfully with bitstream "C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:52:10 INFO  : ps7_init is completed.
+11:52:10 INFO  : ps7_post_config is completed.
+11:52:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492437" && level==0} -index 1' command is executed.
+17:06:53 INFO  : FPGA configured successfully with bitstream "C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:08:16 INFO  : ps7_init is completed.
+17:08:16 INFO  : ps7_post_config is completed.
+17:08:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:10:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:10:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:12:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:25:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:25:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:31:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:31:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:33:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:33:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:34:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:36:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:36:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:14:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:55:10 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:55:12 INFO  : XSDB server has started successfully.
+11:55:12 INFO  : Processing command line option -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf.
+11:55:12 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:56:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492437" && level==0} -index 1' command is executed.
+11:56:09 INFO  : FPGA configured successfully with bitstream "C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:56:54 INFO  : ps7_init is completed.
+11:56:54 INFO  : ps7_post_config is completed.
+11:56:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:07:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:20 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+12:08:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492437" && level==0} -index 1' command is executed.
+12:08:36 INFO  : FPGA configured successfully with bitstream "C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:08:51 INFO  : ps7_init is completed.
+12:08:52 INFO  : ps7_post_config is completed.
+12:08:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:26:06 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:26:10 INFO  : XSDB server has started successfully.
+10:26:19 INFO  : Processing command line option -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf.
+10:26:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:51:03 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:51:04 INFO  : XSDB server has started successfully.
+10:52:23 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:52:24 INFO  : XSDB server has started successfully.
+10:52:28 INFO  : Processing command line option -hwspec E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf.
+10:56:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:56:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:56:58 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:57:24 INFO  : Processor reset is completed for ps7_cortexa9_0

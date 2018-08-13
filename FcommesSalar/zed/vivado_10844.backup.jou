@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu Feb 08 14:31:10 2018
+# Process ID: 10844
+# Current directory: C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1348 C:\cygwin64\home\Dr-Abbasfar\adi\hdl\projects\fmcomms1\zed\fmcomms1_zed.xpr
+# Log file: C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/vivado.log
+# Journal file: C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/fmcomms1_zed.xpr
+update_compile_order -fileset sim_1
+open_bd_design {C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/fmcomms1_zed.srcs/sources_1/bd/system/system.bd}

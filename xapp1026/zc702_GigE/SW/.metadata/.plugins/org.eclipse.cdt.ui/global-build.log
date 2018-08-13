@@ -1,0 +1,117 @@
+10:35:17 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+10:55:30 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+10:55:32 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+10:55:33 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.
+10:55:59 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+10:56:02 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+10:56:02 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:03:06 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+11:03:06 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:03:06 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:04:01 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+11:04:02 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:04:02 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:04:34 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+11:04:35 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+11:04:35 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.
+14:28:28 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+make: *** No rule to make target `C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.c', needed by `src/ps7_init.o'.  Stop.
+14:28:32 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+make: Nothing to be done for `all'.
+14:28:33 **** Incremental Build of configuration Debug for project socket_apps ****
+make all 
+make: Nothing to be done for `all'.

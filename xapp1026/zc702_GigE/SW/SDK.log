@@ -1,0 +1,130 @@
+16:10:47 INFO  : Processing command line option -hwspec C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper.hdf.
+16:10:52 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+16:10:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+16:14:32 INFO  : Saving repository preferences.
+16:14:32 INFO  : Reading in cores from local repositories: 
+		 C:\PROJECT_FOR_RELEASE\zc702_GigE\repo
+16:14:33 INFO  : Cleaning BSP projects in the workspace.
+16:14:34 INFO  : Saving repository preferences.
+16:18:39 INFO  : Refreshed build settings on project raw_apps
+16:25:41 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for freertos_zynq
+16:25:58 ERROR :  [Hsi 55-1676] Not supported OS. It is supported only for standalone
+16:32:52 INFO  : ps7_init is completed.
+16:32:52 INFO  : ps7_post_config is completed.
+16:32:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:32:58 INFO  : Memory regions updated for context APU
+16:32:58 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\PROJECT_FOR_RELEASE\zc702_GigE\HW\project_1\project_1.sdk\raw_apps\Debug\raw_apps.elf)
+16:37:51 INFO  : ps7_init is completed.
+16:37:51 INFO  : ps7_post_config is completed.
+16:37:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:37:56 INFO  : Memory regions updated for context APU
+16:37:57 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\PROJECT_FOR_RELEASE\zc702_GigE\HW\project_1\project_1.sdk\raw_apps\Debug\raw_apps.elf)
+18:53:58 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+18:54:36 INFO  : ps7_init is completed.
+18:54:36 INFO  : ps7_post_config is completed.
+18:54:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:54:40 INFO  : Memory regions updated for context APU
+18:54:41 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\PROJECT_FOR_RELEASE\zc702_GigE\HW\project_1\project_1.sdk\raw_apps\Debug\raw_apps.elf)
+18:59:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:32:55 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:33:09 INFO  : Restoring local repository preferences: 
+		 C:\PROJECT_FOR_RELEASE\zc702_GigE\repo
+19:33:17 INFO  : Saving repository preferences.
+19:33:19 INFO  : Saving repository preferences.
+19:33:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:34:02 INFO  : Memory regions updated for context APU
+19:34:02 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\PROJECT_FOR_RELEASE\zc702_GigE\HW\project_1\project_1.sdk\raw_apps\Debug\raw_apps.elf)
+19:37:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:38:03 INFO  : Memory regions updated for context APU
+19:38:04 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\PROJECT_FOR_RELEASE\zc702_GigE\HW\project_1\project_1.sdk\socket_apps\Debug\socket_apps.elf)
+19:40:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:33:58 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:33:59 INFO  : XSDB server has started successfully.
+10:33:59 INFO  : Restoring local repository preferences: 
+		 C:\PROJECT_FOR_RELEASE\zc702_GigE\repo
+10:33:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1550] Repository Directory C:/PROJECT_FOR_RELEASE/zc702_GigE/repo doesn't exist in the disk
+
+10:33:59 ERROR : Internal error. Unable to add C:\PROJECT_FOR_RELEASE\zc702_GigE\repo as a repository.
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:39:00 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:39:00 INFO  : Unable to read in MSS file E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\socket_apps_bsp\system.mss : null
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:39:00 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:39:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:39:01 INFO  : Unable to read in MSS file E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\socket_apps_bsp\system.mss : null
+10:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:45:56 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+10:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+10:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+10:45:57 INFO  : Unable to read in MSS file E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\socket_apps_bsp\system.mss : null
+10:55:18 ERROR : Data file address entered is not valid hex.
+10:55:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:55:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:55:50 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/xapp1026/zc702_GigE/SW/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:56:03 INFO  : ps7_init is completed.
+10:56:03 INFO  : ps7_post_config is completed.
+10:56:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:03:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:03:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+11:06:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+11:06:02 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+11:06:02 INFO  : Unable to read in MSS file E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\socket_apps_bsp\system.mss : null
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+11:06:02 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core freertos_zynq of version 1.02.a not found in repositories
+
+11:06:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+11:06:02 INFO  : Unable to read in MSS file E:\ZedBoard_Projects\xapp1026\zc702_GigE\SW\socket_apps_bsp\system.mss : null
+11:07:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:41:20 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:41:49 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:02:13 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:02:15 INFO  : XSDB server has started successfully.
+13:02:18 INFO  : Restoring local repository preferences: 
+		 C:\PROJECT_FOR_RELEASE\zc702_GigE\repo
+13:02:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1550] Repository Directory C:/PROJECT_FOR_RELEASE/zc702_GigE/repo doesn't exist in the disk
+
+13:02:18 ERROR : Internal error. Unable to add C:\PROJECT_FOR_RELEASE\zc702_GigE\repo as a repository.
+14:28:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:28:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:28:21 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/xapp1026/zc702_GigE/SW/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:28:36 INFO  : ps7_init is completed.
+14:28:36 INFO  : ps7_post_config is completed.
+14:28:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:38:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

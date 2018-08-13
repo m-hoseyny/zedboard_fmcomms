@@ -1,0 +1,119 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 8084
+
+Current time: 	7/16/18 3:11:27 PM IRDT
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Dr-Abbasfar
+User home directory: C:/Users/Dr-Abbasfar
+User working directory: E:/ZedBoard_Projects/FcommesSalar/zed
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/Dr-Abbasfar/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Dr-Abbasfar/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	224 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 451 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\ZedBoard_Projects\FcommesSalar\zed\fmcomms1_zed.xpr. Version: Vivado v2015.4.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.xpr 
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// [GUI Memory]: 32 MB (+31560kb) [00:00:05]
+// [Engine Memory]: 451 MB (+321493kb) [00:00:05]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 25 MB. Current time: 7/16/18 3:11:30 PM IRDT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+11211kb) [00:00:07]
+// [Engine Memory]: 525 MB (+54001kb) [00:00:07]
+// [GUI Memory]: 48 MB (+733kb) [00:00:08]
+// [Engine Memory]: 580 MB (+30100kb) [00:00:09]
+// [GUI Memory]: 52 MB (+2183kb) [00:00:09]
+// [GUI Memory]: 58 MB (+3267kb) [00:00:11]
+// [GUI Memory]: 65 MB (+4347kb) [00:00:12]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/ZedBoard_Projects/Fcommes_16_7_2018/zed' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/cygwin64/home/Dr-Abbasfar/adi/hdl/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 616 MB (+7442kb) [00:00:12]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: fmcomms1_zed; location: E:/ZedBoard_Projects/FcommesSalar/zed; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 897.742 ; gain = 225.254 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 68 MB (+20kb) [00:00:14]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// N:x (cq:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, N:x): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", false); // h:JCheckBox (JPanel:JComponent, N:x): FALSE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, N:x)
+// 'o' command handler elapsed time: 3 seconds
+dismissDialog("Export Hardware"); // N:x (cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// Q:x (cq:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:x)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Launch SDK"); // Q:x (cq:JFrame)
+// Tcl Message: launch_sdk -workspace E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk -hwspec E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk -hwspec E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 72 MB (+7kb) [00:02:35]
+// [GUI Memory]: 75 MB (+2kb) [00:03:15]
+// [GUI Memory]: 79 MB (+76kb) [00:09:02]
+// [GUI Memory]: 84 MB (+549kb) [00:29:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 49 MB. Current time: 7/16/18 3:41:31 PM IRDT
+// [GUI Memory]: 89 MB (+571kb) [00:56:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 44 MB. Current time: 7/16/18 4:11:31 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 43 MB. Current time: 7/16/18 4:41:31 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 43 MB. Current time: 7/16/18 5:11:31 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/16/18 5:41:32 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/16/18 6:11:33 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/16/18 6:41:33 PM IRDT
+// [GUI Memory]: 93 MB (+9kb) [04:00:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/16/18 7:11:33 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/16/18 7:41:34 PM IRDT

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Aug 04 10:51:46 2018
+# Process ID: 15164
+# Current directory: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11676 E:\ZedBoard_Projects\lwipRTOS_Yahya_stable\lwipRTOS.xpr
+# Log file: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/vivado.log
+# Journal file: E:/ZedBoard_Projects/lwipRTOS_Yahya_stable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ArzhangJunior/Desktop/lwipRTOS' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ZedBoard_Projects/lwipRTOS_Yahya_stable/tamu.edu_user_ZedboardOLED_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 888.828 ; gain = 228.211
+file copy -force E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.runs/impl_1/design_1_wrapper.sysdef E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk -hwspec E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk -hwspec E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

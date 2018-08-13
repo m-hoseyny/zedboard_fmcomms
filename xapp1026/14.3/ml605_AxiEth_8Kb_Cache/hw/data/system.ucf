@@ -1,0 +1,130 @@
+#
+# pin constraints
+#
+NET CLK_N LOC = "H9"  |  DIFF_TERM = "TRUE"  |  IOSTANDARD = "LVDS_25";
+NET CLK_P LOC = "J9"  |  DIFF_TERM = "TRUE"  |  IOSTANDARD = "LVDS_25";
+NET DIP_Switches_8Bits_TRI_I[0] LOC = "D22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[1] LOC = "C22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[2] LOC = "L21"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[3] LOC = "L20"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[4] LOC = "C18"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[5] LOC = "B18"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[6] LOC = "K22"  |  IOSTANDARD = "LVCMOS15";
+NET DIP_Switches_8Bits_TRI_I[7] LOC = "K21"  |  IOSTANDARD = "LVCMOS15";
+NET ETHERNET_MDC LOC = "AP14"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_MDIO LOC = "AN14"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_MII_TX_CLK LOC = "AD12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_PHY_RST_N LOC = "AH13"  |  IOSTANDARD = "LVCMOS25"  |  TIG;
+NET ETHERNET_RXD[0] LOC = "AN13"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[1] LOC = "AF14"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[2] LOC = "AE14"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[3] LOC = "AN12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[4] LOC = "AM12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[5] LOC = "AD11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[6] LOC = "AC12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RXD[7] LOC = "AC13"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RX_CLK LOC = "AP11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RX_DV LOC = "AM13"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_RX_ER LOC = "AG12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[0] LOC = "AM11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[1] LOC = "AL11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[2] LOC = "AG10"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[3] LOC = "AG11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[4] LOC = "AL10"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[5] LOC = "AM10"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[6] LOC = "AE11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TXD[7] LOC = "AF11"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TX_CLK LOC = "AH12"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TX_EN LOC = "AJ10"  |  IOSTANDARD = "LVCMOS25";
+NET ETHERNET_TX_ER LOC = "AH10"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[0] LOC = "AC22"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[1] LOC = "AC24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[2] LOC = "AE22"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[3] LOC = "AE23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[4] LOC = "AB23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[5] LOC = "AG23"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[6] LOC = "AE24"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_8Bits_TRI_O[7] LOC = "AD24"  |  IOSTANDARD = "LVCMOS25";
+NET Push_Buttons_5Bits_TRI_I[0] LOC = "G26"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[1] LOC = "A19"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[2] LOC = "G17"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[3] LOC = "A18"  |  IOSTANDARD = "LVCMOS15";
+NET Push_Buttons_5Bits_TRI_I[4] LOC = "H17"  |  IOSTANDARD = "LVCMOS15";
+NET RESET LOC = "H10"  |  IOSTANDARD = "SSTL15"  |  TIG;
+NET RS232_Uart_1_sin LOC = "J24"  |  IOSTANDARD = "LVCMOS25";
+NET RS232_Uart_1_sout LOC = "J25"  |  IOSTANDARD = "LVCMOS25";
+#
+# additional constraints
+#
+
+NET "CLK" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 200000 kHz;
+
+###### Hard Ethernet
+
+# GMII physical interface constraints
+# -----------------------------------------------------------------------------
+
+# Set the IDELAY values on the PHY inputs, tuned for this example design.
+# These values should be modified to suit your design.
+INST "*gmii_interface/*.delay_gmii_rx_dv"    IDELAY_VALUE = 27;
+INST "*gmii_interface/*[0].delay_gmii_rxd" IDELAY_VALUE = 23;
+INST "*gmii_interface/*[1].delay_gmii_rxd" IDELAY_VALUE = 29;
+INST "*gmii_interface/*[2].delay_gmii_rxd" IDELAY_VALUE = 29;
+INST "*gmii_interface/*[3].delay_gmii_rxd" IDELAY_VALUE = 25;
+INST "*gmii_interface/*[4].delay_gmii_rxd" IDELAY_VALUE = 27;
+INST "*gmii_interface/*[5].delay_gmii_rxd" IDELAY_VALUE = 29;
+INST "*gmii_interface/*[6].delay_gmii_rxd" IDELAY_VALUE = 30;
+INST "*gmii_interface/*[7].delay_gmii_rxd" IDELAY_VALUE = 30;
+INST "*gmii_interface/*.delay_gmii_rx_er"    IDELAY_VALUE = 20;
+
+# Group all IDELAY-related blocks to use a single IDELAYCTRL
+INST "*dlyctrl"                             IODELAY_GROUP = gmii_idelay;
+INST "*gmii_interface/*.delay_gmii_rx_dv"     IODELAY_GROUP = gmii_idelay;
+INST "*gmii_interface/*[?].delay_gmii_rxd" IODELAY_GROUP = gmii_idelay;
+INST "*gmii_interface/*.delay_gmii_rx_er"     IODELAY_GROUP = gmii_idelay;
+
+# Signal trace properties for ML605 Board used in offset in constraints below
+
+# This signal trace is longer than the clock trace, and arrives at the FPGA pin ~65 ps after the clock
+# Therefore the offset in constraint must have less setup time than nominal
+NET ETHERNET_RXD[0] OFFSET = IN 2.435 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~375 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[1] OFFSET = IN 2.875 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~372 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[2] OFFSET = IN 2.872 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~115 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[3] OFFSET = IN 2.615 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~244 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[4] OFFSET = IN 2.744 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~404 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[5] OFFSET = IN 2.904 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~498 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[6] OFFSET = IN 2.998 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~485 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RXD[7] OFFSET = IN 2.985 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is shorter than the clock trace, and arrives at the FPGA pin ~291 ps before the clock
+# Therefore the offset in constraint must have more setup time than nominal
+NET ETHERNET_RX_DV  OFFSET = IN 2.791 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+# This signal trace is longer than the clock trace, and arrives at the FPGA pin ~308 ps after the clock
+# Therefore the offset in constraint must have less setup time than nominal
+NET ETHERNET_RX_ER  OFFSET = IN 2.192 ns VALID 3 ns BEFORE "ETHERNET_RX_CLK";
+
+
+

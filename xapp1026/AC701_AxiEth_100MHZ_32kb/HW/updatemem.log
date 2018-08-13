@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# updatemem v2014.3 (64-bit)
+# SW Build 1018564 on Mon Sep 15 18:49:35 MDT 2014
+# 
+# Start of session at: Tue Sep 23 16:48:17 2014
+# Process ID: 129536
+# Log file: c:/PROJECT_FOR_RELEASE/AC701_100MHZ_32kb/ac701_lwip_design/project_1/updatemem.log
+# Journal file: c:/PROJECT_FOR_RELEASE/AC701_100MHZ_32kb/ac701_lwip_design/project_1\updatemem.jou
+#-----------------------------------------------------------
+WARNING: [Common 17-204] Your XILINX environment variable is undefined. You will not be able to run Synthesis and Implementation using ISE based strategies, or import ngc netlists. Please set up your XILINX environment to get full functionality.
+source C:/Xilinx/SDK/2014.3/scripts/updatemem/main.tcl -notrace
+CRITICAL WARNING: [Updatemem 57-155] Out of bounds code segment for ram space. 
+ 
+Loading bitfile C:/PROJECT_FOR_RELEASE/AC701_100MHZ_32kb/ac701_lwip_design/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/PROJECT_FOR_RELEASE/AC701_100MHZ_32kb/ac701_lwip_design/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit...
+update_mem: Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 495.082 ; gain = 439.016
+INFO: [Common 17-206] Exiting updatemem at Tue Sep 23 16:49:11 2014...

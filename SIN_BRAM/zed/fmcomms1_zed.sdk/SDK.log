@@ -1,0 +1,51 @@
+11:50:03 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:53:03 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+11:55:08 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:55:18 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:55:19 INFO  : XSDB server has started successfully.
+11:55:20 INFO  : Processing command line option -hwspec E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/system_top.hdf.
+11:55:50 INFO  : Project 'sin_bram_generator' created. You can now create BSPs and application projects targeting this hardware platform.
+11:58:08 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+12:04:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:04:04 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/sin_bram_generator/system_top.bit"
+12:04:47 INFO  : ps7_init is completed.
+12:04:47 INFO  : ps7_post_config is completed.
+12:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:07:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:07:47 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/sin_bram_generator/system_top.bit"
+12:07:54 INFO  : ps7_init is completed.
+12:07:54 INFO  : ps7_post_config is completed.
+12:07:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:13 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:18:37 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:18:39 INFO  : XSDB server has started successfully.
+12:18:39 INFO  : Processing command line option -hwspec E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/system_top.hdf.
+12:18:39 INFO  : Checking for hwspec changes in the project system_top_hw_platform_0.
+12:19:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:19:09 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/sin_bram_generator/system_top.bit"
+12:19:19 INFO  : ps7_init is completed.
+12:19:19 INFO  : ps7_post_config is completed.
+12:19:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:20:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:20:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:20:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:26:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:26:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:26:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:26:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:26:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:27:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:27:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:28:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:30:07 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:30:11 INFO  : XSDB server has started successfully.
+12:30:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:30:43 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/SIN_BRAM/zed/fmcomms1_zed.sdk/sin_bram_generator/system_top.bit"
+12:31:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

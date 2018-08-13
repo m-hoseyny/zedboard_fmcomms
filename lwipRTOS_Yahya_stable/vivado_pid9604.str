@@ -1,0 +1,110 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 9604
+
+Current time: 	7/30/18 11:54:40 AM IRDT
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	ArzhangJunior
+User home directory: C:/Users/ArzhangJunior
+User working directory: C:/Users/ArzhangJunior/Desktop/lwipRTOS
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/ArzhangJunior/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/ArzhangJunior/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	124 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 369 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ArzhangJunior\Desktop\lwipRTOS\lwipRTOS.xpr. Version: Vivado v2015.4.2 
+// [GUI Memory]: 41 MB (+40558kb) [00:00:10]
+// [Engine Memory]: 354 MB (+219929kb) [00:00:10]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 388 MB. GUI used memory: 26 MB. Current time: 7/30/18 11:54:42 AM IRDT
+// [Engine Memory]: 390 MB (+18816kb) [00:00:15]
+// [Engine Memory]: 443 MB (+35095kb) [00:00:20]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+3017kb) [00:00:23]
+// [Engine Memory]: 498 MB (+34819kb) [00:00:24]
+// [GUI Memory]: 58 MB (+9896kb) [00:00:26]
+// [Engine Memory]: 526 MB (+3289kb) [00:00:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ArzhangJunior/Desktop/lwipRTOS/tamu.edu_user_ZedboardOLED_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 569 MB (+17427kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lwipRTOS; location: C:/Users/ArzhangJunior/Desktop/lwipRTOS; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 774.324 ; gain = 209.340 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 569 MB. GUI used memory: 35 MB. Current time: 7/30/18 11:54:57 AM IRDT
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // aa:JMenu (JPopupMenu:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// Q:x (cq:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:x)
+dismissDialog("Launch SDK"); // Q:x (cq:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk -hwspec C:/Users/ArzhangJunior/Desktop/lwipRTOS/lwipRTOS.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 61 MB (+70kb) [00:00:59]
+// [GUI Memory]: 64 MB (+517kb) [00:15:24]
+// [GUI Memory]: 68 MB (+54kb) [00:27:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 36 MB. Current time: 7/30/18 12:24:58 PM IRDT
+// [GUI Memory]: 72 MB (+676kb) [00:55:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 33 MB. Current time: 7/30/18 12:54:58 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 35 MB. Current time: 7/30/18 1:24:58 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 35 MB. Current time: 7/30/18 1:54:59 PM IRDT
+// [GUI Memory]: 75 MB (+124kb) [02:16:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 35 MB. Current time: 7/30/18 2:24:59 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 2:54:59 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 3:24:59 PM IRDT
+// [GUI Memory]: 79 MB (+119kb) [03:47:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 3:55:00 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 4:25:00 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 4:55:00 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 5:25:01 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 5:55:01 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 6:25:01 PM IRDT
+// [GUI Memory]: 83 MB (+13kb) [06:48:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 6:55:02 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 575 MB. GUI used memory: 34 MB. Current time: 7/30/18 7:25:02 PM IRDT

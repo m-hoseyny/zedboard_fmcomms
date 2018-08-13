@@ -1,0 +1,468 @@
+15:11:54 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:11:55 INFO  : XSDB server has started successfully.
+15:11:55 INFO  : Processing command line option -hwspec E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top.hdf.
+15:12:20 INFO  : Project 'system_top_hw_platform_1' created. You can now create BSPs and application projects targeting this hardware platform.
+15:14:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:14:33 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:15:46 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:24:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+17:24:52 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+17:24:56 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:25:07 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:25:38 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:26:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+17:26:09 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+17:26:11 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:26:33 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:27:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+17:27:38 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+17:27:40 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:28:02 INFO  : ps7_init is completed.
+17:28:02 INFO  : ps7_post_config is completed.
+17:28:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:28:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:28:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:30:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:31:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:39:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:40:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:40:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:46:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:49:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:48:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:48:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+18:48:14 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+18:49:00 INFO  : ps7_init is completed.
+18:49:00 INFO  : ps7_post_config is completed.
+18:49:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:17:26 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:17:30 INFO  : XSDB server has started successfully.
+15:17:32 INFO  : Processing command line option -hwspec E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top.hdf.
+15:17:32 INFO  : Checking for hwspec changes in the project system_top_hw_platform_0.
+15:19:16 INFO  : ps7_init is completed.
+15:19:17 INFO  : ps7_post_config is completed.
+15:19:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:22:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:22:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:01 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:46:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:46:47 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:46:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:47:17 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:47:18 INFO  : XSDB server has started successfully.
+15:47:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:47:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:47:34 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:47:42 INFO  : ps7_init is completed.
+15:47:42 INFO  : ps7_post_config is completed.
+15:47:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:55:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:37:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:37:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+16:37:03 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+16:37:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:37:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+16:37:57 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+16:38:07 INFO  : ps7_init is completed.
+16:38:07 INFO  : ps7_post_config is completed.
+16:38:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:47:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:44:15 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:44:20 INFO  : XSDB server has started successfully.
+10:46:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:46:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:46:32 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+10:46:41 INFO  : ps7_init is completed.
+10:46:41 INFO  : ps7_post_config is completed.
+10:46:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:02:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+11:02:35 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:02:53 INFO  : ps7_init is completed.
+11:02:54 INFO  : ps7_post_config is completed.
+11:02:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:08:40 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:11:40 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+13:31:16 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:31:17 INFO  : XSDB server has started successfully.
+13:33:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:33:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+13:33:50 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+13:33:58 INFO  : ps7_init is completed.
+13:33:58 INFO  : ps7_post_config is completed.
+13:33:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:28:05 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+17:28:05 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+09:17:11 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:17:16 INFO  : XSDB server has started successfully.
+09:23:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:23:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:23:40 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:24:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:24:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:24:11 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:24:21 INFO  : ps7_init is completed.
+09:24:21 INFO  : ps7_post_config is completed.
+09:24:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:26:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:28:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:02:33 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zed-210248492682 on TCP:127.0.0.1:3121
+
+
+10:02:33 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zed-210248492682 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:02:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:02:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:02:48 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+10:02:54 INFO  : ps7_init is completed.
+10:02:54 INFO  : ps7_post_config is completed.
+10:02:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:52:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:05:28 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:05:32 INFO  : XSDB server has started successfully.
+11:03:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+11:03:46 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:04:03 INFO  : ps7_init is completed.
+11:04:03 INFO  : ps7_post_config is completed.
+11:04:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:22:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:45:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:03:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:05:05 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:05:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:06:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:06:06 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:06:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:18:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:18:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:18:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:19:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:19:21 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:19:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:21:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:21:01 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:21:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:29:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:29:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:29:08 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:29:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:38:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:38:32 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:39:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:39:38 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:40:01 INFO  : ps7_init is completed.
+14:40:01 INFO  : ps7_post_config is completed.
+14:40:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:40:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:40:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:40:50 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:40:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:41:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:41:45 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:41:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:45:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:47:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:47:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:47:26 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:48:38 INFO  : ps7_init is completed.
+14:48:38 INFO  : ps7_post_config is completed.
+14:48:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:49:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:58:30 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+07:58:37 INFO  : XSDB server has started successfully.
+09:16:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:16:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:16:25 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:16:48 INFO  : ps7_init is completed.
+09:16:48 INFO  : ps7_post_config is completed.
+09:16:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:19:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:21:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:21:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:21:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:21:47 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:21:51 INFO  : ps7_init is completed.
+09:21:51 INFO  : ps7_post_config is completed.
+09:21:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:25:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:25:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:25:58 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:26:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+11:58:03 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:58:08 INFO  : ps7_init is completed.
+11:58:08 INFO  : ps7_post_config is completed.
+11:58:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:00:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:00:03 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:00:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:34:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:34:03 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:34:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:36:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:36:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:36:53 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:36:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:09:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:10:13 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:10:17 INFO  : XSDB server has started successfully.
+18:11:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:11:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+18:11:08 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+18:11:19 INFO  : ps7_init is completed.
+18:11:19 INFO  : ps7_post_config is completed.
+18:11:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:33:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:39:37 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:39:42 INFO  : XSDB server has started successfully.
+08:49:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:49:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+08:49:10 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+08:49:21 INFO  : ps7_init is completed.
+08:49:22 INFO  : ps7_post_config is completed.
+08:49:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:55:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:56:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:57:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:59:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:00:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:00:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:01:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:01:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:17:12 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zed-210248492682 on TCP:127.0.0.1:3121
+
+
+09:17:12 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zed-210248492682 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+09:17:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:17:34 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:17:46 INFO  : ps7_init is completed.
+09:17:46 INFO  : ps7_post_config is completed.
+09:17:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:21:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:31:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:34:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:35:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:35:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:35:29 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:35:32 INFO  : ps7_init is completed.
+09:35:32 INFO  : ps7_post_config is completed.
+09:35:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:37:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:37:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:37:45 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:37:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:38:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:39:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:40:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:41:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:42:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:43:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:43:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:43:19 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:46:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:46:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:46:22 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:46:30 INFO  : ps7_init is completed.
+09:46:30 INFO  : ps7_post_config is completed.
+09:46:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:53:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:55:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:59:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:01:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:02:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:02:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:02:28 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+10:02:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:38:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+10:38:26 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FcommesSalar/zed/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+10:38:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:39:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:41:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

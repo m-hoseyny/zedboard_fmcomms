@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Jul 21 09:55:25 2018
+# Process ID: 4244
+# Current directory: E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11400 E:\ZedBoard_Projects\xapp1026\zc702_GigE\HW\project_1\project_1.xpr
+# Log file: E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/vivado.log
+# Journal file: E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/PROJECT_FOR_RELEASE/zc702_GigE/HW/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'project_1.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_processing_system7_0_0
+
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 756.332 ; gain = 136.105
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk -hwspec E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk -hwspec E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk -hwspec E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk -hwspec E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 21 10:01:28 2018...

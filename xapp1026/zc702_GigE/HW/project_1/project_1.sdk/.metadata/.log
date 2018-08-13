@@ -1,0 +1,42 @@
+!SESSION 2018-07-21 09:56:50.555 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-21 09:56:54.969
+!MESSAGE NLS unused message: SharedIntroConfigurer_npw_tooltip in: org.eclipse.ui.internal.intro.universal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-07-21 09:56:54.976
+!MESSAGE NLS unused message: SharedIntroConfigurer_cwpi_tooltip in: org.eclipse.ui.internal.intro.universal.Messages
+
+!ENTRY org.eclipse.tcf 4 0 2018-07-21 09:56:57.637
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-21 09:59:10.118
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.sdk.startup.InitSDK$7
+!SESSION 2018-07-21 09:59:14.960 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/ZedBoard_Projects/xapp1026/zc702_GigE/HW/project_1/project_1.sdk
+
+!ENTRY org.eclipse.tcf 4 0 2018-07-21 09:59:31.765
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-21 10:01:23.073
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.sdk.startup.InitSDK$7
