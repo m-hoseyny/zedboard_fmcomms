@@ -20,3 +20,29 @@
 12:15:06 INFO  : Processor reset is completed for ps7_cortexa9_0
 12:19:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 12:19:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:19:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:20:01 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:20:03 INFO  : ps7_init is completed.
+14:20:03 INFO  : ps7_post_config is completed.
+14:20:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:29:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:29:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:34:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:34:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:43:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:45:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:47:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:58:28 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:58:54 INFO  : ps7_init is completed.
+14:58:54 INFO  : ps7_post_config is completed.
+14:58:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:13:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:13:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:16:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:16:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:18:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:01:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
