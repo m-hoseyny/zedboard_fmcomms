@@ -1,6 +1,21 @@
-14:00:28 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+12:26:21 **** Auto Build of configuration Debug for project fmcomms_lan ****
 make all 
-make: Nothing to be done for `all'.
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 175452	   3652	2218272	2397376	 2494c0	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
 
-14:00:28 Build Finished (took 280ms)
+12:26:22 Build Finished (took 811ms)
 
