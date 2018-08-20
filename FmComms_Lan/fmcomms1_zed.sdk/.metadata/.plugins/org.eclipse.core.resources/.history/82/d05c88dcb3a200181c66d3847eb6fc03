@@ -46,6 +46,7 @@
 /*****************************************************************************/
 #include <stdio.h>
 #include <stdint.h>
+#include <xil_io.h>
 #include "xil_cache.h"
 #include "xcomm.h"
 #include "xparameters.h"
@@ -53,9 +54,27 @@
 #include "lan.h"
 #include "shared_variables.h"
 
+void show_signal(uint16_t s_i[], uint16_t s_q[])
+{
+	int i = 0;
+	xil_printf("\r\n\r\n\r\n--------------------- New Signal ---------------------\r\n");
+	for(i = 0; i< SIGNAL_LENGTH; i++)
+	{
+		xil_printf("s_i : %u, s_q : %u\r\n", s_i[i], s_q[i]);
+		delay_ms(10);
+	}
+}
 
-
-
+void print_ram(uint32_t size, int steps, uint32_t start_address)
+{
+	int i;
+	xil_printf("\r\n\r\n\r\n--------------------- New Data ---------------------\r\n");
+	for(i = 0; i < size; i++)
+	{
+		xil_printf("%u,\r\n", Xil_In32(start_address + i*steps));
+		delay_ms(10);
+	}
+}
 
 extern void xil_printf(const char *ctrl1, ...);
 
@@ -63,15 +82,11 @@ extern void xil_printf(const char *ctrl1, ...);
 int main()
 {
     int32_t ret;
-    int32_t mode = 0;
     float retGain;
-    uint64_t retFreqRx;
-    uint64_t retFreqTx;
     int32_t fmcSel;
     int32_t i;
     int32_t valArray[17];
     uint16_t signal_i[SIGNAL_LENGTH], signal_q[SIGNAL_LENGTH];
-    XCOMM_Version boardVersion;
     XCOMM_DefaultInit defInit = {FMC_LPC,		//fmcPort
     							 DIGILENT_ZED,	//carrierBoard
     							 122880000,		//adcSamplingRate
@@ -79,6 +94,7 @@ int main()
 								 4500,			//rxGain1000
 								 2300000000ull, //rxFrequency
 								 2300000000ull};//txFrequency
+    int cnt = 0;
 
     Xil_ICacheEnable();
     Xil_DCacheEnable();
@@ -146,9 +162,9 @@ int main()
 	retGain = (float)XCOMM_SetRxGain(defInit.rxGain1000) / 1000.0f;
 	xil_printf("Actual set VGA gain: %d.%d dB\n\r", (int)retGain, (int)((retGain - (int)retGain) * 1000));
 
-    retFreqRx = XCOMM_SetRxFrequency(defInit.rxFrequency);
+    XCOMM_SetRxFrequency(defInit.rxFrequency);
 
-    retFreqTx = XCOMM_SetTxFrequency(defInit.txFrequency);
+    XCOMM_SetTxFrequency(defInit.txFrequency);
 
     xil_printf("\n\rSetting up the DAC DMA... \n\r");
     dac_dma_setup(fmcSel);
@@ -160,12 +176,13 @@ int main()
     XCOMM_SetAdcTestMode(XCOMM_AdcTestMode_Off, XCOMM_AdcChannel_All);
     delay_ms(1000);
     adc_capture(fmcSel, 16384, DDR_BASEADDR);
+    print_ram(SIGNAL_LENGTH*4, 2, DDR_BASEADDR);
     xil_printf("Read data from air complete. \n\r");
 
     xil_printf("\n\rFinished XCOMM Test Program\n\r");
 
 
-
+    cnt = 0;
 
     while (1) {
     	if (TcpFastTmrFlag) {
@@ -177,7 +194,35 @@ int main()
     		TcpSlowTmrFlag = 0;
     	}
 
+    	if(lan_input_flag)
+    	{
 
+    		if(cnt < SIGNAL_LENGTH*2)
+    		{
+    			if(cnt % 2 == 0)
+    				signal_i[cnt/2] = lan_input;
+    			else
+    				signal_q[cnt/2] = lan_input;
+
+    			if(cnt == SIGNAL_LENGTH*2-1)
+    			{
+    				print_ram(SIGNAL_LENGTH, 4, DDRDAC_BASEADDR);
+    				custom_dac_dma_setup(fmcSel, signal_i, signal_q);
+    				delay_ms(1000);
+    				adc_capture(fmcSel, 16384, DDR_BASEADDR);
+    				delay_ms(200);
+    				print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
+    			}
+    			cnt ++;
+    			lan_input_flag = 0;
+    		}
+    		else
+    		{
+    			cnt = 0;
+    		}
+
+
+    	}
 
 
 

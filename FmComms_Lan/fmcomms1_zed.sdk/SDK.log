@@ -46,3 +46,73 @@
 15:18:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 15:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
 18:01:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:55:56 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:55:57 INFO  : XSDB server has started successfully.
+09:06:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:06:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:06:46 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:07:00 INFO  : ps7_init is completed.
+09:07:00 INFO  : ps7_post_config is completed.
+09:07:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:13:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:13:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:13:05 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:13:08 INFO  : ps7_init is completed.
+09:13:08 INFO  : ps7_post_config is completed.
+09:13:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:18:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:18:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:20:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:20:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:20:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:26:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:26:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:33:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:33:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:44:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:44:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:46:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:46:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:48:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:48:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:50:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:50:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:54:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:54:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:55:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:55:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:16:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:20:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:01:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+11:01:17 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:01:23 INFO  : ps7_init is completed.
+11:01:23 INFO  : ps7_post_config is completed.
+11:01:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:08:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:12:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:12:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:25:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:25:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:26:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:27:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:33:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:33:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:40:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:40:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:28:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+13:28:29 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+13:28:39 INFO  : ps7_init is completed.
+13:28:39 INFO  : ps7_post_config is completed.
+13:28:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:00:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+14:00:26 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+14:00:29 INFO  : ps7_init is completed.
+14:00:29 INFO  : ps7_post_config is completed.
+14:00:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -176,7 +176,7 @@ int main()
     XCOMM_SetAdcTestMode(XCOMM_AdcTestMode_Off, XCOMM_AdcChannel_All);
     delay_ms(1000);
     adc_capture(fmcSel, 16384, DDR_BASEADDR);
-    print_ram(SIGNAL_LENGTH*4, 2, DDR_BASEADDR);
+    print_ram(SIGNAL_LENGTH*4, 4, DDR_BASEADDR);
     xil_printf("Read data from air complete. \n\r");
 
     xil_printf("\n\rFinished XCOMM Test Program\n\r");
@@ -206,11 +206,12 @@ int main()
 
     			if(cnt == SIGNAL_LENGTH*2-1)
     			{
-    				show_signal(signal_i, signal_q);
     				custom_dac_dma_setup(fmcSel, signal_i, signal_q);
-    				delay_ms(1000);
+    				delay_ms(100);
+    				print_ram(SIGNAL_LENGTH*2, 4, DDRDAC_BASEADDR);
+    				delay_ms(100);
     				adc_capture(fmcSel, 16384, DDR_BASEADDR);
-    				delay_ms(200);
+    				delay_ms(2000);
     				print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
     			}
     			cnt ++;
