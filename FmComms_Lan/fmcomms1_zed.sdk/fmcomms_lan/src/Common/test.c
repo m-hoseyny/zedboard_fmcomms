@@ -104,50 +104,50 @@ const uint16_t sine_lut_i[128] = {
 };
 
 const uint16_t sine_lut_i_buf1[64] = {
-		32768 ,35914 ,38938 ,41720 ,44153 ,46141 ,47608 ,48495 ,
-		48768 ,48417 ,47455 ,45920 ,43871 ,41389 ,38571 ,35525 ,
-		32373 ,29235 ,26236 ,23492 ,21110 ,19182 ,17786 ,16974 ,
-		16778 ,17207 ,18243 ,19847 ,21954 ,24484 ,27337 ,30402 ,
-		33560 ,36686 ,39660 ,42365 ,44695 ,46560 ,47886 ,48622 ,
-		48739 ,48233 ,47123 ,45453 ,43288 ,40712 ,37826 ,34743 ,
-		31582 ,28468 ,25522 ,22858 ,20582 ,18781 ,17526 ,16866 ,
-		16827 ,17410 ,18593 ,20329 ,22551 ,25171 ,28088 ,31188 ,
+		32768 ,33560 ,34349 ,35135 ,35914 ,36686 ,37449 ,38200 ,
+		38938 ,39660 ,40366 ,41053 ,41720 ,42365 ,42986 ,43583 ,
+		44153 ,44695 ,45208 ,45690 ,46141 ,46560 ,46944 ,47294 ,
+		47608 ,47886 ,48127 ,48330 ,48495 ,48622 ,48710 ,48759 ,
+		48768 ,48739 ,48671 ,48563 ,48417 ,48233 ,48011 ,47751 ,
+		47455 ,47123 ,46756 ,46355 ,45920 ,45453 ,44955 ,44427 ,
+		43871 ,43288 ,42679 ,42045 ,41389 ,40712 ,40015 ,39301 ,
+		38571 ,37826 ,37069 ,36302 ,35525 ,34743 ,33955 ,33164 ,
 
 };
 
 const uint16_t sine_lut_q_buf1[64] = {
-		48768 ,48456 ,47532 ,46031 ,44012 ,41555 ,38754 ,35720 ,
-		32571 ,29429 ,26418 ,23654 ,21247 ,19289 ,17857 ,17008 ,
-		16773 ,17163 ,18163 ,19732 ,21810 ,24316 ,27152 ,30207 ,
-		33362 ,36494 ,39481 ,42205 ,44561 ,46457 ,47819 ,48593 ,
-		48749 ,48281 ,47208 ,45572 ,43435 ,40882 ,38013 ,34939 ,
-		31780 ,28659 ,25699 ,23015 ,20712 ,18879 ,17589 ,16891 ,
-		16813 ,17357 ,18503 ,20206 ,22400 ,24998 ,27900 ,30991 ,
-		34152 ,37259 ,40191 ,42832 ,45082 ,46850 ,48069 ,48690 ,
+		48768 ,48749 ,48690 ,48593 ,48456 ,48281 ,48069 ,47819 ,
+		47532 ,47208 ,46850 ,46457 ,46031 ,45572 ,45082 ,44561 ,
+		44012 ,43435 ,42832 ,42205 ,41555 ,40882 ,40191 ,39481 ,
+		38754 ,38013 ,37259 ,36494 ,35720 ,34939 ,34152 ,33362 ,
+		32571 ,31780 ,30991 ,30207 ,29429 ,28659 ,27900 ,27152 ,
+		26418 ,25699 ,24998 ,24316 ,23654 ,23015 ,22400 ,21810 ,
+		21247 ,20712 ,20206 ,19732 ,19289 ,18879 ,18503 ,18163 ,
+		17857 ,17589 ,17357 ,17163 ,17008 ,16891 ,16813 ,16773 ,
 };
 
 
 const uint16_t sine_lut_i_buf2[64] = {
-		34349 ,37449 ,40366 ,42986 ,45208 ,46944 ,48127 ,48710 ,
-		48671 ,48011 ,46756 ,44955 ,42679 ,40015 ,37069 ,33955 ,
-		30794 ,27711 ,24825 ,22249 ,20084 ,18414 ,17304 ,16798 ,
-		16915 ,17651 ,18977 ,20842 ,23172 ,25877 ,28851 ,31977 ,
-		35135 ,38200 ,41053 ,43583 ,45690 ,47294 ,48330 ,48759 ,
-		48563 ,47751 ,46355 ,44427 ,42045 ,39301 ,36302 ,33164 ,
-		30012 ,26966 ,24148 ,21666 ,19617 ,18082 ,17120 ,16768 ,
-		17042 ,17929 ,19396 ,21384 ,23817 ,26599 ,29623 ,32768 ,
+		32373 ,31582 ,30794 ,30012 ,29235 ,28468 ,27711 ,26966 ,
+		26236 ,25522 ,24825 ,24148 ,23492 ,22858 ,22249 ,21666 ,
+		21110 ,20582 ,20084 ,19617 ,19182 ,18781 ,18414 ,18082 ,
+		17786 ,17526 ,17304 ,17120 ,16974 ,16866 ,16798 ,16768 ,
+		16778 ,16827 ,16915 ,17042 ,17207 ,17410 ,17651 ,17929 ,
+		18243 ,18593 ,18977 ,19396 ,19847 ,20329 ,20842 ,21384 ,
+		21954 ,22551 ,23172 ,23817 ,24484 ,25171 ,25877 ,26599 ,
+		27337 ,28088 ,28851 ,29623 ,30402 ,31188 ,31977 ,32768 ,
 
 };
 
 const uint16_t sine_lut_q_buf2[64] = {
-		48690 ,48069 ,46850 ,45082 ,42832 ,40191 ,37259 ,34152 ,
-		30991 ,27900 ,24998 ,22400 ,20206 ,18503 ,17357 ,16813 ,
-		16891 ,17589 ,18879 ,20712 ,23015 ,25699 ,28659 ,31780 ,
-		34939 ,38013 ,40882 ,43435 ,45572 ,47208 ,48281 ,48749 ,
-		48593 ,47819 ,46457 ,44561 ,42205 ,39481 ,36494 ,33362 ,
-		30207 ,27152 ,24316 ,21810 ,19732 ,18163 ,17163 ,16773 ,
-		17008 ,17857 ,19289 ,21247 ,23654 ,26418 ,29429 ,32571 ,
-		35720 ,38754 ,41555 ,44012 ,46031 ,47532 ,48456 ,48768 ,
+		16773 ,16813 ,16891 ,17008 ,17163 ,17357 ,17589 ,17857 ,
+		18163 ,18503 ,18879 ,19289 ,19732 ,20206 ,20712 ,21247 ,
+		21810 ,22400 ,23015 ,23654 ,24316 ,24998 ,25699 ,26418 ,
+		27152 ,27900 ,28659 ,29429 ,30207 ,30991 ,31780 ,32571 ,
+		33362 ,34152 ,34939 ,35720 ,36494 ,37259 ,38013 ,38754 ,
+		39481 ,40191 ,40882 ,41555 ,42205 ,42832 ,43435 ,44012 ,
+		44561 ,45082 ,45572 ,46031 ,46457 ,46850 ,47208 ,47532 ,
+		47819 ,48069 ,48281 ,48456 ,48593 ,48690 ,48749 ,48768 ,
 };
 
 static uint32_t dac_base_addr;
@@ -503,6 +503,98 @@ void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[])
 	}
 }
 
+
+
+
+
+
+void double_buffer_dac_dma_setup(uint32_t sel)
+{
+	#define BUFFER_GAP 1024*4
+	uint32_t baddr;
+	uint32_t index;
+	uint32_t tx_count;
+	uint32_t data_i;
+	uint32_t data_q;
+	uint32_t dac_clk;
+	uint32_t val;
+	uint32_t sine_freq;
+	uint32_t hdl_version;
+	uint32_t current_src_add , END1, END2;;
+
+	dac_base_addr = ((sel == IICSEL_B1HPC_AXI)||(sel == IICSEL_B1HPC_PS7)) ?
+					CFAD9122_1_BASEADDR : CFAD9122_0_BASEADDR;
+
+	dac_read(ADI_REG_VERSION, &hdl_version);
+
+	tx_count = SIGNAL_LENGTH/2;
+	for(index = 0; index < tx_count; index ++)
+	{
+		data_i = (sine_lut_i_buf1[index] << 16);
+		data_q = (sine_lut_q_buf1[index] << 0);
+		Xil_Out32(DDRDAC_BASEADDR + index * 4, data_i | data_q);
+	}
+	for(index = 0; index < tx_count; index ++)
+	{
+		data_i = (sine_lut_i_buf2[index] << 16);
+		data_q = (sine_lut_q_buf2[index] << 0);
+		Xil_Out32(DDRDAC_BASEADDR + BUFFER_GAP + index * 4, data_i | data_q);
+	}
+
+
+	Xil_DCacheFlush();
+
+	baddr = ((sel == IICSEL_B1HPC_AXI)||(sel == IICSEL_B1HPC_PS7)) ? DMA9122_1_BASEADDR : DMA9122_0_BASEADDR;
+
+	// None Cycle:
+		Xil_Out32(baddr + AXI_DMAC_REG_FLAGS, 0x2);
+
+	Xil_Out32(baddr + AXI_DMAC_REG_CTRL, AXI_DMAC_CTRL_ENABLE);
+	Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR);
+	Xil_Out32(baddr + AXI_DMAC_REG_SRC_STRIDE, 0);
+	Xil_Out32(baddr + AXI_DMAC_REG_X_LENGTH, (tx_count * 4) - 1);
+	Xil_Out32(baddr + AXI_DMAC_REG_Y_LENGTH, 0x0);
+	Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+
+
+
+	dac_read(ADI_REG_CLK_FREQ, &val);
+	dac_clk = val;
+	dac_read(ADI_REG_CLK_RATIO, &val);
+	dac_clk *= val * 100000000 / 65536;
+	sine_freq = dac_clk / (tx_count * 2);
+	xil_printf("dac_dma: Sine frequency is %d Hz.\n\r", sine_freq);
+
+	dac_write(ADI_REG_CHAN_CNTRL_7(0), 2);
+	dac_write(ADI_REG_CHAN_CNTRL_7(1), 2);
+	dac_write(ADI_REG_CNTRL_1, 0x0);
+	dac_write(ADI_REG_CNTRL_1, 0x1);
+
+	END1 = DDRDAC_BASEADDR + tx_count*4;
+	END2 = DDRDAC_BASEADDR + BUFFER_GAP + tx_count*4;
+
+
+	while(1)
+	{
+		current_src_add = Xil_In32(baddr + AXI_DMAC_REG_CURRENT_SRC_ADDR);
+//		xil_printf("%u\r\n", current_src_add);
+		if (current_src_add == END1)
+		{
+			Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR + BUFFER_GAP);
+			Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+		}
+		else if(current_src_add == END2)
+		{
+			Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR);
+			Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+		}
+	}
+
+}
+
+
+
+
 /**************************************************************************//**
 * @brief Puts the DAC in SED mode and verifies the correctness of the samples
 *
@@ -680,6 +772,55 @@ void adc_capture(uint32_t sel, uint32_t size, uint32_t start_address)
 	microblaze_invalidate_dcache();
 #endif
 }
+
+//void adc_capture_cyclic(uint32_t sel, uint32_t size, uint32_t start_address)
+//{
+//	uint32_t baddr;
+//	uint32_t reg_val;
+//	uint32_t transfer_id;
+//
+//	baddr = ((sel == IICSEL_B1HPC_AXI)||(sel == IICSEL_B1HPC_PS7)) ? DMA9643_1_BASEADDR : DMA9643_0_BASEADDR;
+//
+//	// CYCLIC
+//	Xil_Out32(baddr + AXI_DMAC_REG_FLAGS, 0x1);
+//
+//
+//	Xil_Out32(baddr + AXI_DMAC_REG_CTRL, 0x0);
+//	Xil_Out32(baddr + AXI_DMAC_REG_CTRL, AXI_DMAC_CTRL_ENABLE);
+//
+//	Xil_Out32(baddr + AXI_DMAC_REG_IRQ_MASK, 0x0);
+//
+//	transfer_id = Xil_In32(baddr + AXI_DMAC_REG_TRANSFER_ID);
+//	reg_val = Xil_In32(baddr + AXI_DMAC_REG_IRQ_PENDING);
+//	Xil_Out32(baddr + AXI_DMAC_REG_IRQ_PENDING, reg_val);
+//
+//	Xil_Out32(baddr + AXI_DMAC_REG_DEST_ADDRESS, start_address);
+//	Xil_Out32(baddr + AXI_DMAC_REG_DEST_STRIDE, 0x0);
+//	Xil_Out32(baddr + AXI_DMAC_REG_X_LENGTH, (size * 8) - 1);
+//	Xil_Out32(baddr + AXI_DMAC_REG_Y_LENGTH, 0x0);
+//
+//	Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+//	/* Wait until the new transfer is queued. */
+//	do {
+//		reg_val = Xil_In32(baddr + AXI_DMAC_REG_START_TRANSFER);
+//	}
+//	while(reg_val == 1);
+//
+//	/* Wait until the current transfer is completed. */
+//	do {
+//		reg_val = Xil_In32(baddr + AXI_DMAC_REG_IRQ_PENDING);
+//	}
+//	while(reg_val != (AXI_DMAC_IRQ_SOT | AXI_DMAC_IRQ_EOT));
+//	Xil_Out32(baddr + AXI_DMAC_REG_IRQ_PENDING, reg_val);
+//
+//	/* Wait until the transfer with the ID transfer_id is completed. */
+//	do {
+//		reg_val = Xil_In32(baddr + AXI_DMAC_REG_TRANSFER_DONE);
+//	}
+//	while((reg_val & (1 << transfer_id)) != (1 << transfer_id));
+//	Xil_DCacheFlush();
+//
+//}
 
 /**************************************************************************//**
 * @brief Tests the communication with the ADC
