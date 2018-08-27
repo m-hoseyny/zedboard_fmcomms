@@ -181,8 +181,6 @@ int main()
 
     xil_printf("\n\rFinished XCOMM Test Program\n\r");
 
-    delay_ms(5000);
-    double_buffer_dac_dma_setup(fmcSel);
 
     cnt = 0;
 

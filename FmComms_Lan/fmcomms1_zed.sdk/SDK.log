@@ -135,3 +135,146 @@
 14:28:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 14:28:42 INFO  : Processor reset is completed for ps7_cortexa9_0
 14:30:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:42:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:42:41 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:43:29 INFO  : ps7_init is completed.
+15:43:29 INFO  : ps7_post_config is completed.
+15:43:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:48:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:52:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:36 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:58:36 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+18:09:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:18:18 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:18:20 INFO  : XSDB server has started successfully.
+15:22:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:23:14 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:23:28 INFO  : ps7_init is completed.
+15:23:28 INFO  : ps7_post_config is completed.
+15:23:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:24:39 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:24:43 INFO  : XSDB server has started successfully.
+15:24:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:30:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:36:05 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:36:09 INFO  : ps7_init is completed.
+15:36:09 INFO  : ps7_post_config is completed.
+15:36:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:38:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:39:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:44:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:28:31 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:28:35 INFO  : XSDB server has started successfully.
+16:28:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+16:29:00 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+16:29:14 INFO  : ps7_init is completed.
+16:29:14 INFO  : ps7_post_config is completed.
+16:29:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:11:11 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+18:11:11 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+09:57:23 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:57:27 INFO  : XSDB server has started successfully.
+11:54:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+11:54:36 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+11:55:47 INFO  : ps7_init is completed.
+11:55:47 INFO  : ps7_post_config is completed.
+11:55:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:00:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:00:54 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+12:00:57 INFO  : ps7_init is completed.
+12:00:57 INFO  : ps7_post_config is completed.
+12:00:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:04:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:08:58 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:13:32 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:13:34 INFO  : XSDB server has started successfully.
+12:16:53 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:16:55 INFO  : XSDB server has started successfully.
+13:34:18 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:34:20 INFO  : XSDB server has started successfully.
+13:34:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+13:34:38 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+13:34:45 INFO  : ps7_init is completed.
+13:34:45 INFO  : ps7_post_config is completed.
+13:34:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:44:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:44:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:49:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:55:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:55:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+13:55:47 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+13:56:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:56:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:56:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:57:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+13:57:18 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+13:57:21 INFO  : ps7_init is completed.
+13:57:21 INFO  : ps7_post_config is completed.
+13:57:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:58:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:58:08 INFO  : Processor reset is completed for ps7_cortexa9_0

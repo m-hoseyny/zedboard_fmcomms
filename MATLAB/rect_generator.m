@@ -24,3 +24,5 @@ write_file(rect_i, [signal, '/', signal, '_i.txt']);
 
 
 ethernet_write(rect_i, rect_q);
+
+close all

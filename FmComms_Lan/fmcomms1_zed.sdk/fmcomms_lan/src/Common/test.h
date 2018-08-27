@@ -218,5 +218,6 @@ void delay_ms(uint32_t ms_count);
 void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[]);
 void double_buffer_dac_dma_setup(uint32_t sel);
 void adc_capture_cyclic(uint32_t sel, uint32_t size, uint32_t start_address);
+void double_buffer_dac_dma_setup_circular(uint32_t sel);
 
 #endif /*__TEST_H__*/

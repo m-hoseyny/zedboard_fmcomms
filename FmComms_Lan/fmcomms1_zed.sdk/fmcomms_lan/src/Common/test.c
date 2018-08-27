@@ -595,6 +595,99 @@ void double_buffer_dac_dma_setup(uint32_t sel)
 
 
 
+
+void double_buffer_dac_dma_setup_circular(uint32_t sel)
+{
+	#define BUFFER_GAP 1024*4
+	uint32_t baddr;
+	uint32_t index;
+	uint32_t tx_count;
+	uint32_t data_i;
+	uint32_t data_q;
+	uint32_t dac_clk;
+	uint32_t val;
+	uint32_t sine_freq;
+	uint32_t hdl_version;
+	uint32_t current_src_add , END1, END2;
+	int flag = 0;
+
+	dac_base_addr = ((sel == IICSEL_B1HPC_AXI)||(sel == IICSEL_B1HPC_PS7)) ?
+					CFAD9122_1_BASEADDR : CFAD9122_0_BASEADDR;
+
+	dac_read(ADI_REG_VERSION, &hdl_version);
+
+	tx_count = SIGNAL_LENGTH/2;
+	for(index = 0; index < tx_count; index ++)
+	{
+		data_i = (sine_lut_i_buf1[index] << 16);
+		data_q = (sine_lut_q_buf1[index] << 0);
+		Xil_Out32(DDRDAC_BASEADDR + index * 4, data_i | data_q);
+	}
+	for(index = 0; index < tx_count; index ++)
+	{
+		data_i = (sine_lut_i_buf2[index] << 16);
+		data_q = (sine_lut_q_buf2[index] << 0);
+		Xil_Out32(DDRDAC_BASEADDR + BUFFER_GAP + index * 4, data_i | data_q);
+	}
+
+
+	Xil_DCacheFlush();
+
+	baddr = ((sel == IICSEL_B1HPC_AXI)||(sel == IICSEL_B1HPC_PS7)) ? DMA9122_1_BASEADDR : DMA9122_0_BASEADDR;
+
+	// None Cycle:
+	Xil_Out32(baddr + AXI_DMAC_REG_FLAGS, 0x2);
+
+	Xil_Out32(baddr + AXI_DMAC_REG_CTRL, AXI_DMAC_CTRL_ENABLE);
+	Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR);
+	Xil_Out32(baddr + AXI_DMAC_REG_SRC_STRIDE, 0);
+	Xil_Out32(baddr + AXI_DMAC_REG_X_LENGTH, (tx_count * 4) - 1);
+	Xil_Out32(baddr + AXI_DMAC_REG_Y_LENGTH, 0x0);
+	Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+
+
+
+	dac_read(ADI_REG_CLK_FREQ, &val);
+	dac_clk = val;
+	dac_read(ADI_REG_CLK_RATIO, &val);
+	dac_clk *= val * 100000000 / 65536;
+	sine_freq = dac_clk / (tx_count * 2);
+	xil_printf("dac_dma: Sine frequency is %d Hz.\n\r", sine_freq);
+
+	dac_write(ADI_REG_CHAN_CNTRL_7(0), 2);
+	dac_write(ADI_REG_CHAN_CNTRL_7(1), 2);
+	dac_write(ADI_REG_CNTRL_1, 0x0);
+	dac_write(ADI_REG_CNTRL_1, 0x1);
+
+	END1 = DDRDAC_BASEADDR + tx_count*4;
+	END2 = DDRDAC_BASEADDR + BUFFER_GAP + tx_count*4;
+
+
+	while(1)
+	{
+		current_src_add = Xil_In32(baddr + AXI_DMAC_REG_IRQ_PENDING);
+		while(current_src_add != (AXI_DMAC_IRQ_SOT | AXI_DMAC_IRQ_EOT))
+			current_src_add = Xil_In32(baddr + AXI_DMAC_REG_IRQ_PENDING);
+//		xil_printf("%u\r\n", current_src_add);
+
+		if(flag / 2 == 0)
+		{
+			Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR + BUFFER_GAP);
+			Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+		}
+		else
+		{
+			Xil_Out32(baddr + AXI_DMAC_REG_SRC_ADDRESS, DDRDAC_BASEADDR);
+			Xil_Out32(baddr + AXI_DMAC_REG_START_TRANSFER, 0x1);
+		}
+		flag++;
+	}
+
+}
+
+
+
+
 /**************************************************************************//**
 * @brief Puts the DAC in SED mode and verifies the correctness of the samples
 *

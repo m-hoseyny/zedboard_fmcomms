@@ -7013,3 +7013,1294 @@ arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
 14:30:12 **** Incremental Build of configuration Debug for project fmcomms_lan ****
 make all 
 make: Nothing to be done for `all'.
+15:17:18 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:17:27 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c:599:6: error: redefinition of 'double_buffer_dac_dma_setup'
+ void double_buffer_dac_dma_setup(uint32_t sel)
+      ^
+../src/Common/test.c:511:6: note: previous definition of 'double_buffer_dac_dma_setup' was here
+ void double_buffer_dac_dma_setup(uint32_t sel)
+      ^
+make: *** [src/Common/test.o] Error 1
+15:18:05 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:18:12 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:38:17 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_cyrculatr':
+../src/Common/test.c:668:9: error: 'reg_val2' undeclared (first use in this function)
+   while(reg_val2 != (AXI_DMAC_IRQ_SOT | AXI_DMAC_IRQ_EOT))
+         ^
+../src/Common/test.c:668:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Common/test.o] Error 1
+15:38:30 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_cyrculatr':
+../src/Common/test.c:668:9: error: 'reg_val2' undeclared (first use in this function)
+   while(reg_val2 != (AXI_DMAC_IRQ_SOT | AXI_DMAC_IRQ_EOT))
+         ^
+../src/Common/test.c:668:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Common/test.o] Error 1
+15:38:36 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:40:43 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_cyrculatr':
+../src/Common/test.c:612:6: warning: unused variable 'flag' [-Wunused-variable]
+  int flag = 0;
+      ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:41:27 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_cyrculatr':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:42:11 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circulatr':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:42:14 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circulatr':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:42:19 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:43:28 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:46:39 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:47:44 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:185:5: warning: implicit declaration of function 'double_buffer_dac_dma_setup_circular' [-Wimplicit-function-declaration]
+     double_buffer_dac_dma_setup_circular(fmcSel);
+     ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/Common/main.o: In function `main':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:185: undefined reference to `double_buffer_dac_dma_setup_circular'
+collect2.exe: error: ld returned 1 exit status
+make: *** [fmcomms_lan.elf] Error 1
+15:47:59 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:48:02 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:48:46 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177372	   3652	2218272	2399296	 249c40	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:48:48 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:50:57 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177372	   3652	2218272	2399296	 249c40	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:51:02 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:52:04 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177372	   3652	2218272	2399296	 249c40	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:52:07 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:52:29 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+11:17:01 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177260	   3652	2218272	2399184	 249bd0	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:10:19 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177260	   3652	2218272	2399184	 249bd0	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:18:43 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:19:52 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:98:21: warning: unused variable 'rpcb' [-Wunused-variable]
+     struct tcp_pcb *rpcb;
+                     ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:20:18 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:20:33 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:20:41 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:20:56 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:104:8: error: too few arguments to function 'lan_init'
+     if(lan_init() < 0)
+        ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:60:5: note: declared here
+ int lan_init(struct tcp_pcb *rpcb);
+     ^
+../src/Common/main.c:98:21: warning: unused variable 'rpcb' [-Wunused-variable]
+     struct tcp_pcb *rpcb;
+                     ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+make: *** [src/Common/main.o] Error 1
+15:21:01 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:104:8: warning: 'rpcb' is used uninitialized in this function [-Wuninitialized]
+     if(lan_init(rpcb) < 0)
+        ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:21:35 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:105:8: warning: 'rpcb' is used uninitialized in this function [-Wuninitialized]
+     if(lan_init(rpcb) < 0)
+        ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:22:17 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:213:19: error: 'rtcp' undeclared (first use in this function)
+         tcp_write(rtcp, "Complete", 12, 1);
+                   ^
+../src/Common/main.c:213:19: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+make: *** [src/Common/main.o] Error 1
+15:22:31 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:105:8: warning: 'rpcb' is used uninitialized in this function [-Wuninitialized]
+     if(lan_init(rpcb) < 0)
+        ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:23:19 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:24:45 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:30:30 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:30:35 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:34:56 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+15:36:08 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:38:20 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:39:27 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+15:44:11 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+16:29:04 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+09:57:18 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+11:55:38 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+12:00:55 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+12:04:08 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+12:19:53 **** Build of project fmcomms_lan_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling lwip src and adapter files"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+12:20:21 **** Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/adc_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/adc_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/adc_core.d" -MT"src/Common/adc_core.d" -o "src/Common/adc_core.o" "../src/Common/adc_core.c"
+'Finished building: ../src/Common/adc_core.c'
+' '
+'Building file: ../src/Common/dac_core.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/dac_core.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/dac_core.d" -MT"src/Common/dac_core.d" -o "src/Common/dac_core.o" "../src/Common/dac_core.c"
+'Finished building: ../src/Common/dac_core.c'
+' '
+'Building file: ../src/Common/i2c_access.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_access.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_access.d" -MT"src/Common/i2c_access.d" -o "src/Common/i2c_access.o" "../src/Common/i2c_access.c"
+'Finished building: ../src/Common/i2c_access.c'
+' '
+'Building file: ../src/Common/i2c_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_axi.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_axi.d" -MT"src/Common/i2c_axi.d" -o "src/Common/i2c_axi.o" "../src/Common/i2c_axi.c"
+'Finished building: ../src/Common/i2c_axi.c'
+' '
+'Building file: ../src/Common/i2c_ps7.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/i2c_ps7.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/i2c_ps7.d" -MT"src/Common/i2c_ps7.d" -o "src/Common/i2c_ps7.o" "../src/Common/i2c_ps7.c"
+'Finished building: ../src/Common/i2c_ps7.c'
+' '
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:105:8: warning: 'rpcb' is used uninitialized in this function [-Wuninitialized]
+     if(lan_init(rpcb) < 0)
+        ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/mmcm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/mmcm.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/mmcm.d" -MT"src/Common/mmcm.d" -o "src/Common/mmcm.o" "../src/Common/mmcm.c"
+'Finished building: ../src/Common/mmcm.c'
+' '
+'Building file: ../src/Common/platform_zynq.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/platform_zynq.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/platform_zynq.d" -MT"src/Common/platform_zynq.d" -o "src/Common/platform_zynq.o" "../src/Common/platform_zynq.c"
+'Finished building: ../src/Common/platform_zynq.c'
+' '
+'Building file: ../src/Common/platform_zynqmp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/platform_zynqmp.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/platform_zynqmp.d" -MT"src/Common/platform_zynqmp.d" -o "src/Common/platform_zynqmp.o" "../src/Common/platform_zynqmp.c"
+'Finished building: ../src/Common/platform_zynqmp.c'
+' '
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building file: ../src/Common/sfp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/sfp.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/sfp.d" -MT"src/Common/sfp.d" -o "src/Common/sfp.o" "../src/Common/sfp.c"
+'Finished building: ../src/Common/sfp.c'
+' '
+'Building file: ../src/Common/si5324.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/si5324.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/si5324.d" -MT"src/Common/si5324.d" -o "src/Common/si5324.o" "../src/Common/si5324.c"
+'Finished building: ../src/Common/si5324.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+12:20:28 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:34:40 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:44:49 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:47:49 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+../src/Common/lan.c: In function 'lan_init':
+../src/Common/lan.c:33:1: error: number of arguments doesn't match prototype
+ {
+ ^
+In file included from ../src/Common/lan.c:9:0:
+../src/Common/lan.h:60:5: error: prototype declaration
+ int lan_init(struct tcp_pcb *rpcb);
+     ^
+make: *** [src/Common/lan.o] Error 1
+13:47:55 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:105:8: warning: 'rpcb' is used uninitialized in this function [-Wuninitialized]
+     if(lan_init(rpcb) < 0)
+        ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177332	   3652	2218272	2399256	 249c18	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:48:10 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:212:19: error: 'rpcb' undeclared (first use in this function)
+         tcp_write(rpcb, "Complete", 12, 1);
+                   ^
+../src/Common/main.c:212:19: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+make: *** [src/Common/main.o] Error 1
+13:48:20 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177324	   3652	2218272	2399248	 249c10	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:49:47 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177260	   3652	2218272	2399184	 249bd0	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:49:52 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:54:20 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+In file included from ../src/Common/recive_lan_callback.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/Common/recive_lan_callback.o: In function `show_signal':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:58: multiple definition of `show_signal'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:59: first defined here
+./src/Common/recive_lan_callback.o: In function `print_ram':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:69: multiple definition of `print_ram'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:70: first defined here
+./src/Common/recive_lan_callback.o: In function `main':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:83: multiple definition of `main'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:84: first defined here
+./src/Common/lan.o: In function `lan_init':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:65: undefined reference to `print_app_header'
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:113: undefined reference to `start_application'
+./src/Common/main.o: In function `main':
+main.c:(.text+0x5d0): undefined reference to `transfer_data'
+./src/Common/recive_lan_callback.o: In function `main':
+recive_lan_callback.c:(.text+0x5bc): undefined reference to `transfer_data'
+collect2.exe: error: ld returned 1 exit status
+make: *** [fmcomms_lan.elf] Error 1
+13:54:24 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/Common/recive_lan_callback.o: In function `show_signal':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:58: multiple definition of `show_signal'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:58: first defined here
+./src/Common/recive_lan_callback.o: In function `print_ram':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:69: multiple definition of `print_ram'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:69: first defined here
+./src/Common/recive_lan_callback.o: In function `main':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:83: multiple definition of `main'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:83: first defined here
+./src/Common/lan.o: In function `lan_init':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:65: undefined reference to `print_app_header'
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:113: undefined reference to `start_application'
+./src/Common/main.o: In function `main':
+main.c:(.text+0x5bc): undefined reference to `transfer_data'
+./src/Common/recive_lan_callback.o: In function `main':
+recive_lan_callback.c:(.text+0x5bc): undefined reference to `transfer_data'
+collect2.exe: error: ld returned 1 exit status
+make: *** [fmcomms_lan.elf] Error 1
+13:54:42 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/Common/recive_lan_callback.o: In function `show_signal':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:58: multiple definition of `show_signal'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:58: first defined here
+./src/Common/recive_lan_callback.o: In function `print_ram':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:69: multiple definition of `print_ram'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:69: first defined here
+./src/Common/recive_lan_callback.o: In function `main':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:83: multiple definition of `main'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:83: first defined here
+./src/Common/lan.o: In function `lan_init':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:65: undefined reference to `print_app_header'
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:113: undefined reference to `start_application'
+./src/Common/main.o: In function `main':
+main.c:(.text+0x5bc): undefined reference to `transfer_data'
+./src/Common/recive_lan_callback.o: In function `main':
+recive_lan_callback.c:(.text+0x5bc): undefined reference to `transfer_data'
+collect2.exe: error: ld returned 1 exit status
+make: *** [fmcomms_lan.elf] Error 1
+13:54:49 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+In file included from ../src/Common/recive_lan_callback.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/Common/recive_lan_callback.o: In function `show_signal':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:58: multiple definition of `show_signal'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:58: first defined here
+./src/Common/recive_lan_callback.o: In function `print_ram':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:69: multiple definition of `print_ram'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:69: first defined here
+./src/Common/recive_lan_callback.o: In function `main':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/recive_lan_callback.c:83: multiple definition of `main'
+./src/Common/main.o:E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/main.c:83: first defined here
+./src/Common/lan.o: In function `lan_init':
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:65: undefined reference to `print_app_header'
+E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\Debug/../src/Common/lan.c:113: undefined reference to `start_application'
+./src/Common/main.o: In function `main':
+main.c:(.text+0x5bc): undefined reference to `transfer_data'
+./src/Common/recive_lan_callback.o: In function `main':
+recive_lan_callback.c:(.text+0x5bc): undefined reference to `transfer_data'
+collect2.exe: error: ld returned 1 exit status
+make: *** [fmcomms_lan.elf] Error 1
+13:55:39 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:56:07 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/lan.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/lan.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/lan.d" -MT"src/Common/lan.d" -o "src/Common/lan.o" "../src/Common/lan.c"
+'Finished building: ../src/Common/lan.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 177308	   3652	2218272	2399232	 249c00	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+13:56:09 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:56:52 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:57:20 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+13:58:06 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.

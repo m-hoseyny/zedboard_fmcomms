@@ -89,3 +89,21 @@
 10:56:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
 10:56:58 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 10:57:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:22 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:09:24 INFO  : XSDB server has started successfully.
+12:09:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:09:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:09:49 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:10:07 INFO  : ps7_init is completed.
+12:10:07 INFO  : ps7_post_config is completed.
+12:10:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:13:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:16:25 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:16:27 INFO  : XSDB server has started successfully.
+12:20:45 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:20:47 INFO  : XSDB server has started successfully.
+12:20:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+12:21:05 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/lwipRTOS_Yahya_stable/lwipRTOS.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:21:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

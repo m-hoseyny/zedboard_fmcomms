@@ -15,6 +15,10 @@
 		<item value="false" key="caseSensitive"/>
 		<item value="227191" key="searchFlags"/>
 		<list key="previousPatterns">
+			<item value="tcp_arg"/>
+			<item value="tcp_args"/>
+			<item value="tcp_send"/>
+			<item value="print_app_header"/>
 			<item value="tcp_write"/>
 			<item value="8"/>
 			<item value="echoc"/>

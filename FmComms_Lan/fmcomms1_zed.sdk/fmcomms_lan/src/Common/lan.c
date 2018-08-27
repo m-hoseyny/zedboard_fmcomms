@@ -96,7 +96,7 @@ int lan_init()
 		if ((echo_netif->ip_addr.addr) == 0) {
 			xil_printf("DHCP Timeout\r\n");
 			xil_printf("Configuring default IP of 192.168.1.10\r\n");
-			IP4_ADDR(&(echo_netif->ip_addr),  192, 168,   1, 11);
+			IP4_ADDR(&(echo_netif->ip_addr),  192, 168,   1, 10);
 			IP4_ADDR(&(echo_netif->netmask), 255, 255, 255,  0);
 			IP4_ADDR(&(echo_netif->gw),      192, 168,   1,  1);
 		}
@@ -136,5 +136,4 @@ int lan_init()
 //
 ///* never reached */
 //cleanup_platform();
-
 
