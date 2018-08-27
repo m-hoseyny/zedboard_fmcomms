@@ -1,6 +1,6 @@
-13:58:06 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+14:25:26 **** Incremental Build of configuration Debug for project fmcomms_lan ****
 make all 
 make: Nothing to be done for `all'.
 
-13:58:07 Build Finished (took 309ms)
+14:25:26 Build Finished (took 251ms)
 

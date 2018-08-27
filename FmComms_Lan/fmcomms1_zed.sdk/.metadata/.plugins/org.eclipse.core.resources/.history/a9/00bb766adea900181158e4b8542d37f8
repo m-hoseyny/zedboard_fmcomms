@@ -183,7 +183,7 @@ int main()
 
 
     cnt = 0;
-    unsigned char sendBytes[12]= "Complete";
+    unsigned char sendBytes[9]= "Complete";
     while (1) {
     	if (TcpFastTmrFlag) {
     		tcp_fasttmr();
@@ -206,7 +206,7 @@ int main()
 
     			if(cnt == SIGNAL_LENGTH*2-1)
     			{
-					tcp_write(rtcp, sendBytes, 12, 1);
+					tcp_write(rtcp, sendBytes, 9, 1);
     				custom_dac_dma_setup(fmcSel, signal_i, signal_q);
     				delay_ms(100);
     				print_ram(SIGNAL_LENGTH*2, 4, DDRDAC_BASEADDR);

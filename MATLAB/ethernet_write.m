@@ -1,4 +1,4 @@
-function [] = ethernet_write(sig_i, sig_q)
+function [t] = ethernet_write(sig_i, sig_q)
     display('Sending Data via ethernet')
     t = tcpip('192.168.1.10', 7, 'NetworkRole', 'client');
     fopen(t);
@@ -9,5 +9,5 @@ function [] = ethernet_write(sig_i, sig_q)
         pause(0.001)
     end
     display('Finished Sending Data via ethernet')
-%     fread(t, 8, '*char')
+    pause(1);
 end

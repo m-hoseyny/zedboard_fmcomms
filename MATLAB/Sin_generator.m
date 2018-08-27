@@ -24,5 +24,7 @@ mkdir(dir);
 write_file(sine_q, [dir, '/new_sine_q.txt']);
 write_file(sine_i, [dir, '/new_sine_i.txt']);
 
-ethernet_write(sine_i, sine_q);
+t = ethernet_write(sine_i, sine_q);
+data = fread(t, 12);
+data = char(data);
 close all

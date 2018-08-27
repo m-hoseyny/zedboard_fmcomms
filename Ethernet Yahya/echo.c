@@ -32,14 +32,12 @@
 
 #include <stdio.h>
 #include <string.h>
-
+#include "variable.h"
 #include "lwip/err.h"
 #include "lwip/tcp.h"
 #if defined (__arm__) || defined (__aarch64__)
 #include "xil_printf.h"
 #endif
-
-#include "shared_variables.h"
 
 int transfer_data() {
 	return 0;
@@ -64,11 +62,35 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 	/* indicate that the packet has been received */
 	tcp_recved(tpcb, p->len);
 
+	/* echo back the payload */
+	unsigned char sendBytes[12]= "KiaKalleKiri";
+	/* in this case, we assume that the payload is < TCP_SND_BUF */
 	if (tcp_sndbuf(tpcb) > p->len) {
-		lan_input_flag = 1;
-		lan_input = atoi((char *)p->payload);
-		//xil_printf("input data is : %d\r\n", lan_input);
-		//err = tcp_write(tpcb, p->payload, p->len, 1);
+		//printf("%s\n", (char *)p->payload );
+		flag = 1;
+		err = tcp_write(rtcp, sendBytes, 12, 1);
+		/*unsigned int i = 0;
+		if (iq == 0)
+		{
+			for (i = 0; i < 256; i = i + 2)
+			{
+				storageDataI[i/2] = (*((char *)p->payload + i)) << 8;
+				storageDataI[i/2] = storageDataI[i/2] + (*((char *)p->payload + i + 1));
+			}
+			flag++;
+			iq = 1;
+		}
+		else if (iq == 1)
+		{
+			for (i = 0; i < 256; i = i + 2)
+				{
+					storageDataQ[i/2] = (*((char *)p->payload + i)) << 8;
+					storageDataQ[i/2] = storageDataQ[i/2] + (*((char *)p->payload + i + 1));
+				}
+				flag++;
+				iq = 0;
+		}*/
+
 	} else
 		xil_printf("no space in tcp_sndbuf\n\r");
 
@@ -128,7 +150,6 @@ int start_application()
 
 	/* specify callback to use for incoming connections */
 	tcp_accept(pcb, accept_callback);
-
 	xil_printf("TCP echo server started @ port %d\n\r", port);
 
 	return 0;

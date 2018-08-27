@@ -81,7 +81,7 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err)
 {
 	static int connection = 1;
-	rtcp = newpcb;
+
 	/* set the receive callback for this connection */
 	tcp_recv(newpcb, recv_callback);
 
