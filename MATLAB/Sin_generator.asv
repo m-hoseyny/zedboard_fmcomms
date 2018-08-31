@@ -25,5 +25,7 @@ write_file(sine_q, [dir, '/new_sine_q.txt']);
 write_file(sine_i, [dir, '/new_sine_i.txt']);
 
 t = ethernet_write(sine_i, sine_q);
-[s_i, s_q] = ethernet_read(t, 128);
+% data = fread(t, 12);
+% data = char(data);
+s_i
 close all

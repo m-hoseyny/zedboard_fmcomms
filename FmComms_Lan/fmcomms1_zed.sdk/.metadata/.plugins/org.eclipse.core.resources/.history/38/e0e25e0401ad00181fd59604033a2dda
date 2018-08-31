@@ -79,13 +79,12 @@ void print_ram(uint32_t size, int steps, uint32_t start_address)
 void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
 {
 	int i;
-	unsigned char sending_data[30] = {'\0'};
+	unsigned char sending_data[10] = {'\0'};
 	xil_printf("\r\n\r\n\r\n--------------------- Sending Data via Enthernet ---------------------\r\n");
 	for(i = 0; i < SIGNAL_LENGTH; i++)
 	{
-		sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
-		printf("data : %s", sending_data);
-		tcp_write(pcb, sending_data, 30, 1);
+		sprintf(sending_data, "%u,%u", s_i[i], s_q[i]);
+		tcp_write(pcb, sending_data, 10, 1);
 		delay_ms(10);
 	}
 
@@ -221,7 +220,7 @@ int main()
 
     			if(cnt == SIGNAL_LENGTH*2-1)
     			{
-					//tcp_write(rtcp, sendBytes, 12, 1);
+					tcp_write(rtcp, sendBytes, 12, 1);
     				custom_dac_dma_setup(fmcSel, signal_i, signal_q);
     				delay_ms(100);
     				print_ram(SIGNAL_LENGTH*2, 4, DDRDAC_BASEADDR);
@@ -229,7 +228,7 @@ int main()
     				adc_capture(fmcSel, 16384, DDR_BASEADDR);
     				delay_ms(2000);
     				print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
-    				send_data_ethernet(rtcp, signal_i, signal_q);
+    				send_data_ethernet(rtcp, signal_i, signal_q)''
     			}
     			cnt ++;
     			lan_input_flag = 0;
