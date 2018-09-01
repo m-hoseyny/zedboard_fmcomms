@@ -66,28 +66,28 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 
 	if (tcp_sndbuf(tpcb) > p->len) {
 			//err = tcp_write(tpcb, p->payload, p->len, 1);
-			unsigned int i = 0;
-			if (iq == 0)
-			{
-				for (i = 0; i < 256; i = i + 2)
-				{
-					storageDataI[i/2] = (*((char *)p->payload + i)) << 8;
-					storageDataI[i/2] = storageDataI[i/2] + (*((char *)p->payload + i + 1));
-				}
-				flag++;
-				iq = 1;
-			}
-			else if (iq == 1)
-			{
-				for (i = 0; i < 256; i = i + 2)
-					{
-						storageDataQ[i/2] = (*((char *)p->payload + i)) << 8;
-						storageDataQ[i/2] = storageDataQ[i/2] + (*((char *)p->payload + i + 1));
-					}
-					flag++;
-					iq = 0;
-					lan_input_flag = 1;
-			}
+//			unsigned int i = 0;
+//			if (iq == 0)
+//			{
+//				for (i = 0; i < 256; i = i + 2)
+//				{
+//					storageDataI[i/2] = (*((char *)p->payload + i)) << 8;
+//					storageDataI[i/2] = storageDataI[i/2] + (*((char *)p->payload + i + 1));
+//				}
+//				flag++;
+//				iq = 1;
+//			}
+//			else if (iq == 1)
+//			{
+//				for (i = 0; i < 256; i = i + 2)
+//					{
+//						storageDataQ[i/2] = (*((char *)p->payload + i)) << 8;
+//						storageDataQ[i/2] = storageDataQ[i/2] + (*((char *)p->payload + i + 1));
+//					}
+//					flag++;
+//					iq = 0;
+//					lan_input_flag = 1;
+//			}
 
 		} else
 			xil_printf("no space in tcp_sndbuf\n\r");
@@ -101,7 +101,7 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err)
 {
 	static int connection = 1;
-	rtcp = newpcb;
+//	rtcp = newpcb;
 	/* set the receive callback for this connection */
 	tcp_recv(newpcb, recv_callback);
 

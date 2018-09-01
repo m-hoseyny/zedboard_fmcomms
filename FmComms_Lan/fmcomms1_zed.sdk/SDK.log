@@ -304,3 +304,5 @@ java.lang.RuntimeException: Error in Resetting Target
 09:47:30 INFO  : ps7_init is completed.
 09:47:30 INFO  : ps7_post_config is completed.
 09:47:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:51:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:51:41 INFO  : Processor reset is completed for ps7_cortexa9_0

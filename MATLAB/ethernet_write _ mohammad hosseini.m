@@ -1,4 +1,4 @@
-function [t] = ethernet_write(sig_i, sig_q)
+function [t] = ethernet_write_mohammad(sig_i, sig_q)
     display('Sending Data via ethernet')
     t = tcpip('192.168.1.10', 7, 'NetworkRole', 'client');
     fopen(t);

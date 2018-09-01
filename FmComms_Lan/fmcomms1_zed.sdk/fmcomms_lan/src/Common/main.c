@@ -221,7 +221,7 @@ int main()
 			adc_capture(fmcSel, 16384, DDR_BASEADDR);
 			delay_ms(2000);
 			print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
-			send_data_ethernet(rtcp, storageDataI, storageDataQ);
+//			send_data_ethernet(rtcp, storageDataI, storageDataQ);
 			lan_input_flag = 0;
 		}
 
