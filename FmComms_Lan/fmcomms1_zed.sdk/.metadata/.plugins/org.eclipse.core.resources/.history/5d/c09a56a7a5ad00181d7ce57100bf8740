@@ -19,5 +19,6 @@ extern volatile unsigned int storageDataQ[128];
 extern volatile unsigned char iq;
 extern volatile  struct tcp_pcb *rtcp;
 extern volatile unsigned char flag;
+extern volatile unsigned char iq;
 
 #endif /* SHARED_VARIABLES_H_ */
