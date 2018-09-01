@@ -9897,3 +9897,513 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_z
  extern volatile unsigned char iq = 0;
                                ^
 make: *** [src/Common/shared_variables.o] Error 1
+09:42:49 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/shared_variables.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/shared_variables.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/shared_variables.d" -MT"src/Common/shared_variables.d" -o "src/Common/shared_variables.o" "../src/Common/shared_variables.c"
+../src/Common/shared_variables.c:12:26: warning: 'lan_input' initialized and declared 'extern'
+ extern volatile uint16_t lan_input = 0;
+                          ^
+../src/Common/shared_variables.c:13:21: warning: 'lan_input_flag' initialized and declared 'extern'
+ extern volatile int lan_input_flag = 0;
+                     ^
+../src/Common/shared_variables.c:14:31: warning: 'iq' initialized and declared 'extern'
+ extern volatile unsigned char iq = 0;
+                               ^
+../src/Common/shared_variables.c:15:34: warning: 'rtcp' initialized and declared 'extern'
+ extern volatile  struct tcp_pcb *rtcp = 0;
+                                  ^
+../src/Common/shared_variables.c:16:30: warning: 'storageDataI' initialized and declared 'extern'
+ extern volatile unsigned int storageDataI[128] = {0};
+                              ^
+../src/Common/shared_variables.c:17:30: warning: 'storageDataQ' initialized and declared 'extern'
+ extern volatile unsigned int storageDataQ[128] = {0};
+                              ^
+../src/Common/shared_variables.c:18:31: warning: 'flag' initialized and declared 'extern'
+ extern volatile unsigned char flag = 0;
+                               ^
+'Finished building: ../src/Common/shared_variables.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214880	   3780	2218272	2436932	 252f44	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:43:25 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214880	   3780	2218272	2436932	 252f44	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:44:04 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:223:24: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+     send_data_ethernet(rtcp, signal_i, signal_q);
+                        ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+../src/Common/main.c: At top level:
+../src/Common/main.c:238:5: warning: data definition has no type or storage class
+     Xil_DCacheDisable();
+     ^
+../src/Common/main.c:238:5: warning: type defaults to 'int' in declaration of 'Xil_DCacheDisable' [-Wimplicit-int]
+../src/Common/main.c:238:5: error: conflicting types for 'Xil_DCacheDisable'
+In file included from ../src/Common/main.c:50:0:
+../../fmcomms_lan_bsp/ps7_cortexa9_0/include/xil_cache.h:60:6: note: previous declaration of 'Xil_DCacheDisable' was here
+ void Xil_DCacheDisable(void);
+      ^
+../src/Common/main.c:239:5: warning: data definition has no type or storage class
+     Xil_ICacheDisable();
+     ^
+../src/Common/main.c:239:5: warning: type defaults to 'int' in declaration of 'Xil_ICacheDisable' [-Wimplicit-int]
+../src/Common/main.c:239:5: error: conflicting types for 'Xil_ICacheDisable'
+In file included from ../src/Common/main.c:50:0:
+../../fmcomms_lan_bsp/ps7_cortexa9_0/include/xil_cache.h:67:6: note: previous declaration of 'Xil_ICacheDisable' was here
+ void Xil_ICacheDisable(void);
+      ^
+../src/Common/main.c:240:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^
+../src/Common/main.c:240:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/Common/main.c:240:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/Common/lan.h:18:0,
+                 from ../src/Common/main.c:54:
+../src/Common/platform.h:37:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^
+../src/Common/main.c:245:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^
+../src/Common/main.c:246:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+make: *** [src/Common/main.o] Error 1
+09:44:26 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:224:24: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+     send_data_ethernet(rtcp, signal_i, signal_q);
+                        ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214688	   3780	2218272	2436740	 252e84	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:44:32 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:224:23: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+    send_data_ethernet(rtcp, signal_i, signal_q);
+                       ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214688	   3780	2218272	2436740	 252e84	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:44:36 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:224:23: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+    send_data_ethernet(rtcp, signal_i, signal_q);
+                       ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214688	   3780	2218272	2436740	 252e84	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:45:03 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:224:23: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+    send_data_ethernet(rtcp, signal_i, signal_q);
+                       ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+'Finished building: ../src/Common/recive_lan_callback.c'
+' '
+'Building file: ../src/Common/shared_variables.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/shared_variables.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/shared_variables.d" -MT"src/Common/shared_variables.d" -o "src/Common/shared_variables.o" "../src/Common/shared_variables.c"
+../src/Common/shared_variables.c:12:26: warning: 'lan_input' initialized and declared 'extern'
+ extern volatile uint16_t lan_input = 0;
+                          ^
+../src/Common/shared_variables.c:13:21: warning: 'lan_input_flag' initialized and declared 'extern'
+ extern volatile int lan_input_flag = 0;
+                     ^
+../src/Common/shared_variables.c:14:31: warning: 'iq' initialized and declared 'extern'
+ extern volatile unsigned char iq = 0;
+                               ^
+../src/Common/shared_variables.c:15:34: warning: 'rtcp' initialized and declared 'extern'
+ extern volatile  struct tcp_pcb *rtcp = 0;
+                                  ^
+../src/Common/shared_variables.c:16:30: warning: 'storageDataI' initialized and declared 'extern'
+ extern volatile unsigned int storageDataI[128] = {0};
+                              ^
+../src/Common/shared_variables.c:17:30: warning: 'storageDataQ' initialized and declared 'extern'
+ extern volatile unsigned int storageDataQ[128] = {0};
+                              ^
+../src/Common/shared_variables.c:18:31: warning: 'flag' initialized and declared 'extern'
+ extern volatile unsigned char flag = 0;
+                               ^
+'Finished building: ../src/Common/shared_variables.c'
+' '
+'Building file: ../src/Common/test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/test.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/test.d" -MT"src/Common/test.d" -o "src/Common/test.o" "../src/Common/test.c"
+../src/Common/test.c: In function 'double_buffer_dac_dma_setup_circular':
+../src/Common/test.c:611:35: warning: variable 'END2' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                                   ^
+../src/Common/test.c:611:29: warning: variable 'END1' set but not used [-Wunused-but-set-variable]
+  uint32_t current_src_add , END1, END2;
+                             ^
+'Finished building: ../src/Common/test.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214688	   3780	2218272	2436740	 252e84	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:45:20 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:217:33: warning: passing argument 2 of 'custom_dac_dma_setup' from incompatible pointer type
+    custom_dac_dma_setup(fmcSel, storageDataI, storageDataQ);
+                                 ^
+In file included from ../src/Common/main.c:53:0:
+../src/Common/test.h:218:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[]);
+      ^
+../src/Common/main.c:217:47: warning: passing argument 3 of 'custom_dac_dma_setup' from incompatible pointer type
+    custom_dac_dma_setup(fmcSel, storageDataI, storageDataQ);
+                                               ^
+In file included from ../src/Common/main.c:53:0:
+../src/Common/test.h:218:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[]);
+      ^
+../src/Common/main.c:224:23: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                       ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:224:29: warning: passing argument 2 of 'send_data_ethernet' from incompatible pointer type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                             ^
+../src/Common/main.c:79:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:224:43: warning: passing argument 3 of 'send_data_ethernet' from incompatible pointer type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                                           ^
+../src/Common/main.c:79:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+../src/Common/main.c:104:39: warning: unused variable 'signal_q' [-Wunused-variable]
+     uint16_t signal_i[SIGNAL_LENGTH], signal_q[SIGNAL_LENGTH];
+                                       ^
+../src/Common/main.c:104:14: warning: unused variable 'signal_i' [-Wunused-variable]
+     uint16_t signal_i[SIGNAL_LENGTH], signal_q[SIGNAL_LENGTH];
+              ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214688	   3780	2218272	2436740	 252e84	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '
+09:45:36 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:217:33: warning: passing argument 2 of 'custom_dac_dma_setup' from incompatible pointer type
+    custom_dac_dma_setup(fmcSel, storageDataI, storageDataQ);
+                                 ^
+In file included from ../src/Common/main.c:53:0:
+../src/Common/test.h:218:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[]);
+      ^
+../src/Common/main.c:217:47: warning: passing argument 3 of 'custom_dac_dma_setup' from incompatible pointer type
+    custom_dac_dma_setup(fmcSel, storageDataI, storageDataQ);
+                                               ^
+In file included from ../src/Common/main.c:53:0:
+../src/Common/test.h:218:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void custom_dac_dma_setup(uint32_t sel, uint16_t s_i[], uint16_t s_q[]);
+      ^
+../src/Common/main.c:224:23: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                       ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:224:29: warning: passing argument 2 of 'send_data_ethernet' from incompatible pointer type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                             ^
+../src/Common/main.c:79:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:224:43: warning: passing argument 3 of 'send_data_ethernet' from incompatible pointer type
+    send_data_ethernet(rtcp, storageDataI, storageDataQ);
+                                           ^
+../src/Common/main.c:79:6: note: expected 'uint16_t *' but argument is of type 'volatile unsigned int *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:112:9: warning: variable 'cnt' set but not used [-Wunused-but-set-variable]
+     int cnt = 0;
+         ^
+../src/Common/main.c:104:39: warning: unused variable 'signal_q' [-Wunused-variable]
+     uint16_t signal_i[SIGNAL_LENGTH], signal_q[SIGNAL_LENGTH];
+                                       ^
+../src/Common/main.c:104:14: warning: unused variable 'signal_i' [-Wunused-variable]
+     uint16_t signal_i[SIGNAL_LENGTH], signal_q[SIGNAL_LENGTH];
+              ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building target: fmcomms_lan.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fmcomms_lan_bsp/ps7_cortexa9_0/lib -o "fmcomms_lan.elf"  ./src/Common/adc_core.o ./src/Common/dac_core.o ./src/Common/eeprom.o ./src/Common/i2c_access.o ./src/Common/i2c_axi.o ./src/Common/i2c_ps7.o ./src/Common/lan.o ./src/Common/main.o ./src/Common/mmcm.o ./src/Common/platform.o ./src/Common/platform_mb.o ./src/Common/platform_ppc.o ./src/Common/platform_zynq.o ./src/Common/platform_zynqmp.o ./src/Common/recive_lan_callback.o ./src/Common/sfp.o ./src/Common/shared_variables.o ./src/Common/si5324.o ./src/Common/spi_interface.o ./src/Common/test.o ./src/Common/xcomm.o  ./src/ADF4351/ADF4351.o  ./src/AD9643/AD9643.o  ./src/AD9548/AD9548.o  ./src/AD9523/AD9523.o  ./src/AD9122/AD9122.o ./src/AD9122/cf_axi_dds.o  ./src/AD8366/AD8366.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: fmcomms_lan.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 214608	   3780	2218272	2436660	 252e34	fmcomms_lan.elf
+'Finished building: fmcomms_lan.elf.size'
+' '

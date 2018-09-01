@@ -86,7 +86,6 @@ err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
 					}
 					flag++;
 					iq = 0;
-					lan_input_flag = 1;
 			}
 
 		} else

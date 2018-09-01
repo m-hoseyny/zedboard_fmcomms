@@ -198,7 +198,7 @@ int main()
 
 
     cnt = 0;
-    //unsigned char sendBytes[12]= "Complete";
+    unsigned char sendBytes[12]= "Complete";
     while (1)
     {
     	if (TcpFastTmrFlag) {
@@ -213,16 +213,16 @@ int main()
     	if(lan_input_flag)
     	{
 
-			//tcp_write(rtcp, sendBytes, 12, 1);
-			custom_dac_dma_setup(fmcSel, storageDataI, storageDataQ);
-			delay_ms(100);
-			print_ram(SIGNAL_LENGTH*2, 4, DDRDAC_BASEADDR);
-			delay_ms(100);
-			adc_capture(fmcSel, 16384, DDR_BASEADDR);
-			delay_ms(2000);
-			print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
-			send_data_ethernet(rtcp, storageDataI, storageDataQ);
-			lan_input_flag = 0;
+					//tcp_write(rtcp, sendBytes, 12, 1);
+				custom_dac_dma_setup(fmcSel, signal_i, signal_q);
+				delay_ms(100);
+				print_ram(SIGNAL_LENGTH*2, 4, DDRDAC_BASEADDR);
+				delay_ms(100);
+				adc_capture(fmcSel, 16384, DDR_BASEADDR);
+				delay_ms(2000);
+				print_ram(SIGNAL_LENGTH*2, 4, DDR_BASEADDR);
+				send_data_ethernet(rtcp, signal_i, signal_q);
+    			lan_input_flag = 0;
 		}
 
 
