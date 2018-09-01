@@ -10407,3 +10407,9 @@ arm-xilinx-eabi-size fmcomms_lan.elf  |tee "fmcomms_lan.elf.size"
  214608	   3780	2218272	2436660	 252e34	fmcomms_lan.elf
 'Finished building: fmcomms_lan.elf.size'
 ' '
+09:46:46 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
+09:47:28 **** Incremental Build of configuration Debug for project fmcomms_lan ****
+make all 
+make: Nothing to be done for `all'.
