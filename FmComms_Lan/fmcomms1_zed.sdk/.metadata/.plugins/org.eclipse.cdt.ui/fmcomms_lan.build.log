@@ -1,20 +1,14 @@
-09:40:24 **** Auto Build of configuration Debug for project fmcomms_lan ****
+09:41:34 **** Auto Build of configuration Debug for project fmcomms_lan ****
 make all 
 'Building file: ../src/Common/recive_lan_callback.c'
 'Invoking: ARM gcc compiler'
 arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
 ../src/Common/recive_lan_callback.c: In function 'recv_callback':
-../src/Common/recive_lan_callback.c:74:6: error: 'storageDataI' undeclared (first use in this function)
-      storageDataI[i/2] = (*((char *)p->payload + i)) << 8;
-      ^
-../src/Common/recive_lan_callback.c:74:6: note: each undeclared identifier is reported only once for each function it appears in
 ../src/Common/recive_lan_callback.c:77:5: error: 'flag' undeclared (first use in this function)
      flag++;
      ^
-../src/Common/recive_lan_callback.c:84:7: error: 'storageDataQ' undeclared (first use in this function)
-       storageDataQ[i/2] = (*((char *)p->payload + i)) << 8;
-       ^
+../src/Common/recive_lan_callback.c:77:5: note: each undeclared identifier is reported only once for each function it appears in
 make: *** [src/Common/recive_lan_callback.o] Error 1
 
-09:40:26 Build Finished (took 1s.972ms)
+09:41:34 Build Finished (took 399ms)
 

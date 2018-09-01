@@ -9607,3 +9607,108 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_z
        storageDataQ[i/2] = (*((char *)p->payload + i)) << 8;
        ^
 make: *** [src/Common/recive_lan_callback.o] Error 1
+09:41:17 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+In file included from ../src/Common/main.c:55:0:
+../src/Common/shared_variables.h:17:30: warning: 'storageDataI' initialized and declared 'extern'
+ extern volatile unsigned int storageDataI[128] = {0};
+                              ^
+../src/Common/shared_variables.h:18:30: warning: 'storageDataQ' initialized and declared 'extern'
+ extern volatile unsigned int storageDataQ[128] = {0};
+                              ^
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:232:28: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+         send_data_ethernet(rtcp, signal_i, signal_q);
+                            ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+In file included from ../src/Common/recive_lan_callback.c:42:0:
+../src/Common/shared_variables.h:17:30: warning: 'storageDataI' initialized and declared 'extern'
+ extern volatile unsigned int storageDataI[128] = {0};
+                              ^
+../src/Common/shared_variables.h:18:30: warning: 'storageDataQ' initialized and declared 'extern'
+ extern volatile unsigned int storageDataQ[128] = {0};
+                              ^
+../src/Common/recive_lan_callback.c: In function 'recv_callback':
+../src/Common/recive_lan_callback.c:77:5: error: 'flag' undeclared (first use in this function)
+     flag++;
+     ^
+../src/Common/recive_lan_callback.c:77:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Common/recive_lan_callback.o] Error 1
+09:41:29 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/main.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/main.d" -MT"src/Common/main.d" -o "src/Common/main.o" "../src/Common/main.c"
+../src/Common/main.c: In function 'send_data_ethernet':
+../src/Common/main.c:86:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf(sending_data, "%u,%u\n", s_i[i], s_q[i]);
+           ^
+In file included from d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/Common/main.c:47:
+d:\xilinx\sdk\2015.4\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:257:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+../src/Common/main.c: In function 'main':
+../src/Common/main.c:232:28: warning: passing argument 1 of 'send_data_ethernet' discards 'volatile' qualifier from pointer target type
+         send_data_ethernet(rtcp, signal_i, signal_q);
+                            ^
+../src/Common/main.c:79:6: note: expected 'struct tcp_pcb *' but argument is of type 'volatile struct tcp_pcb *'
+ void send_data_ethernet(struct tcp_pcb *pcb, uint16_t s_i[], uint16_t s_q[])
+      ^
+../src/Common/main.c:201:19: warning: unused variable 'sendBytes' [-Wunused-variable]
+     unsigned char sendBytes[12]= "Complete";
+                   ^
+In file included from ../src/Common/main.c:54:0:
+../src/Common/main.c: At top level:
+../src/Common/lan.h:48:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+ static struct netif server_netif;
+                     ^
+'Finished building: ../src/Common/main.c'
+' '
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+../src/Common/recive_lan_callback.c: In function 'recv_callback':
+../src/Common/recive_lan_callback.c:77:5: error: 'flag' undeclared (first use in this function)
+     flag++;
+     ^
+../src/Common/recive_lan_callback.c:77:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Common/recive_lan_callback.o] Error 1
+09:41:34 **** Auto Build of configuration Debug for project fmcomms_lan ****
+make all 
+'Building file: ../src/Common/recive_lan_callback.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD8366" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9122" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9523" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9548" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\AD9643" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\ADF4351" -I"E:\ZedBoard_Projects\FmComms_Lan\fmcomms1_zed.sdk\fmcomms_lan\src\Common" -c -fmessage-length=0 -MT"src/Common/recive_lan_callback.o" -I../../fmcomms_lan_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Common/recive_lan_callback.d" -MT"src/Common/recive_lan_callback.d" -o "src/Common/recive_lan_callback.o" "../src/Common/recive_lan_callback.c"
+../src/Common/recive_lan_callback.c: In function 'recv_callback':
+../src/Common/recive_lan_callback.c:77:5: error: 'flag' undeclared (first use in this function)
+     flag++;
+     ^
+../src/Common/recive_lan_callback.c:77:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Common/recive_lan_callback.o] Error 1
