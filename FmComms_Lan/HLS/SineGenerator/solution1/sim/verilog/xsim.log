@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# xsim v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Sep 03 14:27:00 2018
+# Process ID: 9604
+# Current directory: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/sinGen/xsim_script.tcl}
+# Log file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/sinGen/xsim_script.tcl
+# xsim {sinGen} -maxdeltaid 10000 -autoloadwcfg -tclbatch {sinGen.tcl}
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source sinGen.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-142] log_wave skipped an HDL object or scope because of this problem: WARNING: Simulation object /apatb_sinGen_top/next_trigger_ready_cnt was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of Verilog named events.
+
+## run all
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+$finish called at time : 209435 ns : File "C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/sim/verilog/sinGen.autotb.v" Line 310
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Sep 03 14:27:09 2018...

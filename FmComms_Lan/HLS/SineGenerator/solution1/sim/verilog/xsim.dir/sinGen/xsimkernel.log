@@ -1,0 +1,7 @@
+Running: xsim.dir/sinGen/xsimk.exe -maxdeltaid 10000 -simmode gui -wdb sinGen.wdb -simrunnum 0 -socket 59494
+Design successfully loaded
+Design Loading Memory Usage: 47088 KB (Peak: 47088 KB)
+Design Loading CPU Usage: 1342 ms
+Simulation completed
+Simulation Memory Usage: 57440 KB (Peak: 57440 KB)
+Simulation CPU Usage: 5983 ms

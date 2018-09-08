@@ -1,0 +1,166 @@
+<profile>
+
+<ReportVersion>
+<Version>2015.4</Version>
+</ReportVersion>
+
+<UserAssignments>
+<unit>ns</unit>
+<ProductFamily>zynq</ProductFamily>
+<Part>xc7z020clg484-1</Part>
+<TopModelName>sinGen_big_mult_v3small_71_24_17_s</TopModelName>
+<TargetClockPeriod>10.00</TargetClockPeriod>
+<ClockUncertainty>1.25</ClockUncertainty>
+</UserAssignments>
+
+<PerformanceEstimates>
+<PipelineType>none</PipelineType>
+<SummaryOfTimingAnalysis>
+<unit>ns</unit>
+<EstimatedClockPeriod>8.47</EstimatedClockPeriod>
+</SummaryOfTimingAnalysis>
+<SummaryOfOverallLatency>
+<unit>clock cycles</unit>
+<Best-caseLatency>55</Best-caseLatency>
+<Average-caseLatency>55</Average-caseLatency>
+<Worst-caseLatency>55</Worst-caseLatency>
+<Interval-min>55</Interval-min>
+<Interval-max>55</Interval-max>
+</SummaryOfOverallLatency>
+<SummaryOfLoopLatency>
+<Loop1>
+<TripCount>5</TripCount>
+<Latency>30</Latency>
+<IterationLatency>6</IterationLatency>
+</Loop1>
+<Loop2>
+<TripCount>4</TripCount>
+<Latency>8</Latency>
+<IterationLatency>2</IterationLatency>
+</Loop2>
+<Loop3>
+<TripCount>4</TripCount>
+<Latency>12</Latency>
+<IterationLatency>3</IterationLatency>
+</Loop3>
+</SummaryOfLoopLatency>
+</PerformanceEstimates>
+
+<AreaEstimates>
+<Resources>
+<BRAM_18K>0</BRAM_18K>
+<DSP48E>3</DSP48E>
+<FF>506</FF>
+<LUT>2599</LUT>
+</Resources>
+<AvailableResources>
+<BRAM_18K>280</BRAM_18K>
+<DSP48E>220</DSP48E>
+<FF>106400</FF>
+<LUT>53200</LUT>
+</AvailableResources>
+</AreaEstimates>
+
+<InterfaceSummary>
+<RtlPorts>
+<name>ap_clk</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_rst</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_start</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_done</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_idle</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ready</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return</name>
+<Object>sinGen_big_mult_v3small&lt;71, 24, 17&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>95</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>a_V</name>
+<Object>a_V</Object>
+<Type>scalar</Type>
+<Scope></Scope>
+<IOProtocol>ap_none</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>71</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>b_V</name>
+<Object>b_V</Object>
+<Type>scalar</Type>
+<Scope></Scope>
+<IOProtocol>ap_none</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>24</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+</InterfaceSummary>
+
+</profile>

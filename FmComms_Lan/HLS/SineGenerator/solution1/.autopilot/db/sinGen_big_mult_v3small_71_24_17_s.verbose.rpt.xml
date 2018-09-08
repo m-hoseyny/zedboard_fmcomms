@@ -1,0 +1,180 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'sinGen_big_mult_v3small_71_24_17_s'" level="0">
+<item name = "Date">Mon Sep 03 14:23:44 2018
+</item>
+<item name = "Version">2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)</item>
+<item name = "Project">SineGenerator</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.47, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">55, 55, 55, 55, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">30, 30, 6, -, -, 5, no</column>
+<column name="- Loop 2">8, 8, 2, -, -, 4, no</column>
+<column name="- Loop 3">12, 12, 3, -, -, 4, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 2434</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, 3, 0, 0</column>
+<column name="Memory">0, -, 164, 8</column>
+<column name="Multiplexer">-, -, -, 157</column>
+<column name="Register">-, -, 342, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
+<specialColumn name="Utilization (%)">0, 1, ~0, 4</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="sinGen_mul_41s_24ns_41_4_U0">sinGen_mul_41s_24ns_41_4, 0, 3, 0, 0</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="pp_V_U">sinGen_big_mult_v3small_71_24_17_s_pp_V, 0, 82, 4, 5, 41, 1, 205</column>
+<column name="pps_V_U">sinGen_big_mult_v3small_71_24_17_s_pp_V, 0, 82, 4, 5, 41, 1, 205</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="Ui_1_fu_429_p2">+, 0, 0, 7, 5, 7</column>
+<column name="i_3_fu_363_p2">+, 0, 0, 3, 3, 1</column>
+<column name="i_4_fu_211_p2">+, 0, 0, 3, 3, 1</column>
+<column name="tmp_28_fu_233_p2">+, 0, 0, 7, 5, 7</column>
+<column name="tmp_31_fu_396_p2">+, 0, 0, 3, 3, 1</column>
+<column name="tmp_33_fu_352_p2">+, 0, 0, 3, 3, 2</column>
+<column name="tmp_35_fu_383_p2">+, 0, 0, 41, 41, 41</column>
+<column name="tmp_48_fu_260_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_49_fu_264_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_50_fu_269_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_54_fu_295_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_66_fu_453_p2">-, 0, 0, 7, 7, 7</column>
+<column name="tmp_70_fu_486_p2">-, 0, 0, 7, 7, 7</column>
+<column name="Ui_fu_239_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_51_fu_273_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_52_fu_281_p3">Select, 0, 0, 71, 1, 71</column>
+<column name="tmp_53_fu_288_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_67_fu_459_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_68_fu_467_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_69_fu_475_p3">Select, 0, 0, 7, 1, 7</column>
+<column name="tmp_76_fu_517_p3">Select, 0, 0, 95, 1, 95</column>
+<column name="p_Result_29_fu_321_p2">and, 0, 0, 98, 71, 71</column>
+<column name="p_demorgan_fu_536_p2">and, 0, 0, 136, 95, 95</column>
+<column name="tmp_80_fu_548_p2">and, 0, 0, 136, 95, 95</column>
+<column name="tmp_81_fu_554_p2">and, 0, 0, 136, 95, 95</column>
+<column name="exitcond2_fu_205_p2">icmp, 0, 0, 2, 3, 3</column>
+<column name="exitcond3_fu_341_p2">icmp, 0, 0, 2, 3, 3</column>
+<column name="exitcond_fu_390_p2">icmp, 0, 0, 2, 3, 4</column>
+<column name="tmp_46_fu_247_p2">icmp, 0, 0, 3, 7, 7</column>
+<column name="tmp_64_fu_443_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_s_fu_217_p2">icmp, 0, 0, 2, 3, 4</column>
+<column name="tmp_57_fu_309_p2">lshr, 0, 0, 216, 71, 71</column>
+<column name="tmp_58_fu_315_p2">lshr, 0, 0, 216, 2, 71</column>
+<column name="tmp_78_fu_530_p2">lshr, 0, 0, 295, 2, 95</column>
+<column name="p_Result_28_fu_560_p2">or, 0, 0, 136, 95, 95</column>
+<column name="tmp_74_fu_501_p2">shl, 0, 0, 295, 95, 95</column>
+<column name="tmp_77_fu_524_p2">shl, 0, 0, 295, 2, 95</column>
+<column name="tmp_79_fu_542_p2">xor, 0, 0, 136, 95, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">6, 15, 1, 15</column>
+<column name="ap_return">95, 2, 95, 190</column>
+<column name="i_1_reg_166">3, 2, 3, 6</column>
+<column name="i_2_reg_189">3, 2, 3, 6</column>
+<column name="i_reg_154">3, 2, 3, 6</column>
+<column name="pp_V_address0">3, 4, 3, 12</column>
+<column name="pps_V_address0">3, 6, 3, 18</column>
+<column name="pps_V_d0">41, 3, 41, 123</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="Lo_assign_reg_601">6, 0, 7, 1</column>
+<column name="Ui_reg_610">7, 0, 7, 0</column>
+<column name="ap_CS_fsm">14, 0, 14, 0</column>
+<column name="ap_return_preg">95, 0, 95, 0</column>
+<column name="i_1_reg_166">3, 0, 3, 0</column>
+<column name="i_2_reg_189">3, 0, 3, 0</column>
+<column name="i_3_reg_645">3, 0, 3, 0</column>
+<column name="i_4_reg_596">3, 0, 3, 0</column>
+<column name="i_reg_154">3, 0, 3, 0</column>
+<column name="p_Val2_s_reg_177">95, 0, 95, 0</column>
+<column name="tmp_31_reg_653">3, 0, 3, 0</column>
+<column name="tmp_32_reg_630">3, 0, 64, 61</column>
+<column name="tmp_60_reg_622">41, 0, 41, 0</column>
+<column name="tmp_63_reg_668">17, 0, 17, 0</column>
+<column name="tmp_64_reg_673">1, 0, 1, 0</column>
+<column name="tmp_67_reg_678">7, 0, 7, 0</column>
+<column name="tmp_68_reg_683">7, 0, 7, 0</column>
+<column name="tmp_69_reg_688">7, 0, 7, 0</column>
+<column name="tmp_reg_588">24, 0, 41, 17</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="ap_return">out, 95, ap_ctrl_hs, sinGen_big_mult_v3small&lt;71, 24, 17&gt;, return value</column>
+<column name="a_V">in, 71, ap_none, a_V, scalar</column>
+<column name="b_V">in, 24, ap_none, b_V, scalar</column>
+</table>
+</item>
+</section>
+</profile>

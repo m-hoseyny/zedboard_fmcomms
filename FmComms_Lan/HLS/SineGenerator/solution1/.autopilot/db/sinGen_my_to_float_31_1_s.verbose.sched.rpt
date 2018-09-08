@@ -1,0 +1,280 @@
+
+
+================================================================
+== Vivado HLS Report for 'sinGen_my_to_float_31_1_s'
+================================================================
+* Date:           Mon Sep 03 14:23:42 2018
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        SineGenerator
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.42|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    6|   10|    6|   10|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  |  Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count | Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+        |- Loop 1  |    2|    2|         1|          -|          -|      2|    no    |
+        |- Loop 2  |    2|    5|         2|          -|          -| 1 ~ 2 |    no    |
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 4
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (exitcond)
+	2  / (!exitcond)
+3 --> 
+	4  / true
+4 --> 
+	3  / (!tmp_34 & tmp_21)
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: prescale_read [1/1] 0.00ns
+.preheader.preheader:0  %prescale_read = call i9 @_ssdm_op_Read.ap_auto.i9(i9 %prescale)
+
+ST_1: in_V_read [1/1] 0.00ns
+.preheader.preheader:1  %in_V_read = call i31 @_ssdm_op_Read.ap_auto.i31(i31 %in_V)
+
+ST_1: p_Result_2 [1/1] 0.00ns
+.preheader.preheader:2  %p_Result_2 = call i16 @_ssdm_op_PartSelect.i16.i31.i32.i32(i31 %in_V_read, i32 15, i32 30)
+
+ST_1: tmp [1/1] 0.00ns
+.preheader.preheader:3  %tmp = call i17 @_ssdm_op_BitConcatenate.i17.i16.i1(i16 %p_Result_2, i1 true)
+
+ST_1: out_bits_0_V [1/1] 0.00ns
+.preheader.preheader:4  %out_bits_0_V = call i32 @_ssdm_op_PartSet.i32.i32.i17.i32.i32(i32 undef, i17 %tmp, i32 15, i32 31)
+
+ST_1: tmp_33 [1/1] 0.00ns
+.preheader.preheader:5  %tmp_33 = trunc i31 %in_V_read to i15
+
+ST_1: tmp_s [1/1] 0.00ns
+.preheader.preheader:6  %tmp_s = call i16 @_ssdm_op_BitConcatenate.i16.i15.i1(i15 %tmp_33, i1 true)
+
+ST_1: p_Result_s [1/1] 0.00ns
+.preheader.preheader:7  %p_Result_s = call i32 @_ssdm_op_PartSet.i32.i32.i16.i32.i32(i32 undef, i16 %tmp_s, i32 16, i32 31)
+
+ST_1: stg_13 [1/1] 1.57ns
+.preheader.preheader:8  br label %0
+
+
+ <State 2>: 5.90ns
+ST_2: c_0_s [1/1] 0.00ns
+:0  %c_0_s = phi i32 [ undef, %.preheader.preheader ], [ %c_1_1, %1 ]
+
+ST_2: c_1_s [1/1] 0.00ns
+:1  %c_1_s = phi i32 [ undef, %.preheader.preheader ], [ %c_1_2, %1 ]
+
+ST_2: i1 [1/1] 0.00ns
+:2  %i1 = phi i2 [ 0, %.preheader.preheader ], [ %i, %1 ]
+
+ST_2: exitcond [1/1] 1.36ns
+:3  %exitcond = icmp eq i2 %i1, -2
+
+ST_2: empty [1/1] 0.00ns
+:4  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)
+
+ST_2: i [1/1] 0.80ns
+:5  %i = add i2 %i1, 1
+
+ST_2: stg_20 [1/1] 1.57ns
+:6  br i1 %exitcond, label %.preheader3, label %1
+
+ST_2: tmp_35 [1/1] 0.00ns
+:0  %tmp_35 = trunc i2 %i1 to i1
+
+ST_2: out_bits_V_load_phi [1/1] 1.37ns
+:1  %out_bits_V_load_phi = select i1 %tmp_35, i32 %p_Result_s, i32 %out_bits_0_V
+
+ST_2: c_0 [1/1] 3.16ns
+:2  %c_0 = call i32 @llvm.ctlz.i32(i32 %out_bits_V_load_phi, i1 true)
+
+ST_2: c_1_1 [1/1] 1.37ns
+:3  %c_1_1 = select i1 %tmp_35, i32 %c_0_s, i32 %c_0
+
+ST_2: c_1_2 [1/1] 1.37ns
+:4  %c_1_2 = select i1 %tmp_35, i32 %c_0, i32 %c_1_s
+
+ST_2: stg_26 [1/1] 0.00ns
+:5  br label %0
+
+
+ <State 3>: 5.18ns
+ST_3: in_shift [1/1] 0.00ns
+.preheader3:0  %in_shift = phi i31 [ %in_shift_V, %_ifconv ], [ %in_V_read, %0 ]
+
+ST_3: shift [1/1] 0.00ns
+.preheader3:1  %shift = phi i32 [ %shift_2, %_ifconv ], [ 0, %0 ]
+
+ST_3: i2 [1/1] 0.00ns
+.preheader3:2  %i2 = phi i2 [ %i_1, %_ifconv ], [ 0, %0 ]
+
+ST_3: tmp_34 [1/1] 0.00ns
+.preheader3:3  %tmp_34 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %i2, i32 1)
+
+ST_3: empty_43 [1/1] 0.00ns
+.preheader3:4  %empty_43 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)
+
+ST_3: i_1 [1/1] 0.80ns
+.preheader3:5  %i_1 = add i2 %i2, 1
+
+ST_3: stg_33 [1/1] 1.57ns
+.preheader3:6  br i1 %tmp_34, label %.loopexit_ifconv, label %_ifconv
+
+ST_3: tmp_36 [1/1] 0.00ns
+_ifconv:0  %tmp_36 = trunc i2 %i2 to i1
+
+ST_3: sh_assign [1/1] 1.37ns
+_ifconv:1  %sh_assign = select i1 %tmp_36, i32 %c_1_s, i32 %c_0_s
+
+ST_3: isNeg [1/1] 0.00ns
+_ifconv:3  %isNeg = call i1 @_ssdm_op_BitSelect.i1.i32.i32(i32 %sh_assign, i32 31)
+
+ST_3: tmp_17 [1/1] 2.44ns
+_ifconv:4  %tmp_17 = sub nsw i32 0, %sh_assign
+
+ST_3: sh_assign_2 [1/1] 1.37ns
+_ifconv:5  %sh_assign_2 = select i1 %isNeg, i32 %tmp_17, i32 %sh_assign
+
+
+ <State 4>: 8.42ns
+ST_4: shift_2 [1/1] 2.44ns
+_ifconv:2  %shift_2 = add nsw i32 %shift, %sh_assign
+
+ST_4: tmp_18 [1/1] 0.00ns
+_ifconv:6  %tmp_18 = sext i31 %in_shift to i32
+
+ST_4: tmp_19 [1/1] 2.80ns
+_ifconv:7  %tmp_19 = ashr i32 %tmp_18, %sh_assign_2
+
+ST_4: tmp_20 [1/1] 2.80ns
+_ifconv:8  %tmp_20 = shl i32 %tmp_18, %sh_assign_2
+
+ST_4: tmp_38 [1/1] 0.00ns
+_ifconv:9  %tmp_38 = trunc i32 %tmp_19 to i31
+
+ST_4: tmp_39 [1/1] 0.00ns
+_ifconv:10  %tmp_39 = trunc i32 %tmp_20 to i31
+
+ST_4: in_shift_V [1/1] 1.37ns
+_ifconv:11  %in_shift_V = select i1 %isNeg, i31 %tmp_38, i31 %tmp_39
+
+ST_4: tmp_21 [1/1] 2.52ns
+_ifconv:12  %tmp_21 = icmp eq i32 %sh_assign, 16
+
+ST_4: stg_47 [1/1] 1.57ns
+_ifconv:13  br i1 %tmp_21, label %.preheader3, label %.loopexit_ifconv
+
+ST_4: p_Val2_in [1/1] 0.00ns
+.loopexit_ifconv:0  %p_Val2_in = phi i31 [ %in_shift, %.preheader3 ], [ %in_shift_V, %_ifconv ]
+
+ST_4: shift_1 [1/1] 0.00ns
+.loopexit_ifconv:1  %shift_1 = phi i32 [ %shift, %.preheader3 ], [ %shift_2, %_ifconv ]
+
+ST_4: p_Val2_s [1/1] 0.00ns
+.loopexit_ifconv:2  %p_Val2_s = call i23 @_ssdm_op_PartSelect.i23.i31.i32.i32(i31 %p_Val2_in, i32 7, i32 29)
+
+ST_4: tmp_22 [1/1] 2.50ns
+.loopexit_ifconv:3  %tmp_22 = icmp eq i31 %in_V_read, 0
+
+ST_4: tmp_41 [1/1] 0.00ns
+.loopexit_ifconv:4  %tmp_41 = trunc i9 %prescale_read to i8
+
+ST_4: tmp_23 [1/1] 1.31ns
+.loopexit_ifconv:5  %tmp_23 = sub i8 127, %tmp_41
+
+ST_4: tmp_42 [1/1] 0.00ns
+.loopexit_ifconv:6  %tmp_42 = trunc i32 %shift_1 to i8
+
+ST_4: phitmp [1/1] 1.31ns
+.loopexit_ifconv:7  %phitmp = sub i8 %tmp_23, %tmp_42
+
+ST_4: out_exp_V [1/1] 1.37ns
+.loopexit_ifconv:8  %out_exp_V = select i1 %tmp_22, i8 0, i8 %phitmp
+
+ST_4: p_Result_26 [1/1] 0.00ns
+.loopexit_ifconv:9  %p_Result_26 = call i32 @_ssdm_op_BitConcatenate.i32.i1.i8.i23(i1 false, i8 %out_exp_V, i23 %p_Val2_s)
+
+ST_4: result_write_assign [1/1] 0.00ns
+.loopexit_ifconv:10  %result_write_assign = bitcast i32 %p_Result_26 to float
+
+ST_4: stg_59 [1/1] 0.00ns
+.loopexit_ifconv:11  ret float %result_write_assign
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

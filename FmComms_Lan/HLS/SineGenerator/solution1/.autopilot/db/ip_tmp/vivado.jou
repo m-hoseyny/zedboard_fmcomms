@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Sep 03 14:25:49 2018
+# Process ID: 43760
+# Current directory: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/.autopilot/db/ip_tmp
+# Command line: vivado.exe  -notrace -mode batch -source run_vivado.tcl
+# Log file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/.autopilot/db/ip_tmp/vivado.log
+# Journal file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/.autopilot/db/ip_tmp\vivado.jou
+#-----------------------------------------------------------
+source run_vivado.tcl -notrace

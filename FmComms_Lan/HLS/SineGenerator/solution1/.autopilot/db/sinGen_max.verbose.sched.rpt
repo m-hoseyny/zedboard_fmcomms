@@ -1,0 +1,272 @@
+
+
+================================================================
+== Vivado HLS Report for 'sinGen_max'
+================================================================
+* Date:           Mon Sep 03 14:23:43 2018
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        SineGenerator
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.16|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  769|  769|  769|  769|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  768|  768|         6|          -|          -|   128|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 7
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	2  / true
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_8 [1/1] 1.57ns
+:0  br label %1
+
+
+ <State 2>: 2.71ns
+ST_2: max_1_1 [1/1] 0.00ns
+:0  %max_1_1 = phi float [ 0.000000e+00, %0 ], [ %max_3, %_ifconv ]
+
+ST_2: i [1/1] 0.00ns
+:1  %i = phi i8 [ 0, %0 ], [ %i_1, %_ifconv ]
+
+ST_2: exitcond [1/1] 2.00ns
+:2  %exitcond = icmp eq i8 %i, -128
+
+ST_2: empty [1/1] 0.00ns
+:3  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 128, i64 128, i64 128)
+
+ST_2: i_1 [1/1] 1.72ns
+:4  %i_1 = add i8 %i, 1
+
+ST_2: stg_14 [1/1] 0.00ns
+:5  br i1 %exitcond, label %2, label %_ifconv
+
+ST_2: tmp [1/1] 0.00ns
+_ifconv:0  %tmp = zext i8 %i to i64
+
+ST_2: data_addr [1/1] 0.00ns
+_ifconv:1  %data_addr = getelementptr [128 x float]* %data, i64 0, i64 %tmp
+
+ST_2: max_1 [2/2] 2.71ns
+_ifconv:2  %max_1 = load float* %data_addr, align 4
+
+ST_2: stg_18 [1/1] 0.00ns
+:0  ret float %max_1_1
+
+
+ <State 3>: 2.71ns
+ST_3: max_1 [1/2] 2.71ns
+_ifconv:2  %max_1 = load float* %data_addr, align 4
+
+
+ <State 4>: 8.16ns
+ST_4: max_2_to_int [1/1] 0.00ns
+_ifconv:3  %max_2_to_int = bitcast float %max_1 to i32
+
+ST_4: tmp_13 [1/1] 0.00ns
+_ifconv:4  %tmp_13 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %max_2_to_int, i32 23, i32 30)
+
+ST_4: tmp_43 [1/1] 0.00ns
+_ifconv:5  %tmp_43 = trunc i32 %max_2_to_int to i23
+
+ST_4: notlhs [1/1] 2.00ns
+_ifconv:6  %notlhs = icmp ne i8 %tmp_13, -1
+
+ST_4: notrhs [1/1] 2.39ns
+_ifconv:7  %notrhs = icmp eq i23 %tmp_43, 0
+
+ST_4: tmp_15 [1/1] 1.37ns
+_ifconv:8  %tmp_15 = or i1 %notrhs, %notlhs
+
+ST_4: tmp_16 [1/1] 6.79ns
+_ifconv:9  %tmp_16 = fcmp olt float %max_1, 0.000000e+00
+
+ST_4: tmp_17 [1/1] 1.37ns
+_ifconv:10  %tmp_17 = and i1 %tmp_15, %tmp_16
+
+ST_4: max_1_neg [1/1] 1.37ns
+_ifconv:11  %max_1_neg = xor i32 %max_2_to_int, -2147483648
+
+ST_4: max_1_2 [1/1] 0.00ns
+_ifconv:12  %max_1_2 = bitcast i32 %max_1_neg to float
+
+ST_4: tmp_18 [1/1] 0.00ns
+_ifconv:13  %tmp_18 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %max_1_neg, i32 23, i32 30)
+
+ST_4: tmp_44 [1/1] 0.00ns
+_ifconv:14  %tmp_44 = trunc i32 %max_1_neg to i23
+
+ST_4: max_to_int [1/1] 0.00ns
+_ifconv:15  %max_to_int = bitcast float %max_1_1 to i32
+
+ST_4: tmp_20 [1/1] 0.00ns
+_ifconv:16  %tmp_20 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %max_to_int, i32 23, i32 30)
+
+ST_4: tmp_45 [1/1] 0.00ns
+_ifconv:17  %tmp_45 = trunc i32 %max_to_int to i23
+
+ST_4: notlhs1 [1/1] 2.00ns
+_ifconv:18  %notlhs1 = icmp ne i8 %tmp_18, -1
+
+ST_4: notrhs1 [1/1] 2.39ns
+_ifconv:19  %notrhs1 = icmp eq i23 %tmp_44, 0
+
+ST_4: tmp_22 [1/1] 1.37ns
+_ifconv:20  %tmp_22 = or i1 %notrhs1, %notlhs1
+
+ST_4: notlhs2 [1/1] 2.00ns
+_ifconv:21  %notlhs2 = icmp ne i8 %tmp_20, -1
+
+ST_4: notrhs2 [1/1] 2.39ns
+_ifconv:22  %notrhs2 = icmp eq i23 %tmp_45, 0
+
+ST_4: tmp_23 [1/1] 1.37ns
+_ifconv:23  %tmp_23 = or i1 %notrhs2, %notlhs2
+
+ST_4: tmp_24 [1/1] 1.37ns
+_ifconv:24  %tmp_24 = and i1 %tmp_22, %tmp_23
+
+ST_4: tmp_25 [1/1] 6.79ns
+_ifconv:25  %tmp_25 = fcmp ogt float %max_1_2, %max_1_1
+
+ST_4: tmp_s [1/1] 1.37ns
+_ifconv:27  %tmp_s = and i1 %tmp_15, %tmp_23
+
+
+ <State 5>: 4.11ns
+ST_5: tmp_26 [1/1] 1.37ns
+_ifconv:26  %tmp_26 = and i1 %tmp_24, %tmp_25
+
+ST_5: sel_tmp [1/1] 1.37ns
+_ifconv:30  %sel_tmp = and i1 %tmp_17, %tmp_26
+
+ST_5: max_2 [1/1] 1.37ns
+_ifconv:31  %max_2 = select i1 %sel_tmp, float %max_1_2, float %max_1_1
+
+ST_5: sel_tmp5 [1/1] 1.37ns
+_ifconv:35  %sel_tmp5 = xor i1 %tmp_26, true
+
+ST_5: sel_tmp6 [1/1] 1.37ns
+_ifconv:36  %sel_tmp6 = and i1 %tmp_17, %sel_tmp5
+
+
+ <State 6>: 8.16ns
+ST_6: tmp_27 [1/1] 6.79ns
+_ifconv:28  %tmp_27 = fcmp ogt float %max_1, %max_1_1
+
+ST_6: tmp_28 [1/1] 1.37ns
+_ifconv:29  %tmp_28 = and i1 %tmp_s, %tmp_27
+
+
+ <State 7>: 5.48ns
+ST_7: sel_tmp2 [1/1] 1.37ns
+_ifconv:32  %sel_tmp2 = xor i1 %tmp_17, true
+
+ST_7: sel_tmp3 [1/1] 1.37ns
+_ifconv:33  %sel_tmp3 = and i1 %tmp_28, %sel_tmp2
+
+ST_7: max_4 [1/1] 1.37ns
+_ifconv:34  %max_4 = select i1 %sel_tmp3, float %max_1, float %max_2
+
+ST_7: max_3 [1/1] 1.37ns
+_ifconv:37  %max_3 = select i1 %sel_tmp6, float %max_1_1, float %max_4
+
+ST_7: stg_55 [1/1] 0.00ns
+_ifconv:38  br label %1
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

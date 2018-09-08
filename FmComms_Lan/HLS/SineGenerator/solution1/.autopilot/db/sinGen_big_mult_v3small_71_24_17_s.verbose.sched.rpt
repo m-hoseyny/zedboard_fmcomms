@@ -1,0 +1,494 @@
+
+
+================================================================
+== Vivado HLS Report for 'sinGen_big_mult_v3small_71_24_17_s'
+================================================================
+* Date:           Mon Sep 03 14:23:41 2018
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        SineGenerator
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.47|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   55|   55|   55|   55|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |   30|   30|         6|          -|          -|     5|    no    |
+        |- Loop 2  |    8|    8|         2|          -|          -|     4|    no    |
+        |- Loop 3  |   12|   12|         3|          -|          -|     4|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 14
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond2)
+	8  / (exitcond2)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	2  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / (!exitcond3)
+	11  / (exitcond3)
+10 --> 
+	9  / true
+11 --> 
+	12  / (!exitcond)
+	14  / (exitcond)
+12 --> 
+	13  / true
+13 --> 
+	11  / true
+14 --> 
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: b_V_read [1/1] 0.00ns
+.preheader144.preheader:0  %b_V_read = call i24 @_ssdm_op_Read.ap_auto.i24(i24 %b_V)
+
+ST_1: a_V_read [1/1] 0.00ns
+.preheader144.preheader:1  %a_V_read = call i71 @_ssdm_op_Read.ap_auto.i71(i71 %a_V)
+
+ST_1: pp_V [1/1] 0.00ns
+.preheader144.preheader:2  %pp_V = alloca [5 x i41], align 8
+
+ST_1: pps_V [1/1] 0.00ns
+.preheader144.preheader:3  %pps_V = alloca [5 x i41], align 8
+
+ST_1: tmp [1/1] 0.00ns
+.preheader144.preheader:4  %tmp = zext i24 %b_V_read to i41
+
+ST_1: stg_20 [1/1] 1.57ns
+.preheader144.preheader:5  br label %.preheader144
+
+
+ <State 2>: 3.09ns
+ST_2: i [1/1] 0.00ns
+.preheader144:0  %i = phi i3 [ %i_4, %_ifconv ], [ 0, %.preheader144.preheader ]
+
+ST_2: exitcond2 [1/1] 1.62ns
+.preheader144:1  %exitcond2 = icmp eq i3 %i, -3
+
+ST_2: empty [1/1] 0.00ns
+.preheader144:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 5, i64 5, i64 5)
+
+ST_2: i_4 [1/1] 0.80ns
+.preheader144:3  %i_4 = add i3 %i, 1
+
+ST_2: stg_25 [1/1] 0.00ns
+.preheader144:4  br i1 %exitcond2, label %arrayctor.loop1.preheader, label %_ifconv
+
+ST_2: tmp_s [1/1] 1.62ns
+_ifconv:0  %tmp_s = icmp eq i3 %i, -4
+
+ST_2: Lo_assign [1/1] 0.00ns
+_ifconv:1  %Lo_assign = call i7 @_ssdm_op_BitConcatenate.i7.i3.i1.i3(i3 %i, i1 false, i3 %i)
+
+ST_2: tmp_28 [1/1] 1.72ns
+_ifconv:2  %tmp_28 = add i7 16, %Lo_assign
+
+ST_2: Ui [1/1] 1.37ns
+_ifconv:3  %Ui = select i1 %tmp_s, i7 -58, i7 %tmp_28
+
+ST_2: pp_V_addr [1/1] 0.00ns
+arrayctor.loop1.preheader:0  %pp_V_addr = getelementptr [5 x i41]* %pp_V, i64 0, i64 0
+
+ST_2: pp_V_load [2/2] 2.39ns
+arrayctor.loop1.preheader:1  %pp_V_load = load i41* %pp_V_addr, align 16
+
+
+ <State 3>: 8.29ns
+ST_3: tmp_46 [1/1] 1.97ns
+_ifconv:5  %tmp_46 = icmp ugt i7 %Lo_assign, %Ui
+
+ST_3: tmp_47 [1/1] 0.00ns
+_ifconv:6  %tmp_47 = call i71 @llvm.part.select.i71(i71 %a_V_read, i32 70, i32 0)
+
+ST_3: tmp_48 [1/1] 1.72ns
+_ifconv:7  %tmp_48 = sub i7 %Lo_assign, %Ui
+
+ST_3: tmp_49 [1/1] 1.72ns
+_ifconv:8  %tmp_49 = sub i7 -58, %Lo_assign
+
+ST_3: tmp_50 [1/1] 1.72ns
+_ifconv:9  %tmp_50 = sub i7 %Ui, %Lo_assign
+
+ST_3: tmp_51 [1/1] 1.37ns
+_ifconv:10  %tmp_51 = select i1 %tmp_46, i7 %tmp_48, i7 %tmp_50
+
+ST_3: tmp_52 [1/1] 1.37ns
+_ifconv:11  %tmp_52 = select i1 %tmp_46, i71 %tmp_47, i71 %a_V_read
+
+ST_3: tmp_53 [1/1] 1.37ns
+_ifconv:12  %tmp_53 = select i1 %tmp_46, i7 %tmp_49, i7 %Lo_assign
+
+ST_3: tmp_54 [1/1] 1.72ns
+_ifconv:13  %tmp_54 = sub i7 -58, %tmp_51
+
+ST_3: tmp_55 [1/1] 0.00ns
+_ifconv:14  %tmp_55 = zext i7 %tmp_53 to i71
+
+ST_3: tmp_56 [1/1] 0.00ns
+_ifconv:15  %tmp_56 = zext i7 %tmp_54 to i71
+
+ST_3: tmp_57 [1/1] 3.58ns
+_ifconv:16  %tmp_57 = lshr i71 %tmp_52, %tmp_55
+
+ST_3: tmp_58 [1/1] 1.18ns
+_ifconv:17  %tmp_58 = lshr i71 -1, %tmp_56
+
+ST_3: p_Result_29 [1/1] 1.37ns
+_ifconv:18  %p_Result_29 = and i71 %tmp_57, %tmp_58
+
+ST_3: tmp_60 [1/1] 0.00ns
+_ifconv:19  %tmp_60 = trunc i71 %p_Result_29 to i41
+
+
+ <State 4>: 6.08ns
+ST_4: tmp_30 [4/4] 6.08ns
+_ifconv:20  %tmp_30 = mul i41 %tmp_60, %tmp
+
+
+ <State 5>: 6.08ns
+ST_5: tmp_30 [3/4] 6.08ns
+_ifconv:20  %tmp_30 = mul i41 %tmp_60, %tmp
+
+
+ <State 6>: 6.08ns
+ST_6: tmp_30 [2/4] 6.08ns
+_ifconv:20  %tmp_30 = mul i41 %tmp_60, %tmp
+
+
+ <State 7>: 8.47ns
+ST_7: tmp_29 [1/1] 0.00ns
+_ifconv:4  %tmp_29 = zext i3 %i to i64
+
+ST_7: tmp_30 [1/4] 6.08ns
+_ifconv:20  %tmp_30 = mul i41 %tmp_60, %tmp
+
+ST_7: pp_V_addr_2 [1/1] 0.00ns
+_ifconv:21  %pp_V_addr_2 = getelementptr [5 x i41]* %pp_V, i64 0, i64 %tmp_29
+
+ST_7: stg_53 [1/1] 2.39ns
+_ifconv:22  store i41 %tmp_30, i41* %pp_V_addr_2, align 8
+
+ST_7: stg_54 [1/1] 0.00ns
+_ifconv:23  br label %.preheader144
+
+
+ <State 8>: 4.78ns
+ST_8: pp_V_load [1/2] 2.39ns
+arrayctor.loop1.preheader:1  %pp_V_load = load i41* %pp_V_addr, align 16
+
+ST_8: pps_V_addr [1/1] 0.00ns
+arrayctor.loop1.preheader:2  %pps_V_addr = getelementptr [5 x i41]* %pps_V, i64 0, i64 0
+
+ST_8: stg_57 [1/1] 2.39ns
+arrayctor.loop1.preheader:3  store i41 %pp_V_load, i41* %pps_V_addr, align 16
+
+ST_8: stg_58 [1/1] 1.57ns
+arrayctor.loop1.preheader:4  br label %0
+
+
+ <State 9>: 3.19ns
+ST_9: i_1 [1/1] 0.00ns
+:0  %i_1 = phi i3 [ 1, %arrayctor.loop1.preheader ], [ %i_3, %_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit ]
+
+ST_9: exitcond3 [1/1] 1.62ns
+:1  %exitcond3 = icmp eq i3 %i_1, -3
+
+ST_9: empty_44 [1/1] 0.00ns
+:2  %empty_44 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)
+
+ST_9: stg_62 [1/1] 1.57ns
+:3  br i1 %exitcond3, label %.preheader, label %_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit
+
+ST_9: tmp_32 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:0  %tmp_32 = zext i3 %i_1 to i64
+
+ST_9: tmp_33 [1/1] 0.80ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:1  %tmp_33 = add i3 %i_1, -1
+
+ST_9: tmp_34 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:2  %tmp_34 = zext i3 %tmp_33 to i64
+
+ST_9: pps_V_addr_1 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:3  %pps_V_addr_1 = getelementptr [5 x i41]* %pps_V, i64 0, i64 %tmp_34
+
+ST_9: pps_V_load [2/2] 2.39ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:4  %pps_V_load = load i41* %pps_V_addr_1, align 8
+
+ST_9: pp_V_addr_1 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:8  %pp_V_addr_1 = getelementptr [5 x i41]* %pp_V, i64 0, i64 %tmp_32
+
+ST_9: pp_V_load_1 [2/2] 2.39ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:9  %pp_V_load_1 = load i41* %pp_V_addr_1, align 8
+
+ST_9: i_3 [1/1] 0.80ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:12  %i_3 = add i3 %i_1, 1
+
+
+ <State 10>: 7.58ns
+ST_10: pps_V_load [1/2] 2.39ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:4  %pps_V_load = load i41* %pps_V_addr_1, align 8
+
+ST_10: r_V [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:5  %r_V = call i24 @_ssdm_op_PartSelect.i24.i41.i32.i32(i41 %pps_V_load, i32 17, i32 40)
+
+ST_10: r_V_4 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:6  %r_V_4 = zext i24 %r_V to i41
+
+ST_10: pps_V_addr_2 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:7  %pps_V_addr_2 = getelementptr [5 x i41]* %pps_V, i64 0, i64 %tmp_32
+
+ST_10: pp_V_load_1 [1/2] 2.39ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:9  %pp_V_load_1 = load i41* %pp_V_addr_1, align 8
+
+ST_10: tmp_35 [1/1] 2.80ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:10  %tmp_35 = add i41 %pp_V_load_1, %r_V_4
+
+ST_10: stg_77 [1/1] 2.39ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:11  store i41 %tmp_35, i41* %pps_V_addr_2, align 8
+
+ST_10: stg_78 [1/1] 0.00ns
+_ZrsILi41ELb0EE11ap_int_baseIXT_EXT0_EXleT_Li64EEERKS1_i.exit:13  br label %0
+
+
+ <State 11>: 2.39ns
+ST_11: p_Val2_s [1/1] 0.00ns
+.preheader:0  %p_Val2_s = phi i95 [ %p_Result_28, %._crit_edge145 ], [ undef, %0 ]
+
+ST_11: i_2 [1/1] 0.00ns
+.preheader:1  %i_2 = phi i3 [ %tmp_31, %._crit_edge145 ], [ 0, %0 ]
+
+ST_11: exitcond [1/1] 1.62ns
+.preheader:2  %exitcond = icmp eq i3 %i_2, -4
+
+ST_11: empty_45 [1/1] 0.00ns
+.preheader:3  %empty_45 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)
+
+ST_11: tmp_31 [1/1] 0.80ns
+.preheader:4  %tmp_31 = add i3 %i_2, 1
+
+ST_11: stg_84 [1/1] 0.00ns
+.preheader:5  br i1 %exitcond, label %1, label %._crit_edge145
+
+ST_11: tmp_36 [1/1] 0.00ns
+._crit_edge145:6  %tmp_36 = zext i3 %i_2 to i64
+
+ST_11: pps_V_addr_4 [1/1] 0.00ns
+._crit_edge145:7  %pps_V_addr_4 = getelementptr [5 x i41]* %pps_V, i64 0, i64 %tmp_36
+
+ST_11: p_Val2_40 [2/2] 2.39ns
+._crit_edge145:8  %p_Val2_40 = load i41* %pps_V_addr_4, align 8
+
+ST_11: pps_V_addr_3 [1/1] 0.00ns
+:0  %pps_V_addr_3 = getelementptr [5 x i41]* %pps_V, i64 0, i64 4
+
+ST_11: pps_V_load_1 [2/2] 2.39ns
+:1  %pps_V_load_1 = load i41* %pps_V_addr_3, align 16
+
+
+ <State 12>: 5.06ns
+ST_12: tmp_62 [1/1] 0.00ns
+._crit_edge145:0  %tmp_62 = trunc i3 %i_2 to i2
+
+ST_12: Li [1/1] 0.00ns
+._crit_edge145:1  %Li = call i6 @_ssdm_op_BitConcatenate.i6.i2.i1.i3(i2 %tmp_62, i1 false, i3 %i_2)
+
+ST_12: Li_cast1 [1/1] 0.00ns
+._crit_edge145:2  %Li_cast1 = zext i6 %Li to i7
+
+ST_12: Li_cast [1/1] 0.00ns
+._crit_edge145:3  %Li_cast = zext i6 %Li to i32
+
+ST_12: Ui_1 [1/1] 1.72ns
+._crit_edge145:4  %Ui_1 = add i7 16, %Li_cast1
+
+ST_12: Ui_1_cast [1/1] 0.00ns
+._crit_edge145:5  %Ui_1_cast = zext i7 %Ui_1 to i32
+
+ST_12: p_Val2_40 [1/2] 2.39ns
+._crit_edge145:8  %p_Val2_40 = load i41* %pps_V_addr_4, align 8
+
+ST_12: tmp_63 [1/1] 0.00ns
+._crit_edge145:9  %tmp_63 = trunc i41 %p_Val2_40 to i17
+
+ST_12: tmp_64 [1/1] 1.97ns
+._crit_edge145:11  %tmp_64 = icmp ugt i32 %Li_cast, %Ui_1_cast
+
+ST_12: tmp_65 [1/1] 0.00ns
+._crit_edge145:12  %tmp_65 = zext i6 %Li to i7
+
+ST_12: tmp_66 [1/1] 1.72ns
+._crit_edge145:13  %tmp_66 = sub i7 -34, %tmp_65
+
+ST_12: tmp_67 [1/1] 1.37ns
+._crit_edge145:14  %tmp_67 = select i1 %tmp_64, i7 %tmp_65, i7 %Ui_1
+
+ST_12: tmp_68 [1/1] 1.37ns
+._crit_edge145:15  %tmp_68 = select i1 %tmp_64, i7 %Ui_1, i7 %tmp_65
+
+ST_12: tmp_69 [1/1] 1.37ns
+._crit_edge145:16  %tmp_69 = select i1 %tmp_64, i7 %tmp_66, i7 %tmp_65
+
+
+ <State 13>: 8.38ns
+ST_13: loc_V [1/1] 0.00ns
+._crit_edge145:10  %loc_V = zext i17 %tmp_63 to i95
+
+ST_13: tmp_70 [1/1] 1.72ns
+._crit_edge145:17  %tmp_70 = sub i7 -34, %tmp_67
+
+ST_13: tmp_71 [1/1] 0.00ns
+._crit_edge145:18  %tmp_71 = zext i7 %tmp_69 to i95
+
+ST_13: tmp_72 [1/1] 0.00ns
+._crit_edge145:19  %tmp_72 = zext i7 %tmp_68 to i95
+
+ST_13: tmp_73 [1/1] 0.00ns
+._crit_edge145:20  %tmp_73 = zext i7 %tmp_70 to i95
+
+ST_13: tmp_74 [1/1] 2.77ns
+._crit_edge145:21  %tmp_74 = shl i95 %loc_V, %tmp_71
+
+ST_13: tmp_75 [1/1] 0.00ns
+._crit_edge145:22  %tmp_75 = call i95 @llvm.part.select.i95(i95 %tmp_74, i32 94, i32 0)
+
+ST_13: tmp_76 [1/1] 1.37ns
+._crit_edge145:23  %tmp_76 = select i1 %tmp_64, i95 %tmp_75, i95 %tmp_74
+
+ST_13: tmp_77 [1/1] 1.18ns
+._crit_edge145:24  %tmp_77 = shl i95 -1, %tmp_72
+
+ST_13: tmp_78 [1/1] 1.18ns
+._crit_edge145:25  %tmp_78 = lshr i95 -1, %tmp_73
+
+ST_13: p_demorgan [1/1] 1.37ns
+._crit_edge145:26  %p_demorgan = and i95 %tmp_77, %tmp_78
+
+ST_13: tmp_79 [1/1] 1.37ns
+._crit_edge145:27  %tmp_79 = xor i95 %p_demorgan, -1
+
+ST_13: tmp_80 [1/1] 1.37ns
+._crit_edge145:28  %tmp_80 = and i95 %p_Val2_s, %tmp_79
+
+ST_13: tmp_81 [1/1] 1.37ns
+._crit_edge145:29  %tmp_81 = and i95 %tmp_76, %p_demorgan
+
+ST_13: p_Result_28 [1/1] 1.37ns
+._crit_edge145:30  %p_Result_28 = or i95 %tmp_80, %tmp_81
+
+ST_13: stg_119 [1/1] 0.00ns
+._crit_edge145:31  br label %.preheader
+
+
+ <State 14>: 2.39ns
+ST_14: pps_V_load_1 [1/2] 2.39ns
+:1  %pps_V_load_1 = load i41* %pps_V_addr_3, align 16
+
+ST_14: tmp_61 [1/1] 0.00ns
+:2  %tmp_61 = trunc i41 %pps_V_load_1 to i27
+
+ST_14: p_Result_s [1/1] 0.00ns
+:3  %p_Result_s = call i95 @llvm.part.set.i95.i27(i95 %p_Val2_s, i27 %tmp_61, i32 68, i32 94)
+
+ST_14: stg_123 [1/1] 0.00ns
+:4  ret i95 %p_Result_s
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

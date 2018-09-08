@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="sinGen" xd:componentRef="sinGen" xd:initiationInterval="17434" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="Fs" xd:originalName="Fs" xd:direction="in" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:offset="0x10" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="cycle" xd:originalName="cycle" xd:direction="in" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:offset="0x18" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="amp" xd:originalName="amp" xd:direction="in" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:offset="0x20" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="binOffset" xd:originalName="binOffset" xd:direction="in" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:offset="0x28" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="outIQ[]" xd:originalName="outIQ" xd:direction="out" xd:interfaceRef="s_axi_CRTLS" xd:busTypeRef="axilite" xd:offset="0x400" xd:arraySize="256" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="16921" xd:worst-case="17433" xd:average-case="17177"/>
+  <xd:resourceEstimates xd:LUT="19263" xd:FF="8806" xd:BRAM="4" xd:DSP="41"/>
+</xd:acceleratorMap>

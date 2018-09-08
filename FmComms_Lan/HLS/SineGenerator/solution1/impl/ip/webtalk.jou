@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Sep 03 14:27:43 2018
+# Process ID: 31144
+# Current directory: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/impl/ip
+# Command line: wbtcv.exe -mode batch -source C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/impl/ip/tmp.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/impl/ip/webtalk.log
+# Journal file: C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/impl/ip\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ArzhangJunior/Desktop/jso/SineGenerator/solution1/impl/ip/tmp.hw/webtalk/labtool_webtalk.tcl -notrace

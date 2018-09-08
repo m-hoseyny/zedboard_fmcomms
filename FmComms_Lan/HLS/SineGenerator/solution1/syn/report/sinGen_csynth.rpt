@@ -1,0 +1,244 @@
+
+
+================================================================
+== Vivado HLS Report for 'sinGen'
+================================================================
+* Date:           Mon Sep 03 14:23:46 2018
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        SineGenerator
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.47|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-------+-------+-------+-------+---------+
+    |    Latency    |    Interval   | Pipeline|
+    |  min  |  max  |  min  |  max  |   Type  |
+    +-------+-------+-------+-------+---------+
+    |  16921|  17433|  16922|  17434|   none  |
+    +-------+-------+-------+-------+---------+
+
+    + Detail: 
+        * Instance: 
+        +--------------------------------+---------------------+-----+-----+-----+-----+---------+
+        |                                |                     |  Latency  |  Interval | Pipeline|
+        |            Instance            |        Module       | min | max | min | max |   Type  |
+        +--------------------------------+---------------------+-----+-----+-----+-----+---------+
+        |grp_sinGen_sinf_or_cosf_fu_200  |sinGen_sinf_or_cosf  |   77|   81|   77|   81|   none  |
+        |grp_sinGen_sinf_or_cosf_fu_215  |sinGen_sinf_or_cosf  |   77|   81|   77|   81|   none  |
+        |grp_sinGen_max_fu_230           |sinGen_max           |  769|  769|  769|  769|   none  |
+        |grp_sinGen_max_fu_235           |sinGen_max           |  769|  769|  769|  769|   none  |
+        +--------------------------------+---------------------+-----+-----+-----+-----+---------+
+
+        * Loop: 
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+        |          |    Latency    | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|  min  |  max  |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  12288|  12800| 96 ~ 100 |          -|          -|   128|    no    |
+        |- Loop 2  |   3840|   3840|        30|          -|          -|   128|    no    |
+        +----------+-------+-------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|    750|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        2|     41|    7937|  17960|
+|Memory           |        2|      -|       0|      0|
+|Multiplexer      |        -|      -|       -|    553|
+|Register         |        -|      -|     869|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        4|     41|    8806|  19263|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        1|     18|       8|     36|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-----------------------------------------+-------------------------------------+---------+-------+------+------+
+    |                 Instance                |                Module               | BRAM_18K| DSP48E|  FF  |  LUT |
+    +-----------------------------------------+-------------------------------------+---------+-------+------+------+
+    |sinGen_CRTLS_s_axi_U                     |sinGen_CRTLS_s_axi                   |        2|      0|   268|   366|
+    |sinGen_dmul_64ns_64ns_64_6_max_dsp_U31   |sinGen_dmul_64ns_64ns_64_6_max_dsp   |        0|     11|   317|   578|
+    |sinGen_fadd_32ns_32ns_32_5_full_dsp_U22  |sinGen_fadd_32ns_32ns_32_5_full_dsp  |        0|      2|   205|   390|
+    |sinGen_fadd_32ns_32ns_32_5_full_dsp_U23  |sinGen_fadd_32ns_32ns_32_5_full_dsp  |        0|      2|   205|   390|
+    |sinGen_fdiv_32ns_32ns_32_16_U26          |sinGen_fdiv_32ns_32ns_32_16          |        0|      0|   761|   994|
+    |sinGen_fdiv_32ns_32ns_32_16_U27          |sinGen_fdiv_32ns_32ns_32_16          |        0|      0|   761|   994|
+    |sinGen_fmul_32ns_32ns_32_4_max_dsp_U24   |sinGen_fmul_32ns_32ns_32_4_max_dsp   |        0|      3|   143|   321|
+    |sinGen_fmul_32ns_32ns_32_4_max_dsp_U25   |sinGen_fmul_32ns_32ns_32_4_max_dsp   |        0|      3|   143|   321|
+    |sinGen_fptrunc_64ns_32_1_U30             |sinGen_fptrunc_64ns_32_1             |        0|      0|   128|   277|
+    |grp_sinGen_max_fu_230                    |sinGen_max                           |        0|      0|   321|   789|
+    |grp_sinGen_max_fu_235                    |sinGen_max                           |        0|      0|   321|   789|
+    |grp_sinGen_sinf_or_cosf_fu_200           |sinGen_sinf_or_cosf                  |        0|     10|  1636|  4999|
+    |grp_sinGen_sinf_or_cosf_fu_215           |sinGen_sinf_or_cosf                  |        0|     10|  1636|  4999|
+    |sinGen_sitodp_64ns_64_6_U32              |sinGen_sitodp_64ns_64_6              |        0|      0|   412|   645|
+    |sinGen_sitofp_64ns_32_6_U28              |sinGen_sitofp_64ns_32_6              |        0|      0|   340|   554|
+    |sinGen_sitofp_64ns_32_6_U29              |sinGen_sitofp_64ns_32_6              |        0|      0|   340|   554|
+    +-----------------------------------------+-------------------------------------+---------+-------+------+------+
+    |Total                                    |                                     |        2|     41|  7937| 17960|
+    +-----------------------------------------+-------------------------------------+---------+-------+------+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    +--------+-------------+---------+---+----+------+-----+------+-------------+
+    | Memory |    Module   | BRAM_18K| FF| LUT| Words| Bits| Banks| W*Bits*Banks|
+    +--------+-------------+---------+---+----+------+-----+------+-------------+
+    |rawI_U  |sinGen_rawI  |        1|  0|   0|   128|   32|     1|         4096|
+    |rawQ_U  |sinGen_rawI  |        1|  0|   0|   128|   32|     1|         4096|
+    +--------+-------------+---------+---+----+------+-----+------+-------------+
+    |Total   |             |        2|  0|   0|   256|   64|     2|         8192|
+    +--------+-------------+---------+---+----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-------------------------+----------+-------+---+-----+------------+------------+
+    |      Variable Name      | Operation| DSP48E| FF| LUT | Bitwidth P0| Bitwidth P1|
+    +-------------------------+----------+-------+---+-----+------------+------------+
+    |i_fu_339_p2              |     +    |      0|  0|    8|           8|           1|
+    |idx_1_fu_313_p2          |     +    |      0|  0|    8|           8|           1|
+    |sh_assign_2_fu_498_p2    |     +    |      0|  0|    9|           8|           9|
+    |sh_assign_fu_390_p2      |     +    |      0|  0|    9|           8|           9|
+    |tmp_56_i_i1_i_fu_512_p2  |     -    |      0|  0|    8|           7|           8|
+    |tmp_56_i_i_i_fu_404_p2   |     -    |      0|  0|    8|           7|           8|
+    |result_V_1_fu_584_p3     |  Select  |      0|  0|   32|           1|          32|
+    |result_V_fu_476_p3       |  Select  |      0|  0|   32|           1|          32|
+    |sh_assign_1_fu_413_p3    |  Select  |      0|  0|    9|           1|           9|
+    |sh_assign_3_fu_521_p3    |  Select  |      0|  0|    9|           1|           9|
+    |exitcond_fu_307_p2       |   icmp   |      0|  0|    3|           8|           9|
+    |exitcond_i_fu_333_p2     |   icmp   |      0|  0|    3|           8|           9|
+    |tmp_58_i_i1_i_fu_550_p2  |   lshr   |      0|  0|   63|          24|          24|
+    |tmp_58_i_i_i_fu_442_p2   |   lshr   |      0|  0|   63|          24|          24|
+    |tmp_68_i_fu_592_p2       |    or    |      0|  0|    8|           8|           1|
+    |tmp_60_i_i1_i_fu_556_p2  |    shl   |      0|  0|  239|          78|          78|
+    |tmp_60_i_i_i_fu_448_p2   |    shl   |      0|  0|  239|          78|          78|
+    +-------------------------+----------+-------+---+-----+------------+------------+
+    |Total                    |          |      0|  0|  750|         278|         341|
+    +-------------------------+----------+-------+---+-----+------------+------------+
+
+    * Multiplexer: 
+    +----------------+-----+-----------+-----+-----------+
+    |      Name      | LUT | Input Size| Bits| Total Bits|
+    +----------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm       |  161|         73|    1|         73|
+    |grp_fu_248_p0   |   32|          3|   32|         96|
+    |grp_fu_248_p1   |   32|          3|   32|         96|
+    |grp_fu_254_p0   |   32|          3|   32|         96|
+    |grp_fu_254_p1   |   32|          3|   32|         96|
+    |grp_fu_277_p0   |   64|          3|   64|        192|
+    |grp_fu_277_p1   |   64|          4|   64|        256|
+    |grp_fu_283_p0   |   64|          3|   64|        192|
+    |i_i_reg_188     |    8|          2|    8|         16|
+    |idx_reg_176     |    8|          2|    8|         16|
+    |outIQ_address0  |    8|          3|    8|         24|
+    |outIQ_d0        |   32|          3|   32|         96|
+    |rawI_address0   |    7|          4|    7|         28|
+    |rawI_ce0        |    1|          3|    1|          3|
+    |rawQ_address0   |    7|          4|    7|         28|
+    |rawQ_ce0        |    1|          3|    1|          3|
+    +----------------+-----+-----------+-----+-----------+
+    |Total           |  553|        119|  393|       1311|
+    +----------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------------------------------+----+----+-----+-----------+
+    |                         Name                         | FF | LUT| Bits| Const Bits|
+    +------------------------------------------------------+----+----+-----+-----------+
+    |amp_read_reg_607                                      |  32|   0|   32|          0|
+    |ap_CS_fsm                                             |  72|   0|   72|          0|
+    |binOffset_read_reg_602                                |  32|   0|   32|          0|
+    |grp_sinGen_max_fu_230_ap_start_ap_start_reg           |   1|   0|    1|          0|
+    |grp_sinGen_max_fu_235_ap_start_ap_start_reg           |   1|   0|    1|          0|
+    |grp_sinGen_sinf_or_cosf_fu_200_ap_start_ap_start_reg  |   1|   0|    1|          0|
+    |grp_sinGen_sinf_or_cosf_fu_215_ap_start_ap_start_reg  |   1|   0|    1|          0|
+    |i_i_reg_188                                           |   8|   0|    8|          0|
+    |i_reg_686                                             |   8|   0|    8|          0|
+    |idx_1_reg_625                                         |   8|   0|    8|          0|
+    |idx_reg_176                                           |   8|   0|    8|          0|
+    |isNeg_1_reg_769                                       |   1|   0|    1|          0|
+    |isNeg_reg_753                                         |   1|   0|    1|          0|
+    |loc_V_2_reg_737                                       |  23|   0|   23|          0|
+    |loc_V_3_reg_742                                       |   8|   0|    8|          0|
+    |loc_V_4_reg_748                                       |  23|   0|   23|          0|
+    |loc_V_reg_731                                         |   8|   0|    8|          0|
+    |maxI_reg_661                                          |  32|   0|   32|          0|
+    |maxQ_reg_666                                          |  32|   0|   32|          0|
+    |rawI_load_reg_701                                     |  32|   0|   32|          0|
+    |rawQ_load_reg_706                                     |  32|   0|   32|          0|
+    |reg_286                                               |  64|   0|   64|          0|
+    |reg_292                                               |  64|   0|   64|          0|
+    |sh_assign_1_reg_758                                   |   9|   0|    9|          0|
+    |sh_assign_3_reg_774                                   |   9|   0|    9|          0|
+    |t_in_assign_reg_645                                   |  32|   0|   32|          0|
+    |tmp_29_reg_764                                        |   7|   0|    8|          1|
+    |tmp_4_reg_640                                         |  64|   0|   64|          0|
+    |tmp_60_i_reg_711                                      |  32|   0|   32|          0|
+    |tmp_61_i_reg_721                                      |  32|   0|   32|          0|
+    |tmp_65_i_reg_716                                      |  32|   0|   32|          0|
+    |tmp_66_i_reg_726                                      |  32|   0|   32|          0|
+    |tmp_i_41_reg_677                                      |  32|   0|   32|          0|
+    |tmp_i_i1_reg_656                                      |  32|   0|   32|          0|
+    |tmp_i_i_reg_651                                       |  32|   0|   32|          0|
+    |tmp_i_reg_671                                         |  32|   0|   32|          0|
+    +------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                 | 869|   0|  870|          1|
+    +------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+--------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++---------------------+-----+-----+------------+--------------+--------------+
+|s_axi_CRTLS_AWVALID  |  in |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_AWREADY  | out |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_AWADDR   |  in |   12|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_WVALID   |  in |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_WREADY   | out |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_WDATA    |  in |   32|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_WSTRB    |  in |    4|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_ARVALID  |  in |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_ARREADY  | out |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_ARADDR   |  in |   12|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_RVALID   | out |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_RREADY   |  in |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_RDATA    | out |   32|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_RRESP    | out |    2|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_BVALID   | out |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_BREADY   |  in |    1|    s_axi   |     CRTLS    |     array    |
+|s_axi_CRTLS_BRESP    | out |    2|    s_axi   |     CRTLS    |     array    |
+|ap_clk               |  in |    1| ap_ctrl_hs |    sinGen    | return value |
+|ap_rst_n             |  in |    1| ap_ctrl_hs |    sinGen    | return value |
+|interrupt            | out |    1| ap_ctrl_hs |    sinGen    | return value |
++---------------------+-----+-----+------------+--------------+--------------+
+

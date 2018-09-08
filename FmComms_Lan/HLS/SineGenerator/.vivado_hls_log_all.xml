@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-103] Legalizing function name 'sinGen_my_to_float&lt;31, 1>' to 'sinGen_my_to_float_31_1_s'." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:41.402+0430" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'sinGen_big_mult_v3small&lt;71, 24, 17>' to 'sinGen_big_mult_v3small_71_24_17_s'." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:41.279+0430" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::big_mult_v3small&lt;71, 24, 17>' (D:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_big_mult.h:258:26) into big_mult_v3small&lt;71, 24, 17>." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:41.266+0430" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::hotbm::my_to_float&lt;31, 1>' (D:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_hotbm.h:118) into my_to_float&lt;31, 1>." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:39.195+0430" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::hotbm::sinf_or_cosf' (D:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_hotbm.h:536) into sinf_or_cosf." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:39.187+0430" type="Warning"/>
+        <logs message="@W [SYNCHK-23] D:/Xilinx/Vivado_HLS/2015.4/common/technology/autopilot/hls/hls_hotbm.h:135: variable-indexed range selection may cause suboptimal QoR." projectName="SineGenerator" solutionName="solution1" date="2018-09-03T14:23:34.504+0430" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
