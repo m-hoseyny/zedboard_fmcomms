@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
-| Date             : Thu Feb 08 10:57:48 2018
+| Date             : Sat Sep 01 14:32:22 2018
 | Host             : DESKTOP-RORPLTQ running 64-bit major release  (build 9200)
 | Command          : 
 | Design           : system_top
@@ -30,13 +30,13 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 3.656 |
-| Dynamic (W)              | 3.426 |
+| Total On-Chip Power (W)  | 3.662 |
+| Dynamic (W)              | 3.431 |
 | Device Static (W)        | 0.230 |
 | Total Off-Chip Power (W) | 0.023 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 43.1  |
-| Junction Temperature (C) | 66.9  |
+| Max Ambient (C)          | 43.0  |
+| Junction Temperature (C) | 67.0  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,23 +50,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.123 |       17 |       --- |             --- |
-| Slice Logic              |     0.074 |    34921 |       --- |             --- |
-|   LUT as Logic           |     0.050 |    10583 |     53200 |           19.89 |
-|   Register               |     0.011 |    18693 |    106400 |           17.57 |
-|   LUT as Shift Register  |     0.007 |      599 |     17400 |            3.44 |
+| Clocks                   |     0.122 |       17 |       --- |             --- |
+| Slice Logic              |     0.074 |    35194 |       --- |             --- |
+|   LUT as Logic           |     0.050 |    10687 |     53200 |           20.09 |
+|   Register               |     0.011 |    18804 |    106400 |           17.67 |
+|   LUT as Shift Register  |     0.007 |      600 |     17400 |            3.45 |
 |   CARRY4                 |     0.006 |     1076 |     13300 |            8.09 |
+|   F7/F8 Muxes            |    <0.001 |      214 |     53200 |            0.40 |
 |   LUT as Distributed RAM |    <0.001 |       66 |     17400 |            0.38 |
-|   F7/F8 Muxes            |    <0.001 |      211 |     53200 |            0.40 |
-|   Others                 |    <0.001 |     1204 |       --- |             --- |
-| Signals                  |     0.127 |    27151 |       --- |             --- |
-| Block RAM                |     0.039 |        6 |       140 |            4.29 |
+|   Others                 |    <0.001 |     1213 |       --- |             --- |
+| Signals                  |     0.129 |    27367 |       --- |             --- |
+| Block RAM                |     0.043 |        7 |       140 |            5.00 |
 | MMCM                     |     0.458 |        4 |         4 |          100.00 |
 | DSPs                     |     0.113 |       95 |       220 |           43.18 |
 | I/O                      |     0.920 |      137 |       200 |           68.50 |
 | PS7                      |     1.550 |        1 |       --- |             --- |
 | Static Power             |     0.230 |          |           |                 |
-| Total                    |     3.633 |          |           |                 |
+| Total                    |     3.638 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.526 |       0.489 |      0.037 |
+| Vccint    |       1.000 |     0.531 |       0.494 |      0.038 |
 | Vccaux    |       1.800 |     0.328 |       0.301 |      0.027 |
 | Vcco33    |       3.300 |     0.026 |       0.025 |      0.001 |
 | Vcco25    |       2.500 |     0.306 |       0.305 |      0.001 |
@@ -85,7 +85,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.005 |       0.001 |      0.003 |
+| Vccbram   |       1.000 |     0.005 |       0.002 |      0.003 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -165,7 +165,7 @@ Table of Contents
 +----------------------------------------------------------------------------------+-----------+
 | Name                                                                             | Power (W) |
 +----------------------------------------------------------------------------------+-----------+
-| system_top                                                                       |     3.403 |
+| system_top                                                                       |     3.408 |
 |   gpio_bd_IOBUF[0]_inst                                                          |     0.002 |
 |   gpio_bd_IOBUF[10]_inst                                                         |     0.003 |
 |   gpio_bd_IOBUF[11]_inst                                                         |     0.002 |
@@ -198,19 +198,19 @@ Table of Contents
 |   gpio_bd_IOBUF[7]_inst                                                          |     0.003 |
 |   gpio_bd_IOBUF[8]_inst                                                          |     0.003 |
 |   gpio_bd_IOBUF[9]_inst                                                          |     0.003 |
-|   i_system_wrapper                                                               |     3.243 |
+|   i_system_wrapper                                                               |     3.248 |
 |     iic_fmc_scl_iobuf                                                            |     0.000 |
 |     iic_fmc_sda_iobuf                                                            |     0.000 |
-|     system_i                                                                     |     3.243 |
-|       axi_ad9122                                                                 |     1.046 |
-|         inst                                                                     |     1.046 |
-|           i_core                                                                 |     0.238 |
-|             i_channel_0                                                          |     0.117 |
-|               i_dds_0                                                            |     0.026 |
+|     system_i                                                                     |     3.248 |
+|       axi_ad9122                                                                 |     1.048 |
+|         inst                                                                     |     1.048 |
+|           i_core                                                                 |     0.241 |
+|             i_channel_0                                                          |     0.119 |
+|               i_dds_0                                                            |     0.027 |
 |                 i_dds_1_0                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.011 |
+|                   i_dds_scale                                                    |     0.002 |
+|                     i_mult_macro                                                 |     0.002 |
+|                   i_dds_sine                                                     |     0.012 |
 |                     i_mul_s1                                                     |     0.001 |
 |                       i_mult_macro                                               |     0.001 |
 |                     i_mul_s2                                                     |     0.002 |
@@ -219,7 +219,7 @@ Table of Contents
 |                       i_mult_macro                                               |     0.001 |
 |                     i_mul_s3_2                                                   |     0.001 |
 |                       i_mult_macro                                               |     0.001 |
-|                 i_dds_1_1                                                        |     0.012 |
+|                 i_dds_1_1                                                        |     0.013 |
 |                   i_dds_scale                                                    |     0.001 |
 |                     i_mult_macro                                                 |     0.001 |
 |                   i_dds_sine                                                     |     0.011 |
@@ -235,6 +235,109 @@ Table of Contents
 |                 i_dds_1_0                                                        |     0.013 |
 |                   i_dds_scale                                                    |     0.001 |
 |                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.011 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                 i_dds_1_1                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.012 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|               i_dds_2                                                            |     0.027 |
+|                 i_dds_1_0                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.012 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                 i_dds_1_1                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.012 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|               i_dds_3                                                            |     0.028 |
+|                 i_dds_1_0                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.012 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                 i_dds_1_1                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.012 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|               i_up_dac_channel                                                   |     0.005 |
+|                 i_xfer_cntrl                                                     |     0.004 |
+|             i_channel_1                                                          |     0.118 |
+|               i_dds_0                                                            |     0.026 |
+|                 i_dds_1_0                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.011 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                 i_dds_1_1                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.001 |
+|                     i_mult_macro                                                 |     0.001 |
+|                   i_dds_sine                                                     |     0.011 |
+|                     i_mul_s1                                                     |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s2                                                     |     0.002 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_1                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|                     i_mul_s3_2                                                   |     0.001 |
+|                       i_mult_macro                                               |     0.001 |
+|               i_dds_1                                                            |     0.027 |
+|                 i_dds_1_0                                                        |     0.013 |
+|                   i_dds_scale                                                    |     0.002 |
+|                     i_mult_macro                                                 |     0.002 |
 |                   i_dds_sine                                                     |     0.012 |
 |                     i_mul_s1                                                     |     0.001 |
 |                       i_mult_macro                                               |     0.001 |
@@ -308,111 +411,8 @@ Table of Contents
 |                       i_mult_macro                                               |     0.001 |
 |               i_up_dac_channel                                                   |     0.004 |
 |                 i_xfer_cntrl                                                     |     0.003 |
-|             i_channel_1                                                          |     0.118 |
-|               i_dds_0                                                            |     0.027 |
-|                 i_dds_1_0                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.011 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                 i_dds_1_1                                                        |     0.014 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.002 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|               i_dds_1                                                            |     0.027 |
-|                 i_dds_1_0                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                 i_dds_1_1                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|               i_dds_2                                                            |     0.027 |
-|                 i_dds_1_0                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                 i_dds_1_1                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|               i_dds_3                                                            |     0.027 |
-|                 i_dds_1_0                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                 i_dds_1_1                                                        |     0.013 |
-|                   i_dds_scale                                                    |     0.001 |
-|                     i_mult_macro                                                 |     0.001 |
-|                   i_dds_sine                                                     |     0.012 |
-|                     i_mul_s1                                                     |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s2                                                     |     0.002 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_1                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|                     i_mul_s3_2                                                   |     0.001 |
-|                       i_mult_macro                                               |     0.001 |
-|               i_up_dac_channel                                                   |     0.004 |
-|                 i_xfer_cntrl                                                     |     0.003 |
-|             i_up_dac_common                                                      |     0.003 |
-|               i_clock_mon                                                        |    <0.001 |
+|             i_up_dac_common                                                      |     0.004 |
+|               i_clock_mon                                                        |     0.002 |
 |               i_core_rst_reg                                                     |    <0.001 |
 |               i_mmcm_rst_reg                                                     |    <0.001 |
 |               i_xfer_cntrl                                                       |    <0.001 |
@@ -461,11 +461,11 @@ Table of Contents
 |             i_sync_status_dest                                                   |    <0.001 |
 |             i_sync_status_src                                                    |    <0.001 |
 |           i_up_axi                                                               |     0.001 |
-|       axi_ad9643                                                                 |     0.129 |
-|         inst                                                                     |     0.129 |
-|           i_channel_0                                                            |     0.027 |
+|       axi_ad9643                                                                 |     0.125 |
+|         inst                                                                     |     0.125 |
+|           i_channel_0                                                            |     0.026 |
 |             i_ad_datafmt                                                         |    <0.001 |
-|             i_ad_dcfilter                                                        |     0.011 |
+|             i_ad_dcfilter                                                        |     0.010 |
 |             i_ad_iqcor                                                           |     0.009 |
 |               i_mul_i                                                            |     0.003 |
 |                 i_mult_macro                                                     |     0.003 |
@@ -476,9 +476,9 @@ Table of Contents
 |             i_up_adc_channel                                                     |     0.004 |
 |               i_xfer_cntrl                                                       |     0.002 |
 |               i_xfer_status                                                      |    <0.001 |
-|           i_channel_1                                                            |     0.027 |
+|           i_channel_1                                                            |     0.025 |
 |             i_ad_datafmt                                                         |    <0.001 |
-|             i_ad_dcfilter                                                        |     0.011 |
+|             i_ad_dcfilter                                                        |     0.010 |
 |             i_ad_iqcor                                                           |     0.009 |
 |               i_mul_i                                                            |     0.003 |
 |                 i_mult_macro                                                     |     0.003 |
@@ -491,7 +491,7 @@ Table of Contents
 |               i_xfer_status                                                      |    <0.001 |
 |           i_delay_cntrl                                                          |    <0.001 |
 |             i_delay_rst_reg                                                      |    <0.001 |
-|           i_if                                                                   |     0.069 |
+|           i_if                                                                   |     0.068 |
 |             g_adc_if[0].i_adc_data                                               |     0.004 |
 |             g_adc_if[10].i_adc_data                                              |     0.004 |
 |             g_adc_if[11].i_adc_data                                              |     0.004 |
@@ -514,9 +514,9 @@ Table of Contents
 |             i_xfer_cntrl                                                         |    <0.001 |
 |             i_xfer_status                                                        |    <0.001 |
 |           i_up_axi                                                               |     0.002 |
-|       axi_ad9643_dma                                                             |     0.019 |
-|         inst                                                                     |     0.019 |
-|           i_request_arb                                                          |     0.017 |
+|       axi_ad9643_dma                                                             |     0.020 |
+|         inst                                                                     |     0.020 |
+|           i_request_arb                                                          |     0.018 |
 |             i_dest_dma_mm                                                        |     0.001 |
 |               i_addr_gen                                                         |    <0.001 |
 |               i_data_mover                                                       |    <0.001 |
@@ -530,7 +530,7 @@ Table of Contents
 |               i_waddr_sync                                                       |    <0.001 |
 |             i_dest_slice                                                         |     0.002 |
 |             i_dest_slice2                                                        |    <0.001 |
-|             i_fifo                                                               |     0.008 |
+|             i_fifo                                                               |     0.009 |
 |               i_address_sync                                                     |    <0.001 |
 |             i_req_gen                                                            |    <0.001 |
 |             i_req_splitter                                                       |    <0.001 |
@@ -573,9 +573,9 @@ Table of Contents
 |                 WR.b_channel_0                                                   |    <0.001 |
 |                   bid_fifo_0                                                     |    <0.001 |
 |                   bresp_fifo_0                                                   |    <0.001 |
-|         xbar                                                                     |     0.001 |
-|           inst                                                                   |     0.001 |
-|             gen_sasd.crossbar_sasd_0                                             |     0.001 |
+|         xbar                                                                     |    <0.001 |
+|           inst                                                                   |    <0.001 |
+|             gen_sasd.crossbar_sasd_0                                             |    <0.001 |
 |               addr_arbiter_inst                                                  |    <0.001 |
 |               gen_decerr.decerr_slave_inst                                       |    <0.001 |
 |               reg_slice_r                                                        |    <0.001 |
@@ -587,9 +587,9 @@ Table of Contents
 |           i_up_axi                                                               |     0.001 |
 |           i_up_clkgen                                                            |    <0.001 |
 |             i_mmcm_rst_reg                                                       |    <0.001 |
-|       axi_hdmi_core                                                              |     0.041 |
-|         inst                                                                     |     0.041 |
-|           i_tx_core                                                              |     0.031 |
+|       axi_hdmi_core                                                              |     0.043 |
+|         inst                                                                     |     0.043 |
+|           i_tx_core                                                              |     0.032 |
 |             i_csc_RGB2CrYCb                                                      |     0.019 |
 |               i_csc_1_Cb                                                         |     0.007 |
 |                 i_add_c4                                                         |     0.004 |
@@ -617,15 +617,15 @@ Table of Contents
 |                   i_mult_macro                                                   |    <0.001 |
 |             i_mem                                                                |     0.005 |
 |             i_ss_444to422                                                        |     0.002 |
-|           i_up                                                                   |     0.007 |
+|           i_up                                                                   |     0.008 |
 |             i_clock_mon                                                          |     0.001 |
 |             i_core_rst_reg                                                       |    <0.001 |
 |             i_vdma_rst_reg                                                       |    <0.001 |
 |             i_vdma_xfer_status                                                   |    <0.001 |
-|             i_xfer_cntrl                                                         |     0.004 |
+|             i_xfer_cntrl                                                         |     0.005 |
 |             i_xfer_status                                                        |    <0.001 |
 |           i_up_axi                                                               |     0.002 |
-|           i_vdma                                                                 |     0.001 |
+|           i_vdma                                                                 |    <0.001 |
 |       axi_hdmi_dma                                                               |     0.006 |
 |         U0                                                                       |     0.006 |
 |           AXI_LITE_REG_INTERFACE_I                                               |    <0.001 |
@@ -813,6 +813,11 @@ Table of Contents
 |               data_fifo_reg_0_7_6_11                                             |    <0.001 |
 |       refclk_clkgen                                                              |     0.135 |
 |         inst                                                                     |     0.135 |
+|       stepGen_0                                                                  |     0.004 |
+|         inst                                                                     |     0.004 |
+|           stepGen_AXILiteS_s_axi_U                                               |     0.004 |
+|             int_out_vec                                                          |     0.004 |
+|           stepGen_CRTL_BUS_s_axi_U                                               |    <0.001 |
 |       sys_audio_clkgen                                                           |     0.120 |
 |         inst                                                                     |     0.120 |
 |       sys_concat_intc                                                            |     0.000 |
@@ -831,8 +836,8 @@ Table of Contents
 |       util_ad9643_adc_fifo                                                       |     0.013 |
 |         inst                                                                     |     0.013 |
 |           i_mem                                                                  |     0.009 |
-|       util_cpack_ad9643                                                          |     0.015 |
-|         inst                                                                     |     0.015 |
+|       util_cpack_ad9643                                                          |     0.016 |
+|         inst                                                                     |     0.016 |
 |           g_dsf[0].i_dsf                                                         |     0.005 |
 |           g_dsf[1].i_dsf                                                         |    <0.001 |
 |           g_mux[0].i_mux                                                         |     0.002 |

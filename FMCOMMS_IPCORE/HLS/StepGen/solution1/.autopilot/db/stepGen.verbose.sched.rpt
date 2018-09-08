@@ -1,0 +1,157 @@
+
+
+================================================================
+== Vivado HLS Report for 'stepGen'
+================================================================
+* Date:           Sat Sep 01 12:54:07 2018
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        StepGen
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      3.76|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  257|  257|  258|  258|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  256|  256|         1|          -|          -|   256|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 2
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	2  / (!exitcond)
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_3 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap([256 x i32]* %out_vec) nounwind, !map !0
+
+ST_1: stg_4 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecTopModule([8 x i8]* @stepGen_str) nounwind
+
+ST_1: empty [1/1] 0.00ns
+:2  %empty = call i32 (...)* @_ssdm_op_SpecMemCore([256 x i32]* %out_vec, [1 x i8]* @p_str3, [7 x i8]* @RAM_1P_str, [1 x i8]* @p_str3, i32 -1, [1 x i8]* @p_str3, [1 x i8]* @p_str3, [1 x i8]* @p_str3) nounwind
+
+ST_1: stg_6 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecInterface([256 x i32]* %out_vec, [10 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_7 [1/1] 0.00ns
+:4  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_8 [1/1] 1.57ns
+:5  br label %1
+
+
+ <State 2>: 3.76ns
+ST_2: idx [1/1] 0.00ns
+:0  %idx = phi i9 [ 0, %0 ], [ %idx_1, %2 ]
+
+ST_2: exitcond [1/1] 2.03ns
+:1  %exitcond = icmp eq i9 %idx, -256
+
+ST_2: empty_2 [1/1] 0.00ns
+:2  %empty_2 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 256, i64 256, i64 256) nounwind
+
+ST_2: idx_1 [1/1] 1.84ns
+:3  %idx_1 = add i9 1, %idx
+
+ST_2: stg_13 [1/1] 0.00ns
+:4  br i1 %exitcond, label %3, label %2
+
+ST_2: tmp [1/1] 0.00ns
+:0  %tmp = call i1 @_ssdm_op_BitSelect.i1.i9.i32(i9 %idx, i32 1)
+
+ST_2: tmp_4 [1/1] 0.00ns
+:1  %tmp_4 = zext i9 %idx to i64
+
+ST_2: out_vec_addr [1/1] 0.00ns
+:2  %out_vec_addr = getelementptr [256 x i32]* %out_vec, i64 0, i64 %tmp_4
+
+ST_2: p_cast [1/1] 1.37ns
+:3  %p_cast = select i1 %tmp, i32 24576, i32 40960
+
+ST_2: stg_18 [1/1] 2.39ns
+:4  store i32 %p_cast, i32* %out_vec_addr, align 4
+
+ST_2: stg_19 [1/1] 0.00ns
+:5  br label %1
+
+ST_2: stg_20 [1/1] 0.00ns
+:0  ret void
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

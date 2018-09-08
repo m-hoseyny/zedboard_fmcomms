@@ -1,0 +1,33 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_stepGen_top -prj stepGen.prj --lib ieee_proposed=./ieee_proposed -s stepGen -debug wave 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/AESL_axi_slave_AXILiteS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_AXILiteS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/AESL_axi_slave_CRTL_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTL_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_stepGen_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen.autotb.v:173]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen.autotb.v:174]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n_n, assumed default net type wire [C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen.autotb.v:180]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stepGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen_AXILiteS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stepGen_AXILiteS_s_axi
+INFO: [VRFC 10-311] analyzing module stepGen_AXILiteS_s_axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/stepGen_CRTL_BUS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stepGen_CRTL_BUS_s_axi
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.stepGen_AXILiteS_s_axi_ram_defau...
+Compiling module xil_defaultlib.stepGen_AXILiteS_s_axi(C_S_AXI_A...
+Compiling module xil_defaultlib.stepGen_CRTL_BUS_s_axi(C_S_AXI_A...
+Compiling module xil_defaultlib.stepGen_default
+Compiling module xil_defaultlib.AESL_axi_slave_AXILiteS
+Compiling module xil_defaultlib.AESL_axi_slave_CRTL_BUS
+Compiling module xil_defaultlib.apatb_stepGen_top
+Built simulation snapshot stepGen

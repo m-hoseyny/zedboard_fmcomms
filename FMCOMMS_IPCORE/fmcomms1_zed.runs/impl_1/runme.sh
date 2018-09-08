@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/fmcomms1_zed.runs/impl_1'
+HD_PWD='E:/ZedBoard_Projects/FMCOMMS_IPCORE/fmcomms1_zed.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

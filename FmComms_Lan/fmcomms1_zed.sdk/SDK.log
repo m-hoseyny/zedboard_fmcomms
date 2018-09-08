@@ -306,3 +306,27 @@ java.lang.RuntimeException: Error in Resetting Target
 09:47:30 INFO  : Processor reset is completed for ps7_cortexa9_0
 09:51:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 09:51:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:54:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:54:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+09:54:39 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+09:54:49 INFO  : ps7_init is completed.
+09:54:49 INFO  : ps7_post_config is completed.
+09:54:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:06:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:06:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:09:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:09:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:11:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:11:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:11:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:10:58 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:18:05 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:18:07 INFO  : XSDB server has started successfully.
+15:22:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492682" && level==0} -index 1' command is executed.
+15:23:29 INFO  : FPGA configured successfully with bitstream "E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.sdk/system_top_hw_platform_0/system_top.bit"
+15:23:36 INFO  : ps7_init is completed.
+15:23:36 INFO  : ps7_post_config is completed.
+15:23:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

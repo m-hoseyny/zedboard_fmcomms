@@ -14,10 +14,8 @@
 
 extern volatile uint16_t lan_input;
 extern volatile int lan_input_flag;
-extern volatile unsigned int storageDataI[SIGNAL_LENGTH];
-extern volatile unsigned int storageDataQ[SIGNAL_LENGTH];
 extern volatile unsigned char iq;
 extern volatile  struct tcp_pcb *rtcp;
-extern volatile unsigned char flag;
+
 
 #endif /* SHARED_VARIABLES_H_ */

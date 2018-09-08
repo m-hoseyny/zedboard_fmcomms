@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
-| Date         : Thu Feb 08 10:57:32 2018
+| Date         : Sat Sep 01 14:32:11 2018
 | Host         : DESKTOP-RORPLTQ running 64-bit major release  (build 9200)
 | Command      : report_drc
 --------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ Table of Contents
 1. REPORT SUMMARY
 -----------------
             Netlist: netlist
-          Floorplan: checkpoint_system_top
+          Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
@@ -36,22 +36,22 @@ Related violations: <none>
 
 PDRC-190#1 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X37Y70 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
+The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X37Y74 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#2 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X35Y70 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
+The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X38Y69 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#3 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X33Y57 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
+The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X30Y53 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#4 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X34Y57 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
+The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X31Y52 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PLIO-7#1 Warning

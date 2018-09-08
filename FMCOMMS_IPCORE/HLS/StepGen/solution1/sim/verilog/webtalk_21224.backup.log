@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Sep 01 12:54:30 2018
+# Process ID: 21224
+# Current directory: C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/xsim.dir/stepGen/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/webtalk.log
+# Journal file: C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1/sim/verilog/xsim.dir/stepGen/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Sep 01 12:54:30 2018...

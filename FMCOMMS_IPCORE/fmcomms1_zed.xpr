@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="10" Path="C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/fmcomms1_zed.xpr">
+<Project Version="7" Minor="10" Path="E:/ZedBoard_Projects/FMCOMMS_IPCORE/fmcomms1_zed.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e267e46e512e414480a3164b966ead83"/>
@@ -18,7 +18,8 @@
     <Option Name="BoardPart" Val="em.avnet.com:zed:part0:1.3"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../library"/>
+    <Option Name="IPRepoPath" Val="c:/cygwin64/home/Dr-Abbasfar/adi/hdl/library"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/HLS"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
     <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
     <Option Name="IPUserFilesDir" Val="$PPRDIR/fmcomms1_zed.ip_user_files"/>
@@ -34,39 +35,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_0/system_auto_pc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp2_interconnect_0/system_axi_hp2_interconnect_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp1_interconnect_0/system_axi_hp1_interconnect_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_refclk_clkgen_0/system_refclk_clkgen_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9643_adc_fifo_0/system_util_ad9643_adc_fifo_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9643_dma_0/system_axi_ad9643_dma_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9643_0/system_axi_ad9643_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_upack_ad9122_0/system_util_upack_ad9122_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9122_dma_0/system_axi_ad9122_dma_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9122_0/system_axi_ad9122_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp0_interconnect_0/system_axi_hp0_interconnect_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_0/system_xbar_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_cpack_ad9643_0/system_util_cpack_ad9643_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_cpu_interconnect_0/system_axi_cpu_interconnect_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_iic_fmc_0/system_axi_iic_fmc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_i2s_adi_0/system_axi_i2s_adi_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_audio_clkgen_0/system_sys_audio_clkgen_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hdmi_dma_0/system_axi_hdmi_dma_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hdmi_core_0/system_axi_hdmi_core_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_spdif_tx_core_0/system_axi_spdif_tx_core_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hdmi_clkgen_0/system_axi_hdmi_clkgen_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_rstgen_0/system_sys_rstgen_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_logic_inv_0/system_sys_logic_inv_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_concat_intc_0/system_sys_concat_intc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hdl/system.hwdef"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hw_handoff/system_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hw_handoff/system.hwh"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hdl/system.v"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_1/system_auto_pc_1.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_i2c_mixer_0/system_sys_i2c_mixer_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_iic_main_0/system_axi_iic_main_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_ps7_0/system_sys_ps7_0.xci"/>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/hdl/system_wrapper.v">
         <FileInfo>
@@ -77,7 +45,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../library/common/ad_iobuf.v">
+      <File Path="C:/cygwin64/home/Dr-Abbasfar/adi/hdl/library/common/ad_iobuf.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -91,7 +59,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../common/xilinx/compression_system_constr.xdc">
+      <File Path="C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/xilinx/compression_system_constr.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -104,7 +72,7 @@
           <Attr Name="ProcessingOrder" Val="EARLY"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../common/zed/zed_system_constr.xdc">
+      <File Path="C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/zed/zed_system_constr.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

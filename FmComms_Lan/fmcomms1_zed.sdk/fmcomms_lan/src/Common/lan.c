@@ -136,4 +136,3 @@ int lan_init()
 //
 ///* never reached */
 //cleanup_platform();
-

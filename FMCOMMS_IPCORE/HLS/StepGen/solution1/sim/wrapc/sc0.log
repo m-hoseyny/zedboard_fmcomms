@@ -1,0 +1,5 @@
+   Build using "D:/Xilinx/Vivado_HLS/2015.4/msys/bin/g++.exe"
+   Compiling apatb_stepGen.cpp
+   Compiling stepGen.cpp_pre.cpp.tb.cpp
+   Compiling test_stepGen.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

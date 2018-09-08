@@ -1,0 +1,19 @@
+@I [HLS-10] Running 'D:/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'ArzhangJunior' on host 'desktop-agdm5q9' (Windows NT_amd64 version 6.2) on Sat Sep 01 12:54:46 +0430 2018
+            in directory 'C:/Users/ArzhangJunior/Desktop/HLS'
+@I [HLS-10] Opening project 'C:/Users/ArzhangJunior/Desktop/HLS/StepGen'.
+@I [HLS-10] Opening solution 'C:/Users/ArzhangJunior/Desktop/HLS/StepGen/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+@I [IMPL-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 01 12:54:53 2018...

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="stepGen.cpp" path="C:\Users\ArzhangJunior\Desktop\HLS\StepGen\stepGen.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_stepGen.cpp" path="C:\Users\ArzhangJunior\Desktop\HLS\StepGen\test_stepGen.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

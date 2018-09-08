@@ -1,0 +1,7 @@
+verilog xil_defaultlib "AESL_axi_slave_AXILiteS.v"
+verilog xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+verilog xil_defaultlib "stepGen.autotb.v"
+verilog xil_defaultlib "stepGen.v"
+verilog xil_defaultlib "stepGen_AXILiteS_s_axi.v"
+verilog xil_defaultlib "stepGen_CRTL_BUS_s_axi.v"
+
