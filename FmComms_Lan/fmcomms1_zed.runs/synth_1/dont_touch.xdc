@@ -82,6 +82,9 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_axi_hp1_
 # IP: bd/system/ip/system_axi_hp2_interconnect_0/system_axi_hp2_interconnect_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_axi_hp2_interconnect_0 || ORIG_REF_NAME==system_axi_hp2_interconnect_0}]
 
+# IP: bd/system/ip/system_sinGen_0_0/system_sinGen_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_sinGen_0_0 || ORIG_REF_NAME==system_sinGen_0_0}]
+
 # IP: bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_auto_pc_0 || ORIG_REF_NAME==system_auto_pc_0}]
 
@@ -181,14 +184,16 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 
 # XDC: bd/system/ip/system_refclk_clkgen_0/system_refclk_clkgen_0_ooc.xdc
 
+# XDC: bd/system/ip/system_sinGen_0_0/constraints/sinGen_ooc.xdc
+
 # XDC: bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc
 
 # XDC: bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc
 
 # XDC: bd/system/system_ooc.xdc
 
-# XDC: c:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/xilinx/compression_system_constr.xdc
+# XDC: C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/xilinx/compression_system_constr.xdc
 
-# XDC: c:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/fmcomms1/zed/system_constr.xdc
+# XDC: E:/ZedBoard_Projects/FmComms_Lan/system_constr.xdc
 
-# XDC: c:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/zed/zed_system_constr.xdc
+# XDC: C:/cygwin64/home/Dr-Abbasfar/adi/hdl/projects/common/zed/zed_system_constr.xdc
