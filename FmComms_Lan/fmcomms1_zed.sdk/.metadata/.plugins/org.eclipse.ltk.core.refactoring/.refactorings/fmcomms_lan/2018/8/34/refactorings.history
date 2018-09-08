@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;fmcomms_lan/src/double_test.c&apos; to &apos;double_test&apos;" description="Rename resource &apos;double_test.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/double_test.c" name="double_test" stamp="1534752628325" updateReferences="true"/>
-</session>

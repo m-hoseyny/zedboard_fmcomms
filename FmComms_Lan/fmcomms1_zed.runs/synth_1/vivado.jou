@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Sep 08 13:33:51 2018
+# Process ID: 10744
+# Current directory: E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.runs/synth_1
+# Command line: vivado.exe -log system_top.vds -mode batch -messageDb vivado.pb -notrace -source system_top.tcl
+# Log file: E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.runs/synth_1/system_top.vds
+# Journal file: E:/ZedBoard_Projects/FmComms_Lan/fmcomms1_zed.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_top.tcl -notrace

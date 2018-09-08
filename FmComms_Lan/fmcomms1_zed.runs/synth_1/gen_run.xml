@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1536390858">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1536397429">
   <File Type="RDS-DCP" Name="system_top.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
   <File Type="RDS-UTIL-PB" Name="system_top_utilization_synth.pb"/>

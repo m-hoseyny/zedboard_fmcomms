@@ -1,0 +1,937 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Sat Sep 08 14:00:59 2018
+| Host         : DESKTOP-RORPLTQ running 64-bit major release  (build 9200)
+| Command      : report_drc
+--------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 182
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/axi_ad9643/inst/i_channel_0/i_ad_dcfilter/i_dsp48e1 output i_system_wrapper/system_i/axi_ad9643/inst/i_channel_0/i_ad_dcfilter/i_dsp48e1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/axi_ad9643/inst/i_channel_1/i_ad_dcfilter/i_dsp48e1 output i_system_wrapper/system_i/axi_ad9643/inst/i_channel_1/i_ad_dcfilter/i_dsp48e1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/tmp_product output i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/tmp_product output i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/CARRYOUT[3:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/CARRYOUT[3:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#19 Warning
+PREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/buff0_reg multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/sinGen_mul_mul_17ns_15s_32_1_U12/sinGen_mul_mul_17ns_15s_32_1_DSP48_1_U/p multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/sinGen_mul_mul_17ns_15s_32_1_U12/sinGen_mul_mul_17ns_15s_32_1_DSP48_1_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/sinGen_mul_mul_23s_17ns_40_1_U11/sinGen_mul_mul_23s_17ns_40_1_DSP48_0_U/p multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_200/sinGen_mul_mul_23s_17ns_40_1_U11/sinGen_mul_mul_23s_17ns_40_1_DSP48_0_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/buff0_reg multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/grp_sinGen_big_mult_v3small_71_24_17_s_fu_222/sinGen_mul_41s_24ns_41_4_U0/sinGen_mul_41s_24ns_41_4_Mul4S_0_U/buff0_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/sinGen_mul_mul_17ns_15s_32_1_U12/sinGen_mul_mul_17ns_15s_32_1_DSP48_1_U/p multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/sinGen_mul_mul_17ns_15s_32_1_U12/sinGen_mul_mul_17ns_15s_32_1_DSP48_1_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/sinGen_mul_mul_23s_17ns_40_1_U11/sinGen_mul_mul_23s_17ns_40_1_DSP48_0_U/p multiplier stage i_system_wrapper/system_i/sinGen_0/inst/grp_sinGen_sinf_or_cosf_fu_215/sinGen_mul_mul_23s_17ns_40_1_U11/sinGen_mul_mul_23s_17ns_40_1_DSP48_0_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP multiplier stage i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X31Y73 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X30Y73 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9122_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_dest/cdc_sync_stage2_reg[0] in site SLICE_X32Y56 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_dest/cdc_sync_stage1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_control_src/cdc_sync_stage2_reg[0] in site SLICE_X32Y52 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_sync_status_src/cdc_sync_stage1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus fixed_io_mio[53:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS18 (fixed_io_mio[53], fixed_io_mio[52], fixed_io_mio[51], fixed_io_mio[50], fixed_io_mio[49], fixed_io_mio[48], fixed_io_mio[47], fixed_io_mio[46], fixed_io_mio[45], fixed_io_mio[44], fixed_io_mio[43], fixed_io_mio[42], fixed_io_mio[41], fixed_io_mio[40], fixed_io_mio[39] (the first 15 of 38 listed)); LVCMOS33 (fixed_io_mio[15], fixed_io_mio[14], fixed_io_mio[13], fixed_io_mio[12], fixed_io_mio[11], fixed_io_mio[10], fixed_io_mio[9], fixed_io_mio[8], fixed_io_mio[7], fixed_io_mio[6], fixed_io_mio[5], fixed_io_mio[4], fixed_io_mio[3], fixed_io_mio[2], fixed_io_mio[1] (the first 15 of 16 listed)); 
+Related violations: <none>
+
+PLIO-7#2 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus gpio_bd[31:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS25 (gpio_bd[31], gpio_bd[30], gpio_bd[29], gpio_bd[28], gpio_bd[27], gpio_bd[18], gpio_bd[17], gpio_bd[16], gpio_bd[15], gpio_bd[14], gpio_bd[13], gpio_bd[12], gpio_bd[11], gpio_bd[4], gpio_bd[3] (the first 15 of 18 listed)); LVCMOS33 (gpio_bd[26], gpio_bd[25], gpio_bd[24], gpio_bd[23], gpio_bd[22], gpio_bd[21], gpio_bd[20], gpio_bd[19], gpio_bd[10], gpio_bd[9], gpio_bd[8], gpio_bd[7], gpio_bd[6], gpio_bd[5]); 
+Related violations: <none>
+
+REQP-125#1 Warning
+connects_CLKINSEL_both_active  
+i_system_wrapper/system_i/axi_hdmi_clkgen/inst/i_mmcm_drp/i_mmcm: The MMCME2_ADV has an active CLKINSEL, but the CLKIN1 and CLKIN2 pins are not both active.
+Related violations: <none>
+
+AVAL-4#1 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#2 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#3 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#4 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#5 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#6 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#7 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#8 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#9 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#10 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#11 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#12 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#13 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#14 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#15 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#16 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#17 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#18 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#19 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#20 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#21 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#22 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#23 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#24 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#25 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#26 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#27 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#28 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#29 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#30 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#31 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#32 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#33 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#34 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#35 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#36 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#37 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#38 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#39 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#40 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_0/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#41 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#42 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#43 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#44 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#45 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#46 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#47 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#48 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#49 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#50 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_0/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#51 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#52 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#53 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#54 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#55 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#56 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#57 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#58 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#59 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#60 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_1/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#61 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#62 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#63 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#64 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#65 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#66 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#67 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#68 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#69 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#70 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_2/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#71 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_0/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#72 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#73 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#74 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#75 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_0/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#76 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_1/i_dds_scale/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#77 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#78 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#79 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s3_1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#80 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9122/inst/i_core/i_channel_1/i_dds_3/i_dds_1_1/i_dds_sine/i_mul_s3_2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#81 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9643/inst/i_channel_0/i_ad_iqcor/i_mul_i/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#82 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9643/inst/i_channel_0/i_ad_iqcor/i_mul_q/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#83 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9643/inst/i_channel_1/i_ad_iqcor/i_mul_i/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#84 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_ad9643/inst/i_channel_1/i_ad_iqcor/i_mul_q/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#85 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cb/i_mul_c1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#86 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cb/i_mul_c2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#87 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cb/i_mul_c3/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#88 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cr/i_mul_c1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#89 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cr/i_mul_c2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#90 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Cr/i_mul_c3/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#91 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Y/i_mul_c1/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#92 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Y/i_mul_c2/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#93 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/axi_hdmi_core/inst/i_tx_core/i_csc_RGB2CrYCb/i_csc_1_Y/i_mul_c3/i_mult_macro/dsp_v5_1.DSP48_V5_1: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#94 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#95 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#96 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#97 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#98 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#99 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#100 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP6/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#101 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#102 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#103 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#104 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#105 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#106 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#107 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#108 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#109 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#110 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#111 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#112 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#1 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_dmul_64ns_64ns_64_6_max_dsp_U31/sinGen_ap_dmul_4_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#2 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U24/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#3 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fmul_32ns_32ns_32_4_max_dsp_U25/sinGen_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+REQP-181#1 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (i_system_wrapper/system_i/axi_ad9643_dma/inst/i_request_arb/i_fifo/ram_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1725#1 Advisory
+DSP_Abus_sign_bit_alert  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U22/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+Related violations: <none>
+
+REQP-1725#2 Advisory
+DSP_Abus_sign_bit_alert  
+i_system_wrapper/system_i/sinGen_0/inst/sinGen_fadd_32ns_32ns_32_5_full_dsp_U23/sinGen_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+Related violations: <none>
+
+
